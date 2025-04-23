@@ -1,0 +1,138 @@
+[
+  {
+    "scenario": "AllZeroInputs",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "0",
+        "e": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "1",
+        "e": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0",
+        "e": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1010101010101010101010101"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneHot",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "0",
+        "e": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1000001111011110111101111"
+      }
+    ]
+  },
+  {
+    "scenario": "InvertedOneHot",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "1",
+        "e": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1000001111011110111101111"
+      }
+    ]
+  },
+  {
+    "scenario": "TwobitGroups",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "0",
+        "e": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1100011000001110011100111"
+      }
+    ]
+  },
+  {
+    "scenario": "ThreeBitGroups",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "0",
+        "e": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1110011100111000001100011"
+      }
+    ]
+  },
+  {
+    "scenario": "CheckerboardPattern",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0",
+        "e": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1010001011101000101101011"
+      }
+    ]
+  }
+]

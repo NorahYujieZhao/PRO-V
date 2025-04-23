@@ -1,0 +1,196 @@
+[
+  {
+    "scenario": "StateATransitions_0",
+    "clock cycles": 2,
+    "input variable": {
+      "clock cycles": 2,
+      "y": [
+        "100000",
+        "100000"
+      ],
+      "w": [
+        "1",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 2,
+      "Y1": [
+        "0",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  {
+    "scenario": "StateBTransitions_0",
+    "clock cycles": 2,
+    "input variable": {
+      "clock cycles": 2,
+      "y": [
+        "010000",
+        "010000"
+      ],
+      "w": [
+        "1",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 2,
+      "Y1": [
+        "0",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  {
+    "scenario": "StateCTransitions_0",
+    "clock cycles": 2,
+    "input variable": {
+      "clock cycles": 2,
+      "y": [
+        "001000",
+        "001000"
+      ],
+      "w": [
+        "1",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 2,
+      "Y1": [
+        "0",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "0"
+      ]
+    }
+  },
+  {
+    "scenario": "StateDTransitions_0",
+    "clock cycles": 2,
+    "input variable": {
+      "clock cycles": 2,
+      "y": [
+        "000100",
+        "000100"
+      ],
+      "w": [
+        "1",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 2,
+      "Y1": [
+        "0",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  {
+    "scenario": "StateETransitions_0",
+    "clock cycles": 2,
+    "input variable": {
+      "clock cycles": 2,
+      "y": [
+        "000010",
+        "000010"
+      ],
+      "w": [
+        "1",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 2,
+      "Y1": [
+        "0",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  {
+    "scenario": "StateFTransitions_0",
+    "clock cycles": 2,
+    "input variable": {
+      "clock cycles": 2,
+      "y": [
+        "000001",
+        "000001"
+      ],
+      "w": [
+        "1",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 2,
+      "Y1": [
+        "1",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "0"
+      ]
+    }
+  },
+  {
+    "scenario": "MultipleStatePath_0",
+    "clock cycles": 5,
+    "input variable": {
+      "clock cycles": 5,
+      "y": [
+        "100000",
+        "010000",
+        "001000",
+        "000010",
+        "000100"
+      ],
+      "w": [
+        "1",
+        "1",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    "output variable": {
+      "clock cycles": 5,
+      "Y1": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "Y3": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1"
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+scenario: Basic Operation
+description: Verify D flip-flop samples input D on rising edge of clock and maintains output Q until next clock edge
+
+scenario: Multiple Data Transitions
+description: Toggle input D multiple times between clock edges to verify output only changes on rising clock edge
+
+scenario: Setup Time Verification
+description: Change input D close to clock rising edge to verify proper setup time requirements
+
+scenario: Hold Time Verification
+description: Change input D immediately after clock rising edge to verify proper hold time requirements
+
+scenario: Clock Glitch Immunity
+description: Apply glitches on clock signal and verify output remains stable except at valid rising edges
+
+scenario: Data Retention
+description: Verify output Q maintains its value during long periods between clock edges
+
+scenario: High Frequency Operation
+description: Test flip-flop operation at maximum specified clock frequency with alternating D input values
+

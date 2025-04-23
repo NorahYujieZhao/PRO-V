@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Drive input as 4'b0000 to verify the encoder outputs zero when no bits are set
+
+scenario: AllOnesInput
+description: Drive input as 4'b1111 to verify the encoder correctly identifies the leftmost 1 at position 3
+
+scenario: SingleBitPatterns
+description: Sequentially test each bit position with patterns 4'b0001 4'b0010 4'b0100 4'b1000 to verify correct position encoding
+
+scenario: TwoBitCombinations
+description: Test input patterns with two bits set where priority should select leftmost 1 using 4'b1100 4'b1010 4'b1001
+
+scenario: ThreeBitPatterns
+description: Apply patterns with three bits set 4'b1110 4'b1101 4'b1011 to ensure priority is maintained
+
+scenario: AlternatingBits
+description: Test alternating bit patterns 4'b1010 and 4'b0101 to verify correct priority encoding
+
+scenario: RightmostBitSet
+description: Test patterns where only rightmost bit is set among other combinations 4'b0001 4'b1001 4'b0101
+
+scenario: LeftmostBitSet
+description: Test patterns where leftmost bit is set among various combinations 4'b1000 4'b1001 4'b1011
+

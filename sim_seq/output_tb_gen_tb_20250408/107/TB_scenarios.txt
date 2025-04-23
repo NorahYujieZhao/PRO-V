@@ -1,0 +1,24 @@
+scenario: Initial Load Operation
+description: Assert load signal and verify data input is correctly loaded into all 512 cells of q register in a single clock cycle
+
+scenario: Boundary Cell Evolution
+description: Test cells at positions 0 and 511 to verify they correctly use zero as their boundary neighbor value for next state computation
+
+scenario: Alternating Pattern Evolution
+description: Load alternating 1s and 0s pattern and verify the next state follows Rule 90 evolution rules over multiple clock cycles
+
+scenario: Single Cell Propagation
+description: Initialize with a single 1 surrounded by 0s and verify the pattern spreads according to Rule 90 dynamics over multiple cycles
+
+scenario: All Ones Pattern
+description: Load all cells with 1s and verify the next state computation produces correct pattern according to Rule 90 rules
+
+scenario: All Zeros Pattern
+description: Load all cells with 0s and verify the pattern remains stable as per Rule 90 evolution rules
+
+scenario: Random Pattern Evolution
+description: Load random bit pattern and verify multiple cycles of evolution follow Rule 90 next state computation rules
+
+scenario: Load During Evolution
+description: Assert load signal during pattern evolution to verify system correctly switches to loading new pattern
+

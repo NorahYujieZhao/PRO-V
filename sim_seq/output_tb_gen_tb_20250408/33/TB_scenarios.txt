@@ -1,0 +1,24 @@
+scenario: Basic Data Capture
+description: Apply different data values and verify correct capture on positive clock edges for all 8 bits
+
+scenario: Alternating Bit Patterns
+description: Toggle between 0x55 and 0xAA to verify all flip flops can toggle between 0 and 1 correctly
+
+scenario: Walking Ones Pattern
+description: Shift a single 1 through all bit positions to verify each DFF operates independently
+
+scenario: Walking Zeros Pattern
+description: Shift a single 0 through all 1s to verify each DFF operates independently
+
+scenario: Setup Time Verification
+description: Change input data close to but meeting minimum setup time before clock edge to verify stable operation
+
+scenario: Hold Time Verification
+description: Change input data close to but meeting minimum hold time after clock edge to verify stable operation
+
+scenario: Multiple Clock Cycles Stability
+description: Maintain constant input data over multiple clock cycles to verify output stability
+
+scenario: High Frequency Operation
+description: Test at maximum specified clock frequency to verify proper timing and data capture
+

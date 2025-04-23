@@ -1,0 +1,62 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario BasicShiftOperation
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 0 clock cycle of 3, top->q = 0xf, expected = 0x9
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 1 clock cycle of 3, top->q = 0xe, expected = 0x8
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 2 clock cycle of 3, top->q = 0xd, expected = 0x7
+Test failed,unpass = 3 for scenario BasicDownCountOperation
+Test passed for scenario CounterRollover
+Test passed for scenario ShiftRegisterBoundary
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 0 clock cycle of 4, top->q = 0xf, expected = 0xe
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 1 clock cycle of 4, top->q = 0xe, expected = 0xd
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 2 clock cycle of 4, top->q = 0xd, expected = 0xc
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 3 clock cycle of 4, top->q = 0xc, expected = 0xb
+Test failed,unpass = 4 for scenario CounterMaximumValue
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 0 clock cycle of 2, top->q = 0xf, expected = 0x1
+input_vars:
+top->shift_ena = 0x0
+top->count_ena = 0x1
+top->data = 0x0
+At 1 clock cycle of 2, top->q = 0xe, expected = 0x0
+Test failed,unpass = 2 for scenario ModeSwitching
+Test passed for scenario ClockEdgeBehavior
+Test passed for scenario InitialState
+sim finished
+Unpass: 0

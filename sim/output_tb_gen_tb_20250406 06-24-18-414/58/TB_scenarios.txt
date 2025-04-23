@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Drive x = 0, y = 0 to verify the output when both inputs are zero, which should exercise the B modules behavior for zero inputs
+
+scenario: AllOneInputs
+description: Drive x = 1, y = 1 to test maximum input values and verify the combined behavior of A and B modules under these conditions
+
+scenario: XOnlyHigh
+description: Set x = 1, y = 0 to test the circuit response when only x input is high, particularly important for the A modules where x is used twice
+
+scenario: YOnlyHigh
+description: Set x = 0, y = 1 to verify circuit behavior when only y input is high, especially important for testing the XOR operation in A modules
+
+scenario: AlternateXY
+description: Alternate between x = 0, y = 1 and x = 1, y = 0 to stress test the XOR operations and combinational paths
+
+scenario: XTransitionOnly
+description: Hold y constant at 0 while toggling x between 0 and 1 to verify x dependent behavior in both A and B modules
+
+scenario: YTransitionOnly
+description: Hold x constant at 0 while toggling y between 0 and 1 to verify y dependent behavior in both A and B modules
+
+scenario: SimultaneousTransitions
+description: Toggle both x and y simultaneously between 0 and 1 to verify proper handling of concurrent input changes
+

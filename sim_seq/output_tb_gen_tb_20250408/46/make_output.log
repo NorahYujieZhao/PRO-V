@@ -1,0 +1,67 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+c++  -I.  -MMD -I/opt/homebrew/Cellar/verilator/5.032/share/verilator/include -I/opt/homebrew/Cellar/verilator/5.032/share/verilator/include/vltstd -DVM_COVERAGE=1 -DVM_SC=0 -DVM_TIMING=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligned-new -fbracket-depth=4096 -fcf-protection=none -Qunused-arguments -Wno-bool-operation -Wno-c++11-narrowing -Wno-constant-logical-operand -Wno-non-pod-varargs -Wno-parentheses-equality -Wno-shadow -Wno-sign-compare -Wno-tautological-bitwise-compare -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable     -std=gnu++17 -Os  -c -o rfuzz-harness.o ../rfuzz-harness.cpp
+../rfuzz-harness.cpp:20:14: error: no member named 'Z' in 'Vtop_module'
+   20 |         top->Z = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:27:14: error: no member named 'enable' in 'Vtop_module'
+   27 |         top->enable = 0x1;
+      |         ~~~  ^
+../rfuzz-harness.cpp:28:14: error: no member named 'S' in 'Vtop_module'
+   28 |         top->S = 0x1;
+      |         ~~~  ^
+../rfuzz-harness.cpp:29:14: error: no member named 'A' in 'Vtop_module'
+   29 |         top->A = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:30:14: error: no member named 'B' in 'Vtop_module'
+   30 |         top->B = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:31:14: error: no member named 'C' in 'Vtop_module'
+   31 |         top->C = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:33:18: error: no member named 'Z' in 'Vtop_module'
+   33 |         if (top->Z != 0x1) {
+      |             ~~~  ^
+../rfuzz-harness.cpp:36:43: error: no member named 'enable' in 'Vtop_module'
+   36 | printf("top->%s = 0x%x\n", "enable", top->enable);
+      |                                      ~~~  ^
+../rfuzz-harness.cpp:37:38: error: no member named 'S' in 'Vtop_module'
+   37 | printf("top->%s = 0x%x\n", "S", top->S);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:38:38: error: no member named 'A' in 'Vtop_module'
+   38 | printf("top->%s = 0x%x\n", "A", top->A);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:39:38: error: no member named 'B' in 'Vtop_module'
+   39 | printf("top->%s = 0x%x\n", "B", top->B);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:40:38: error: no member named 'C' in 'Vtop_module'
+   40 | printf("top->%s = 0x%x\n", "C", top->C);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:42:97: error: no member named 'Z' in 'Vtop_module'
+   42 |             printf("At %d clock cycle of %d, top->%s = 0x%x, expected = 0x%x\n", 0,8, "Z", top->Z, 0x1);
+      |                                                                                            ~~~  ^
+../rfuzz-harness.cpp:49:14: error: no member named 'enable' in 'Vtop_module'
+   49 |         top->enable = 0x1;
+      |         ~~~  ^
+../rfuzz-harness.cpp:50:14: error: no member named 'S' in 'Vtop_module'
+   50 |         top->S = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:51:14: error: no member named 'A' in 'Vtop_module'
+   51 |         top->A = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:52:14: error: no member named 'B' in 'Vtop_module'
+   52 |         top->B = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:53:14: error: no member named 'C' in 'Vtop_module'
+   53 |         top->C = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:55:18: error: no member named 'Z' in 'Vtop_module'
+   55 |         if (top->Z != 0x0) {
+      |             ~~~  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[1]: *** [rfuzz-harness.o] Error 1
+make: *** [run] Error 2

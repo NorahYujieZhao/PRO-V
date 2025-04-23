@@ -1,0 +1,130 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "vec": "000"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "000",
+        "o2": "0",
+        "o1": "0",
+        "o0": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "vec": "111"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "111",
+        "o2": "1",
+        "o1": "1",
+        "o0": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsStartZero",
+    "input variable": [
+      {
+        "vec": "010"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "010",
+        "o2": "0",
+        "o1": "1",
+        "o0": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsStartOne",
+    "input variable": [
+      {
+        "vec": "101"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "101",
+        "o2": "1",
+        "o1": "0",
+        "o0": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotLSB",
+    "input variable": [
+      {
+        "vec": "001"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "001",
+        "o2": "0",
+        "o1": "0",
+        "o0": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotMSB",
+    "input variable": [
+      {
+        "vec": "100"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "100",
+        "o2": "1",
+        "o1": "0",
+        "o0": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotMiddle",
+    "input variable": [
+      {
+        "vec": "010"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "010",
+        "o2": "0",
+        "o1": "1",
+        "o0": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "GrayCodePattern",
+    "input variable": [
+      {
+        "vec": "011"
+      }
+    ],
+    "output variable": [
+      {
+        "outv": "011",
+        "o2": "0",
+        "o1": "1",
+        "o0": "1"
+      }
+    ]
+  }
+]

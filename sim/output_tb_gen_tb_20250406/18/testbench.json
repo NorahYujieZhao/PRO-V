@@ -1,0 +1,578 @@
+[
+  {
+    "scenario": "InputCombination_00000",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_00010",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_00100",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_00110",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_01000",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_01010",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_01100",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_01110",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_10000",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_10010",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_10100",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_10110",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_11000",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_11010",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_11100",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_11110",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern1",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOnes0",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOnes1",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOnes2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOnes3",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingZeros0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingZeros1",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingZeros2",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingZeros3",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases1",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases3",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases4",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases5",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases6",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases7",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases8",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases9",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  }
+]

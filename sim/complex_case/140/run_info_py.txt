@@ -1,0 +1,105 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "All Zero Inputs",
+    "output variable": [
+      {
+        "mux_in": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "C Only High",
+    "output variable": [
+      {
+        "mux_in": "1001"
+      }
+    ]
+  },
+  {
+    "scenario": "D Only High",
+    "output variable": [
+      {
+        "mux_in": "0001"
+      }
+    ]
+  },
+  {
+    "scenario": "Both Inputs High",
+    "output variable": [
+      {
+        "mux_in": "1101"
+      }
+    ]
+  },
+  {
+    "scenario": "Input Transitions",
+    "output variable": [
+      {
+        "mux_in": "1000"
+      },
+      {
+        "mux_in": "0001"
+      },
+      {
+        "mux_in": "1101"
+      },
+      {
+        "mux_in": "1001"
+      }
+    ]
+  },
+  {
+    "scenario": "Setup Time Verification",
+    "output variable": [
+      {
+        "mux_in": "1000"
+      },
+      {
+        "mux_in": "1001"
+      },
+      {
+        "mux_in": "1101"
+      }
+    ]
+  },
+  {
+    "scenario": "Hold Time Verification",
+    "output variable": [
+      {
+        "mux_in": "1101"
+      },
+      {
+        "mux_in": "0001"
+      },
+      {
+        "mux_in": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "Glitch Detection",
+    "output variable": [
+      {
+        "mux_in": "1000"
+      },
+      {
+        "mux_in": "1001"
+      },
+      {
+        "mux_in": "1101"
+      },
+      {
+        "mux_in": "0001"
+      },
+      {
+        "mux_in": "1000"
+      }
+    ]
+  }
+]
+
+
+###error:

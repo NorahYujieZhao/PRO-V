@@ -1,0 +1,105 @@
+[
+    {
+        "scenario": "FromStateA_Transitions",
+        "input variable": [
+            {
+                "y": "000",
+                "w": "0"
+            },
+            {
+                "y": "000",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "FromStateB_Transitions",
+        "input variable": [
+            {
+                "y": "001",
+                "w": "0"
+            },
+            {
+                "y": "001",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "FromStateC_Transitions",
+        "input variable": [
+            {
+                "y": "010",
+                "w": "0"
+            },
+            {
+                "y": "010",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "FromStateD_Transitions",
+        "input variable": [
+            {
+                "y": "011",
+                "w": "0"
+            },
+            {
+                "y": "011",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "FromStateE_Transitions",
+        "input variable": [
+            {
+                "y": "100",
+                "w": "0"
+            },
+            {
+                "y": "100",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "FromStateF_Transitions",
+        "input variable": [
+            {
+                "y": "101",
+                "w": "0"
+            },
+            {
+                "y": "101",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomTransitions",
+        "input variable": [
+            {
+                "y": "000",
+                "w": "0"
+            },
+            {
+                "y": "001",
+                "w": "1"
+            },
+            {
+                "y": "011",
+                "w": "0"
+            },
+            {
+                "y": "101",
+                "w": "1"
+            },
+            {
+                "y": "011",
+                "w": "1"
+            }
+        ]
+    }
+]

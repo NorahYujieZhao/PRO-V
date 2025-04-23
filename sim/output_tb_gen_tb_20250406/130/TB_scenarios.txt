@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Set all 100 input bits to 0 to verify basic ground state behavior of each gate type
+
+scenario: AllOnesInput
+description: Set all 100 input bits to 1 to check saturation behavior of each gate type
+
+scenario: SingleOneRest
+description: Set only in[0] to 1 and all other bits to 0 to verify single bit propagation through all operations
+
+scenario: AlternatingBits
+description: Set even indexed bits to 1 and odd indexed bits to 0 to test with exactly 50 ones and 50 zeros
+
+scenario: OddNumberOfOnes
+description: Set first 51 bits to 1 and remaining to 0 to specifically test XOR behavior with odd number of ones
+
+scenario: EvenNumberOfOnes
+description: Set first 50 bits to 1 and remaining to 0 to test XOR behavior with even number of ones
+
+scenario: UpperHalfOnes
+description: Set upper 50 bits in[99:50] to 1 and lower bits to 0 to verify position independence
+
+scenario: LowerHalfOnes
+description: Set lower 50 bits in[49:0] to 1 and upper bits to 0 to verify position independence
+

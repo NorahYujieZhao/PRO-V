@@ -1,0 +1,24 @@
+scenario: AllZeros
+description: Drive all inputs a b c to 0 to verify default low state routing
+
+scenario: AllOnes
+description: Drive all inputs a b c to 1 to verify maximum high state routing
+
+scenario: OnlyAHigh
+description: Set a to 1 b c to 0 to verify isolated routing from a to w
+
+scenario: OnlyBHigh
+description: Set b to 1 a c to 0 to verify routing from b to both x and y
+
+scenario: OnlyCHigh
+description: Set c to 1 a b to 0 to verify isolated routing from c to z
+
+scenario: AlternatingPattern1
+description: Set a to 1 b to 0 c to 1 to test alternating signal patterns
+
+scenario: AlternatingPattern2
+description: Set a to 0 b to 1 c to 0 to test complementary alternating pattern
+
+scenario: CrosstalkCheck
+description: Toggle each input while others remain stable to verify no signal interference
+

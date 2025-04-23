@@ -1,0 +1,24 @@
+scenario: AllZeros
+description: Drive input with 8'b00000000 to verify zero pattern remains unchanged after reversal
+
+scenario: AllOnes
+description: Drive input with 8'b11111111 to verify ones pattern remains unchanged after reversal
+
+scenario: AlternatingStartZero
+description: Drive input with 8'b01010101 to check alternating bit pattern reversal
+
+scenario: AlternatingStartOne
+description: Drive input with 8'b10101010 to verify opposite alternating pattern reversal
+
+scenario: SingleBitLSB
+description: Drive input with 8'b00000001 to verify LSB to MSB reversal
+
+scenario: SingleBitMSB
+description: Drive input with 8'b10000000 to verify MSB to LSB reversal
+
+scenario: WalkingOnes
+description: Drive input with sequential one hot patterns 8'b00000001 through 8'b10000000
+
+scenario: RandomPattern
+description: Drive input with 8'b10110010 to test mixed bit pattern reversal
+

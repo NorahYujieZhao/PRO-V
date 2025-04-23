@@ -1,0 +1,171 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "All Zeros Input Test",
+    "output variable": [
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Single Input High Test",
+    "output variable": [
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Two Inputs High Test",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Three Inputs High Test",
+    "output variable": [
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "All Ones Input Test",
+    "output variable": [
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Input Transition Coverage",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output Pattern Verification",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Propagation Delay Check",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  }
+]
+
+
+###error:

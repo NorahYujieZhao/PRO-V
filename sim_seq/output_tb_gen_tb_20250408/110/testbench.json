@@ -1,0 +1,261 @@
+[
+  {
+    "scenario": "BasicEnableOperation",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "d": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ],
+        "ena": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "BasicDisableOperation",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "d": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "ena": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "EnableToDisableTransition",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "d": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ],
+        "ena": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "DisableToEnableTransition",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "d": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "ena": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MultipleDataTransitionsWhileEnabled",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "d": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ],
+        "ena": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MultipleDataTransitionsWhileDisabled",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "d": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ],
+        "ena": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "EnableSignalSetupTime",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "d": [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "ena": [
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+scenario: Reset Operation
+description: Assert asynchronous reset and verify FSM enters state A with z output low
+
+scenario: Stay in State A
+description: From state A with x=0 verify FSM stays in state A and outputs z=0
+
+scenario: Transition A to B
+description: From state A with x=1 verify FSM transitions to state B and outputs z=1
+
+scenario: Stay in State B with x0
+description: From state B with x=0 verify FSM stays in state B and outputs z=1
+
+scenario: Stay in State B with x1
+description: From state B with x=1 verify FSM stays in state B and outputs z=0
+
+scenario: Multiple Input Transitions
+description: Apply alternating x inputs and verify correct state transitions and output sequences
+
+scenario: Reset During Operation
+description: Assert reset while FSM is in state B and verify immediate return to state A
+
+scenario: Clock Edge Behavior
+description: Verify state transitions occur only on rising clock edges except for asynchronous reset
+

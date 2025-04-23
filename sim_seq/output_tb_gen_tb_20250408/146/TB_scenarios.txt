@@ -1,0 +1,27 @@
+scenario: Reset State Verification
+description: Assert reset and verify all flow rate outputs fr1 fr2 fr3 and dfr are set to 1 indicating maximum flow rate for low water level condition
+
+scenario: Water Level Above Highest Sensor
+description: Set s3 s2 s1 to 111 and verify all flow outputs fr1 fr2 fr3 dfr are 0 indicating no flow needed
+
+scenario: Water Level Between S3 and S2
+description: Set s3 s2 s1 to 011 and verify only fr1 is active while fr2 fr3 are inactive
+
+scenario: Water Level Between S2 and S1
+description: Set s3 s2 s1 to 001 and verify fr1 and fr2 are active while fr3 is inactive
+
+scenario: Water Level Below S1
+description: Set s3 s2 s1 to 000 and verify all flow outputs fr1 fr2 fr3 are active
+
+scenario: Rising Water Level Transition
+description: Change sensors from 000 to 001 to verify supplemental flow dfr is activated when water level rises
+
+scenario: Falling Water Level Transition
+description: Change sensors from 111 to 011 to verify dfr remains inactive when water level falls
+
+scenario: Multiple Level Changes
+description: Sequence through multiple water level changes to verify proper flow rate adjustments and dfr control
+
+scenario: Reset During Operation
+description: Assert reset while system is operating at different water levels to verify return to maximum flow state
+

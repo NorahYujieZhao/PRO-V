@@ -1,0 +1,24 @@
+scenario: BasicPatternDetection
+description: Drive input sequence d = 1-1-0 to verify basic pattern detection path from S through S1, S11, to S110 states
+
+scenario: PatternRestart
+description: Drive d = 1-1-1-0 to test pattern restart behavior when staying in S11 state before completing pattern
+
+scenario: ShiftStateTransitions
+description: After pattern detection drive through B0 to B3 states to verify shift enable signal assertion across all shift states
+
+scenario: CountingStateBehavior
+description: Set done_counting = 0 initially then transition to 1 to verify Count state behavior and transition to Wait state
+
+scenario: WaitStateAcknowledge
+description: Drive ack = 0 then 1 in Wait state to verify proper return to initial S state after acknowledgment
+
+scenario: EarlyPatternAbort
+description: Drive d = 1-0 to test early pattern abort behavior returning to S state from S1 state
+
+scenario: MultiplePatternAttempts
+description: Drive multiple pattern attempts d = 1-0-1-1-0 to verify correct state transitions on pattern restarts
+
+scenario: CompleteFlowVerification
+description: Drive full sequence through pattern detection shift states counting and wait acknowledgment for end to end verification
+

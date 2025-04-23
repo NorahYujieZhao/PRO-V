@@ -1,0 +1,130 @@
+[
+    {
+        "scenario": "StateATransitions",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "0001"
+            },
+            {
+                "in": "1",
+                "state": "0001"
+            }
+        ]
+    },
+    {
+        "scenario": "StateBTransitions",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "0010"
+            },
+            {
+                "in": "1",
+                "state": "0010"
+            }
+        ]
+    },
+    {
+        "scenario": "StateCTransitions",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "0100"
+            },
+            {
+                "in": "1",
+                "state": "0100"
+            }
+        ]
+    },
+    {
+        "scenario": "StateDTransitions",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "1000"
+            },
+            {
+                "in": "1",
+                "state": "1000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllZeroState",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "0000"
+            },
+            {
+                "in": "1",
+                "state": "0000"
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleHotBits",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "0011"
+            },
+            {
+                "in": "1",
+                "state": "0101"
+            },
+            {
+                "in": "0",
+                "state": "0110"
+            },
+            {
+                "in": "1",
+                "state": "1001"
+            },
+            {
+                "in": "0",
+                "state": "1010"
+            },
+            {
+                "in": "1",
+                "state": "1100"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingInputs",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "0001"
+            },
+            {
+                "in": "1",
+                "state": "0010"
+            },
+            {
+                "in": "0",
+                "state": "0100"
+            },
+            {
+                "in": "1",
+                "state": "1000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOnesState",
+        "input variable": [
+            {
+                "in": "0",
+                "state": "1111"
+            },
+            {
+                "in": "1",
+                "state": "1111"
+            }
+        ]
+    }
+]

@@ -1,0 +1,74 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern1",
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern2",
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "LowBitsActive",
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "HighBitsActive",
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitHigh1",
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitHigh2",
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

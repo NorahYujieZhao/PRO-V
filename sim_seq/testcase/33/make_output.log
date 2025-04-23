@@ -1,0 +1,144 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+input_vars:
+top->d = 0xff
+At 1 clock cycle of 4, top->q = 0x0, expected = 0xff
+input_vars:
+top->d = 0xaa
+At 2 clock cycle of 4, top->q = 0xff, expected = 0xaa
+input_vars:
+top->d = 0x55
+At 3 clock cycle of 4, top->q = 0xaa, expected = 0x55
+Test failed,unpass = 3 for scenario BasicDataCapture
+input_vars:
+top->d = 0xaa
+At 1 clock cycle of 6, top->q = 0x55, expected = 0xaa
+input_vars:
+top->d = 0x55
+At 2 clock cycle of 6, top->q = 0xaa, expected = 0x55
+input_vars:
+top->d = 0xaa
+At 3 clock cycle of 6, top->q = 0x55, expected = 0xaa
+input_vars:
+top->d = 0x55
+At 4 clock cycle of 6, top->q = 0xaa, expected = 0x55
+input_vars:
+top->d = 0xaa
+At 5 clock cycle of 6, top->q = 0x55, expected = 0xaa
+Test failed,unpass = 5 for scenario AlternatingBitPatterns
+input_vars:
+top->d = 0x1
+At 0 clock cycle of 8, top->q = 0xaa, expected = 0x1
+input_vars:
+top->d = 0x2
+At 1 clock cycle of 8, top->q = 0x1, expected = 0x2
+input_vars:
+top->d = 0x4
+At 2 clock cycle of 8, top->q = 0x2, expected = 0x4
+input_vars:
+top->d = 0x8
+At 3 clock cycle of 8, top->q = 0x4, expected = 0x8
+input_vars:
+top->d = 0x10
+At 4 clock cycle of 8, top->q = 0x8, expected = 0x10
+input_vars:
+top->d = 0x20
+At 5 clock cycle of 8, top->q = 0x10, expected = 0x20
+input_vars:
+top->d = 0x40
+At 6 clock cycle of 8, top->q = 0x20, expected = 0x40
+input_vars:
+top->d = 0x80
+At 7 clock cycle of 8, top->q = 0x40, expected = 0x80
+Test failed,unpass = 8 for scenario WalkingOnesPattern
+input_vars:
+top->d = 0xfe
+At 0 clock cycle of 8, top->q = 0x80, expected = 0xfe
+input_vars:
+top->d = 0xfd
+At 1 clock cycle of 8, top->q = 0xfe, expected = 0xfd
+input_vars:
+top->d = 0xfb
+At 2 clock cycle of 8, top->q = 0xfd, expected = 0xfb
+input_vars:
+top->d = 0xf7
+At 3 clock cycle of 8, top->q = 0xfb, expected = 0xf7
+input_vars:
+top->d = 0xef
+At 4 clock cycle of 8, top->q = 0xf7, expected = 0xef
+input_vars:
+top->d = 0xdf
+At 5 clock cycle of 8, top->q = 0xef, expected = 0xdf
+input_vars:
+top->d = 0xbf
+At 6 clock cycle of 8, top->q = 0xdf, expected = 0xbf
+input_vars:
+top->d = 0x7f
+At 7 clock cycle of 8, top->q = 0xbf, expected = 0x7f
+Test failed,unpass = 8 for scenario WalkingZerosPattern
+input_vars:
+top->d = 0xf0
+At 0 clock cycle of 4, top->q = 0x7f, expected = 0xf0
+input_vars:
+top->d = 0xf
+At 1 clock cycle of 4, top->q = 0xf0, expected = 0xf
+input_vars:
+top->d = 0xcc
+At 2 clock cycle of 4, top->q = 0xf, expected = 0xcc
+input_vars:
+top->d = 0x33
+At 3 clock cycle of 4, top->q = 0xcc, expected = 0x33
+Test failed,unpass = 4 for scenario SetupTimeVerification
+input_vars:
+top->d = 0xcc
+At 0 clock cycle of 4, top->q = 0x33, expected = 0xcc
+input_vars:
+top->d = 0x33
+At 1 clock cycle of 4, top->q = 0xcc, expected = 0x33
+input_vars:
+top->d = 0xf0
+At 2 clock cycle of 4, top->q = 0x33, expected = 0xf0
+input_vars:
+top->d = 0xf
+At 3 clock cycle of 4, top->q = 0xf0, expected = 0xf
+Test failed,unpass = 4 for scenario HoldTimeVerification
+input_vars:
+top->d = 0xaa
+At 0 clock cycle of 5, top->q = 0xf, expected = 0xaa
+Test failed,unpass = 1 for scenario MultipleClockCyclesStability
+input_vars:
+top->d = 0xff
+At 0 clock cycle of 8, top->q = 0xaa, expected = 0xff
+input_vars:
+top->d = 0x0
+At 1 clock cycle of 8, top->q = 0xff, expected = 0x0
+input_vars:
+top->d = 0xff
+At 2 clock cycle of 8, top->q = 0x0, expected = 0xff
+input_vars:
+top->d = 0x0
+At 3 clock cycle of 8, top->q = 0xff, expected = 0x0
+input_vars:
+top->d = 0xff
+At 4 clock cycle of 8, top->q = 0x0, expected = 0xff
+input_vars:
+top->d = 0x0
+At 5 clock cycle of 8, top->q = 0xff, expected = 0x0
+input_vars:
+top->d = 0xff
+At 6 clock cycle of 8, top->q = 0x0, expected = 0xff
+input_vars:
+top->d = 0x0
+At 7 clock cycle of 8, top->q = 0xff, expected = 0x0
+Test failed,unpass = 8 for scenario HighFrequencyOperation
+sim finished
+Unpass: 8
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 94ps; walltime 0.000 s; speed 252.688 ns/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 8

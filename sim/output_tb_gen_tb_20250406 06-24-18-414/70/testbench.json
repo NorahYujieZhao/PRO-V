@@ -1,0 +1,149 @@
+[
+  {
+    "scenario": "AllZeroInputs",
+    "input variable": [
+      {
+        "in1": "0",
+        "in2": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "input variable": [
+      {
+        "in1": "1",
+        "in2": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Input1HighInput2Low",
+    "input variable": [
+      {
+        "in1": "1",
+        "in2": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Input1LowInput2High",
+    "input variable": [
+      {
+        "in1": "0",
+        "in2": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs1",
+    "input variable": [
+      {
+        "in1": "0",
+        "in2": "0"
+      },
+      {
+        "in1": "1",
+        "in2": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs2",
+    "input variable": [
+      {
+        "in1": "0",
+        "in2": "0"
+      },
+      {
+        "in1": "0",
+        "in2": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplementaryInputs1",
+    "input variable": [
+      {
+        "in1": "0",
+        "in2": "1"
+      },
+      {
+        "in1": "1",
+        "in2": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SimultaneousTransitions",
+    "input variable": [
+      {
+        "in1": "0",
+        "in2": "0"
+      },
+      {
+        "in1": "1",
+        "in2": "1"
+      },
+      {
+        "in1": "0",
+        "in2": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  }
+]

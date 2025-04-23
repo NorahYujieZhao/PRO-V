@@ -1,0 +1,89 @@
+[
+    {
+        "scenario": "Known Output Zero Cases",
+        "input variable": [
+            {
+                "x": "0001"
+            },
+            {
+                "x": "1001"
+            }
+        ]
+    },
+    {
+        "scenario": "Known Output One Cases",
+        "input variable": [
+            {
+                "x": "1100"
+            },
+            {
+                "x": "1000"
+            }
+        ]
+    },
+    {
+        "scenario": "Dont Care Values",
+        "input variable": [
+            {
+                "x": "0000"
+            },
+            {
+                "x": "0011"
+            },
+            {
+                "x": "0010"
+            },
+            {
+                "x": "0110"
+            }
+        ]
+    },
+    {
+        "scenario": "Adjacent Cell Transitions",
+        "input variable": [
+            {
+                "x": "0001"
+            },
+            {
+                "x": "0101"
+            },
+            {
+                "x": "1101"
+            },
+            {
+                "x": "1001"
+            }
+        ]
+    },
+    {
+        "scenario": "Boundary Value Analysis",
+        "input variable": [
+            {
+                "x": "0000"
+            },
+            {
+                "x": "1111"
+            }
+        ]
+    },
+    {
+        "scenario": "Input Signal Timing",
+        "input variable": [
+            {
+                "x": "0000"
+            },
+            {
+                "x": "0001"
+            },
+            {
+                "x": "0011"
+            },
+            {
+                "x": "0111"
+            },
+            {
+                "x": "1111"
+            }
+        ]
+    }
+]

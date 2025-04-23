@@ -1,0 +1,90 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "out_or_bitwise": "000",
+        "out_or_logical": "0",
+        "out_not": "111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsComplementary",
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "101010"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotA",
+    "output variable": [
+      {
+        "out_or_bitwise": "100",
+        "out_or_logical": "1",
+        "out_not": "111011"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotB",
+    "output variable": [
+      {
+        "out_or_bitwise": "010",
+        "out_or_logical": "1",
+        "out_not": "101111"
+      }
+    ]
+  },
+  {
+    "scenario": "MixedPattern1",
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "110001"
+      }
+    ]
+  },
+  {
+    "scenario": "MixedPattern2",
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "011100"
+      }
+    ]
+  },
+  {
+    "scenario": "LogicalORCheck",
+    "output variable": [
+      {
+        "out_or_bitwise": "101",
+        "out_or_logical": "1",
+        "out_not": "011110"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

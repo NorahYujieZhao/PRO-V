@@ -1,0 +1,243 @@
+[
+    {
+        "scenario": "InitialStateAfterReset",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "areset": [
+                    "1",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "LeftToRightDirectionChange",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "RightToLeftDirectionChange",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SimultaneousBumpsWhileWalkingLeft",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SimultaneousBumpsWhileWalkingRight",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetDuringWalkRight",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ContinuousWalkingLeft",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ContinuousWalkingRight",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "areset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    }
+]

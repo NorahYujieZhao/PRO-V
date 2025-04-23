@@ -1,0 +1,24 @@
+scenario: AllInputsLow
+description: Set cpu_overheated = 0, arrived = 0, gas_tank_empty = 0 to test baseline condition with no alerts
+
+scenario: AllInputsHigh
+description: Set cpu_overheated = 1, arrived = 1, gas_tank_empty = 1 to test maximum stress condition
+
+scenario: CpuOverheatedOnly
+description: Set cpu_overheated = 1, arrived = 0, gas_tank_empty = 0 to verify computer shutdown triggers independently
+
+scenario: ArrivedWithEmptyTank
+description: Set cpu_overheated = 0, arrived = 1, gas_tank_empty = 1 to test arrival condition with empty tank
+
+scenario: ArrivedWithFullTank
+description: Set cpu_overheated = 0, arrived = 1, gas_tank_empty = 0 to verify driving stops upon arrival regardless of fuel
+
+scenario: DrivingWithEmptyTank
+description: Set cpu_overheated = 0, arrived = 0, gas_tank_empty = 1 to test empty tank condition while not arrived
+
+scenario: CpuOverheatWhileDriving
+description: Set cpu_overheated = 1, arrived = 0, gas_tank_empty = 0 to test computer shutdown during normal driving
+
+scenario: EmptyTankWithOverheat
+description: Set cpu_overheated = 1, arrived = 0, gas_tank_empty = 1 to verify behavior with multiple alert conditions
+

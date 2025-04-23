@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set x3 = 0, x2 = 0, x1 = 0 to verify output for minimum input value
+
+scenario: AllOneInputs
+description: Set x3 = 1, x2 = 1, x1 = 1 to verify output for maximum input value
+
+scenario: AlternatingPattern1
+description: Set x3 = 0, x2 = 1, x1 = 0 to test alternating bit pattern
+
+scenario: AlternatingPattern2
+description: Set x3 = 1, x2 = 0, x1 = 1 to test opposite alternating bit pattern
+
+scenario: LowBitsActive
+description: Set x3 = 0, x2 = 1, x1 = 1 to test activation of lower two bits
+
+scenario: HighBitsActive
+description: Set x3 = 1, x2 = 1, x1 = 0 to test activation of higher two bits
+
+scenario: SingleBitHigh1
+description: Set x3 = 0, x2 = 0, x1 = 1 to test only lowest bit active
+
+scenario: SingleBitHigh2
+description: Set x3 = 1, x2 = 0, x1 = 0 to test only highest bit active
+

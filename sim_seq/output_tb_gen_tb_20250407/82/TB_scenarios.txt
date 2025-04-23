@@ -1,0 +1,17 @@
+scenario: Known Output Zero Cases
+description: Test input combinations where output is explicitly defined as 0: x = 4'b0001 (x1x2=00,x3x4=01) and x = 4'b1001 (x1x2=10,x3x4=01)
+
+scenario: Known Output One Cases
+description: Test input combinations where output is explicitly defined as 1: x = 4'b1100 (x1x2=00,x3x4=11) and x = 4'b1000 (x1x2=00,x3x4=10)
+
+scenario: Dont Care Values
+description: Test input combinations marked as dont care in K map: x = 4'b0000, 4'b0011, 4'b0010, 4'b0110
+
+scenario: Adjacent Cell Transitions
+description: Test transitions between adjacent cells in K map with different defined values to verify timing and glitch free operation
+
+scenario: Boundary Value Analysis
+description: Test extreme input values 4'b0000 and 4'b1111 to verify correct handling of boundary conditions
+
+scenario: Input Signal Timing
+description: Verify correct output generation with different timing relationships between input signal changes

@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Drive sel = 0, a = 0x00, b = 0x00 to verify neutral behavior when all inputs are zero
+
+scenario: AllOneInputs
+description: Drive sel = 1, a = 0xFF, b = 0xFF to test maximum data path saturation
+
+scenario: SelectInputA
+description: Set sel = 0, a = 0xAA, b = 0x55 to verify input a is correctly selected and propagated
+
+scenario: SelectInputB
+description: Set sel = 1, a = 0xAA, b = 0x55 to verify input b is correctly selected and propagated
+
+scenario: AlternatingBitPatternA
+description: Set sel = 0, a = 0xAA, b = 0x00 to verify correct handling of alternating bits through path a
+
+scenario: AlternatingBitPatternB
+description: Set sel = 1, a = 0x00, b = 0x55 to verify correct handling of alternating bits through path b
+
+scenario: OneHotA
+description: Set sel = 0 and sweep a through one hot patterns 0x01 0x02 0x04 0x08 0x10 0x20 0x40 0x80 while b = 0x00
+
+scenario: OneHotB
+description: Set sel = 1 and sweep b through one hot patterns 0x01 0x02 0x04 0x08 0x10 0x20 0x40 0x80 while a = 0x00
+

@@ -1,0 +1,74 @@
+[
+    {
+        "scenario": "AllZeroInputs",
+        "input variable": [
+            {
+                "x": "0000",
+                "y": "0000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOnesInputs",
+        "input variable": [
+            {
+                "x": "1111",
+                "y": "1111"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBitsX",
+        "input variable": [
+            {
+                "x": "1010",
+                "y": "0101"
+            }
+        ]
+    },
+    {
+        "scenario": "SingleBitCarry",
+        "input variable": [
+            {
+                "x": "0001",
+                "y": "1111"
+            }
+        ]
+    },
+    {
+        "scenario": "MidrangeAddition",
+        "input variable": [
+            {
+                "x": "0111",
+                "y": "0111"
+            }
+        ]
+    },
+    {
+        "scenario": "OneHotX",
+        "input variable": [
+            {
+                "x": "1000",
+                "y": "0001"
+            }
+        ]
+    },
+    {
+        "scenario": "SmallNumbers",
+        "input variable": [
+            {
+                "x": "0011",
+                "y": "0010"
+            }
+        ]
+    },
+    {
+        "scenario": "JustOverflow",
+        "input variable": [
+            {
+                "x": "1000",
+                "y": "1000"
+            }
+        ]
+    }
+]

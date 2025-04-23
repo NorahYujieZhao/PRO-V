@@ -1,0 +1,122 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "in": "0000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "000",
+        "out_different": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "in": "1111"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "111",
+        "out_any": "111",
+        "out_different": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "input variable": [
+      {
+        "in": "1010"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "111",
+        "out_different": "1111"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneHot",
+    "input variable": [
+      {
+        "in": "0100"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "110",
+        "out_different": "0110"
+      }
+    ]
+  },
+  {
+    "scenario": "AdjacentPairOnes",
+    "input variable": [
+      {
+        "in": "0011"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "001",
+        "out_any": "011",
+        "out_different": "1010"
+      }
+    ]
+  },
+  {
+    "scenario": "WrapAroundDifferent",
+    "input variable": [
+      {
+        "in": "1000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "100",
+        "out_different": "1100"
+      }
+    ]
+  },
+  {
+    "scenario": "UpperBoundaryCheck",
+    "input variable": [
+      {
+        "in": "1100"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "100",
+        "out_any": "110",
+        "out_different": "1010"
+      }
+    ]
+  },
+  {
+    "scenario": "LowerBoundaryCheck",
+    "input variable": [
+      {
+        "in": "0001"
+      }
+    ],
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "001",
+        "out_different": "1001"
+      }
+    ]
+  }
+]

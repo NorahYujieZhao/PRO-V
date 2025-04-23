@@ -1,0 +1,146 @@
+[
+  {
+    "scenario": "HeatingModeTooCold",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "CoolingModeTooHot",
+    "input variable": [
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ManualFanOnly",
+    "input variable": [
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "HeatingModeIgnoreHot",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "CoolingModeIgnoreCold",
+    "input variable": [
+      {
+        "mode": "0",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllInputsActive",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "1",
+        "fan_on": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllInputsInactive",
+    "input variable": [
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FanOverride",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      }
+    ]
+  }
+]

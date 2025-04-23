@@ -1,0 +1,90 @@
+[
+  {
+    "scenario": "InitialState0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "PowerOnBehavior0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SimulationStartup0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "TimeZero0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "DelayedObservation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "BackToBack0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "EndOfSimulation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+scenario: SelectInputA
+description: Set sel=0 with a=0xAAAA while all other inputs=0x0000 to verify correct selection of input a
+
+scenario: SelectInputI
+description: Set sel=8 with i=0x5555 while all other inputs=0x0000 to verify correct selection of last valid input i
+
+scenario: AllZeroInputs
+description: Set all inputs a through i to 0x0000 and sweep sel from 0 to 8 to verify selection path with zero data
+
+scenario: AllOnesInputs
+description: Set all inputs a through i to 0xFFFF and sweep sel from 0 to 8 to verify selection path with one data
+
+scenario: UnusedSelector9
+description: Set sel=9 with random input values to verify output becomes all ones 0xFFFF
+
+scenario: UnusedSelector15
+description: Set sel=15 with random input values to verify output becomes all ones 0xFFFF
+
+scenario: AlternatingPatterns
+description: Set each input with alternating patterns a=0xAAAA b=0x5555 c=0xAAAA etc and sweep sel 0 to 8
+
+scenario: UniquePatterns
+description: Assign unique 16bit values to each input and sweep sel 0 to 8 to verify distinct path selection
+

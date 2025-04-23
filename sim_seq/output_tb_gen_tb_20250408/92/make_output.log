@@ -1,0 +1,25 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario InitialResetBehavior
+Test passed for scenario NoRequestsIdleState
+Test passed for scenario SingleRequestDevice1
+Test passed for scenario SingleRequestDevice2
+Test passed for scenario SingleRequestDevice3
+Test passed for scenario PriorityCheckDevice1Over2
+Test passed for scenario PriorityCheckDevice1Over3
+Test passed for scenario PriorityCheckDevice2Over3
+Test passed for scenario AllRequestsActive
+Test passed for scenario GrantPersistenceDevice1
+Test passed for scenario GrantPersistenceDevice2
+Test passed for scenario ReleaseGrantDevice1
+Test passed for scenario ReleaseGrantDevice2
+sim finished
+Unpass: 0
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 116ps; walltime 0.000 s; speed 384.106 ns/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB

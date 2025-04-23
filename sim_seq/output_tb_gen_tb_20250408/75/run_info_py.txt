@@ -1,0 +1,115 @@
+python compilation passed!
+
+###output:
+[
+  [
+    {
+      "clock cycles": 4,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 7,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 8,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 6,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 6,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 6,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 8,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 4,
+      "start_shifting": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ]
+]
+
+
+###error:
+
+

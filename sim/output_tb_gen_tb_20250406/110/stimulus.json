@@ -1,0 +1,300 @@
+[
+    {
+        "scenario": "BasicOperation_EnableHigh",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "LatchOperation_EnableLow",
+        "input variable": [
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "EdgeCases",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "1",
+                "ena": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleTransitions",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_0",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_1",
+        "input variable": [
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_2",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_3",
+        "input variable": [
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_4",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_5",
+        "input variable": [
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_6",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_7",
+        "input variable": [
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_8",
+        "input variable": [
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_9",
+        "input variable": [
+            {
+                "d": "1",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "0"
+            },
+            {
+                "d": "0",
+                "ena": "1"
+            },
+            {
+                "d": "1",
+                "ena": "0"
+            }
+        ]
+    }
+]

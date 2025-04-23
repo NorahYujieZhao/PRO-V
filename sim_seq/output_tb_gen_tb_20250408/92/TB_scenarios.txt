@@ -1,0 +1,39 @@
+scenario: Initial Reset Behavior
+description: Assert resetn to verify FSM enters state A with all grant signals g deasserted
+
+scenario: No Requests Idle State
+description: Set all request signals r to 0 and verify FSM remains in state A with all grants g deasserted
+
+scenario: Single Request Device 1
+description: Assert only r1 and verify FSM transitions to state B with g1 asserted
+
+scenario: Single Request Device 2
+description: Assert only r2 and verify FSM transitions to state C with g2 asserted
+
+scenario: Single Request Device 3
+description: Assert only r3 and verify FSM transitions to state D with g3 asserted
+
+scenario: Priority Check Device 1 Over 2
+description: Assert both r1 and r2 simultaneously and verify FSM prioritizes device 1 by entering state B
+
+scenario: Priority Check Device 1 Over 3
+description: Assert both r1 and r3 simultaneously and verify FSM prioritizes device 1 by entering state B
+
+scenario: Priority Check Device 2 Over 3
+description: Assert both r2 and r3 simultaneously and verify FSM prioritizes device 2 by entering state C
+
+scenario: All Requests Active
+description: Assert all request signals and verify FSM prioritizes device 1 by entering state B
+
+scenario: Grant Persistence Device 1
+description: Maintain r1 high after receiving grant and verify g1 remains asserted
+
+scenario: Grant Persistence Device 2
+description: Maintain r2 high after receiving grant and verify g2 remains asserted
+
+scenario: Release Grant Device 1
+description: Deassert r1 while in state B and verify FSM returns to state A
+
+scenario: Release Grant Device 2
+description: Deassert r2 while in state C and verify FSM returns to state A
+

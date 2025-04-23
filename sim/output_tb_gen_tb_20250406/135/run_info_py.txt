@@ -1,0 +1,158 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitHigh",
+    "output variable": [
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ThreeBitsHigh",
+    "output variable": [
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "TwoBitsHigh",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SequentialTransitions",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCombinations",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

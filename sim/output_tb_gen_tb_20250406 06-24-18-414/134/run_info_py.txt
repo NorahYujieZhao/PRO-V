@@ -1,0 +1,98 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "w": "00000000",
+        "x": "00000000",
+        "y": "00000000",
+        "z": "00000011"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "w": "11111111",
+        "x": "11111111",
+        "y": "11111111",
+        "z": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "w": "10101101",
+        "x": "01101011",
+        "y": "01011010",
+        "z": "11010111"
+      }
+    ]
+  },
+  {
+    "scenario": "CountingPattern",
+    "output variable": [
+      {
+        "w": "00001000",
+        "x": "10000110",
+        "y": "01000010",
+        "z": "10011011"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotInputs",
+    "output variable": [
+      {
+        "w": "00001000",
+        "x": "10001000",
+        "y": "10001000",
+        "z": "00000111"
+      }
+    ]
+  },
+  {
+    "scenario": "ReverseCountingPattern",
+    "output variable": [
+      {
+        "w": "11111111",
+        "x": "10111011",
+        "y": "11001101",
+        "z": "11101011"
+      }
+    ]
+  },
+  {
+    "scenario": "CheckerboardPattern",
+    "output variable": [
+      {
+        "w": "11111000",
+        "x": "00111110",
+        "y": "00001111",
+        "z": "10000011"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOnes",
+    "output variable": [
+      {
+        "w": "00001000",
+        "x": "10001000",
+        "y": "10001000",
+        "z": "00000111"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

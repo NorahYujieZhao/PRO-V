@@ -1,0 +1,242 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+input_vars:
+top->reset = 0x0
+At 0 clock cycle of 12, top->q = 0x0, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 1 clock cycle of 12, top->q = 0x1, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 2 clock cycle of 12, top->q = 0x2, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 3 clock cycle of 12, top->q = 0x3, expected = 0x5
+input_vars:
+top->reset = 0x0
+At 4 clock cycle of 12, top->q = 0x4, expected = 0x6
+input_vars:
+top->reset = 0x0
+At 5 clock cycle of 12, top->q = 0x5, expected = 0x7
+input_vars:
+top->reset = 0x0
+At 6 clock cycle of 12, top->q = 0x6, expected = 0x8
+input_vars:
+top->reset = 0x0
+At 7 clock cycle of 12, top->q = 0x7, expected = 0x9
+input_vars:
+top->reset = 0x0
+At 8 clock cycle of 12, top->q = 0x8, expected = 0xa
+input_vars:
+top->reset = 0x0
+At 9 clock cycle of 12, top->q = 0x9, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 10 clock cycle of 12, top->q = 0xa, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 11 clock cycle of 12, top->q = 0x1, expected = 0x3
+Test failed,unpass = 12 for scenario NormalCountingSequence
+input_vars:
+top->reset = 0x1
+At 3 clock cycle of 5, top->q = 0x5, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 4 clock cycle of 5, top->q = 0x1, expected = 0x2
+Test failed,unpass = 2 for scenario ResetToOne
+Test passed for scenario UpperBoundaryTransition
+input_vars:
+top->reset = 0x0
+At 0 clock cycle of 30, top->q = 0x7, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 1 clock cycle of 30, top->q = 0x8, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 2 clock cycle of 30, top->q = 0x9, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 3 clock cycle of 30, top->q = 0xa, expected = 0x5
+input_vars:
+top->reset = 0x0
+At 4 clock cycle of 30, top->q = 0x1, expected = 0x6
+input_vars:
+top->reset = 0x0
+At 5 clock cycle of 30, top->q = 0x2, expected = 0x7
+input_vars:
+top->reset = 0x0
+At 6 clock cycle of 30, top->q = 0x3, expected = 0x8
+input_vars:
+top->reset = 0x0
+At 7 clock cycle of 30, top->q = 0x4, expected = 0x9
+input_vars:
+top->reset = 0x0
+At 8 clock cycle of 30, top->q = 0x5, expected = 0xa
+input_vars:
+top->reset = 0x0
+At 9 clock cycle of 30, top->q = 0x6, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 10 clock cycle of 30, top->q = 0x7, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 11 clock cycle of 30, top->q = 0x8, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 12 clock cycle of 30, top->q = 0x9, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 13 clock cycle of 30, top->q = 0xa, expected = 0x5
+input_vars:
+top->reset = 0x0
+At 14 clock cycle of 30, top->q = 0x1, expected = 0x6
+input_vars:
+top->reset = 0x0
+At 15 clock cycle of 30, top->q = 0x2, expected = 0x7
+input_vars:
+top->reset = 0x0
+At 16 clock cycle of 30, top->q = 0x3, expected = 0x8
+input_vars:
+top->reset = 0x0
+At 17 clock cycle of 30, top->q = 0x4, expected = 0x9
+input_vars:
+top->reset = 0x0
+At 18 clock cycle of 30, top->q = 0x5, expected = 0xa
+input_vars:
+top->reset = 0x0
+At 19 clock cycle of 30, top->q = 0x6, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 20 clock cycle of 30, top->q = 0x7, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 21 clock cycle of 30, top->q = 0x8, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 22 clock cycle of 30, top->q = 0x9, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 23 clock cycle of 30, top->q = 0xa, expected = 0x5
+input_vars:
+top->reset = 0x0
+At 24 clock cycle of 30, top->q = 0x1, expected = 0x6
+input_vars:
+top->reset = 0x0
+At 25 clock cycle of 30, top->q = 0x2, expected = 0x7
+input_vars:
+top->reset = 0x0
+At 26 clock cycle of 30, top->q = 0x3, expected = 0x8
+input_vars:
+top->reset = 0x0
+At 27 clock cycle of 30, top->q = 0x4, expected = 0x9
+input_vars:
+top->reset = 0x0
+At 28 clock cycle of 30, top->q = 0x5, expected = 0xa
+input_vars:
+top->reset = 0x0
+At 29 clock cycle of 30, top->q = 0x6, expected = 0x1
+Test failed,unpass = 30 for scenario MultipleCountingCycles
+input_vars:
+top->reset = 0x0
+At 0 clock cycle of 15, top->q = 0x7, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 1 clock cycle of 15, top->q = 0x8, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 2 clock cycle of 15, top->q = 0x9, expected = 0x4
+input_vars:
+top->reset = 0x1
+At 3 clock cycle of 15, top->q = 0xa, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 4 clock cycle of 15, top->q = 0x1, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 5 clock cycle of 15, top->q = 0x2, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 6 clock cycle of 15, top->q = 0x3, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 7 clock cycle of 15, top->q = 0x4, expected = 0x5
+input_vars:
+top->reset = 0x1
+At 8 clock cycle of 15, top->q = 0x5, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 9 clock cycle of 15, top->q = 0x1, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 10 clock cycle of 15, top->q = 0x2, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 11 clock cycle of 15, top->q = 0x3, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 12 clock cycle of 15, top->q = 0x4, expected = 0x5
+input_vars:
+top->reset = 0x1
+At 13 clock cycle of 15, top->q = 0x5, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 14 clock cycle of 15, top->q = 0x1, expected = 0x2
+Test failed,unpass = 15 for scenario ResetDuringCount
+input_vars:
+top->reset = 0x1
+At 0 clock cycle of 5, top->q = 0x2, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 1 clock cycle of 5, top->q = 0x1, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 2 clock cycle of 5, top->q = 0x2, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 3 clock cycle of 5, top->q = 0x3, expected = 0x4
+input_vars:
+top->reset = 0x0
+At 4 clock cycle of 5, top->q = 0x4, expected = 0x5
+Test failed,unpass = 5 for scenario InitialPowerUpState
+input_vars:
+top->reset = 0x0
+At 0 clock cycle of 12, top->q = 0x5, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 1 clock cycle of 12, top->q = 0x6, expected = 0x3
+input_vars:
+top->reset = 0x1
+At 2 clock cycle of 12, top->q = 0x7, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 5 clock cycle of 12, top->q = 0x1, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 6 clock cycle of 12, top->q = 0x2, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 7 clock cycle of 12, top->q = 0x3, expected = 0x4
+input_vars:
+top->reset = 0x1
+At 8 clock cycle of 12, top->q = 0x4, expected = 0x1
+input_vars:
+top->reset = 0x0
+At 9 clock cycle of 12, top->q = 0x1, expected = 0x2
+input_vars:
+top->reset = 0x0
+At 10 clock cycle of 12, top->q = 0x2, expected = 0x3
+input_vars:
+top->reset = 0x0
+At 11 clock cycle of 12, top->q = 0x3, expected = 0x4
+Test failed,unpass = 10 for scenario ResetPulseWidth
+sim finished
+Unpass: 10
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 188ps; walltime 0.000 s; speed 639.456 ns/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 10

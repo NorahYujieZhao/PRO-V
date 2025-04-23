@@ -1,0 +1,24 @@
+scenario: Initial Reset State
+description: Apply reset and verify the machine enters state B with output 1
+
+scenario: State B to A Transition
+description: From state B input 0 should cause transition to state A with output changing to 0
+
+scenario: State B Self Loop
+description: From state B input 1 should maintain state B with output remaining 1
+
+scenario: State A to B Transition
+description: From state A input 0 should cause transition to state B with output changing to 1
+
+scenario: State A Self Loop
+description: From state A input 1 should maintain state A with output remaining 0
+
+scenario: Reset During Operation
+description: Assert reset while in state A to verify synchronous return to state B
+
+scenario: Multiple State Transitions
+description: Verify sequence of multiple state transitions with varying input patterns
+
+scenario: Clock Edge Behavior
+description: Verify state transitions and output changes occur only on rising clock edges
+

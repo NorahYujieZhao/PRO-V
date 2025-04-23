@@ -1,0 +1,106 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "in": "00000000"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "in": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "input variable": [
+      {
+        "in": "10101010"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitHigh",
+    "input variable": [
+      {
+        "in": "00000001"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "TwoBitsHigh",
+    "input variable": [
+      {
+        "in": "00000011"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OddNumberOfOnes",
+    "input variable": [
+      {
+        "in": "11100000"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "EvenNumberOfOnes",
+    "input variable": [
+      {
+        "in": "11110000"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ScatteredBits",
+    "input variable": [
+      {
+        "in": "10010010"
+      }
+    ],
+    "output variable": [
+      {
+        "parity": "1"
+      }
+    ]
+  }
+]

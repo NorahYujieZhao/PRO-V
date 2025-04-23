@@ -1,0 +1,159 @@
+[
+    {
+        "scenario": "AllValidScancodes",
+        "input variable": [
+            {
+                "code": "01000101"
+            },
+            {
+                "code": "00010110"
+            },
+            {
+                "code": "00011110"
+            },
+            {
+                "code": "00100110"
+            },
+            {
+                "code": "00100101"
+            },
+            {
+                "code": "00101110"
+            },
+            {
+                "code": "00110110"
+            },
+            {
+                "code": "00111101"
+            },
+            {
+                "code": "00111110"
+            },
+            {
+                "code": "01000110"
+            }
+        ]
+    },
+    {
+        "scenario": "AllZeros",
+        "input variable": [
+            {
+                "code": "00000000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOnes",
+        "input variable": [
+            {
+                "code": "11111111"
+            }
+        ]
+    },
+    {
+        "scenario": "NearValidCodes",
+        "input variable": [
+            {
+                "code": "01000100"
+            },
+            {
+                "code": "01000110"
+            },
+            {
+                "code": "00010101"
+            },
+            {
+                "code": "00010111"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBits",
+        "input variable": [
+            {
+                "code": "01010101"
+            },
+            {
+                "code": "10101010"
+            }
+        ]
+    },
+    {
+        "scenario": "SingleBitSet",
+        "input variable": [
+            {
+                "code": "00000001"
+            },
+            {
+                "code": "00000010"
+            },
+            {
+                "code": "00000100"
+            },
+            {
+                "code": "00001000"
+            },
+            {
+                "code": "00010000"
+            },
+            {
+                "code": "00100000"
+            },
+            {
+                "code": "01000000"
+            },
+            {
+                "code": "10000000"
+            }
+        ]
+    },
+    {
+        "scenario": "ValidCodeBoundaries",
+        "input variable": [
+            {
+                "code": "01000100"
+            },
+            {
+                "code": "01000110"
+            },
+            {
+                "code": "00010101"
+            },
+            {
+                "code": "00010111"
+            },
+            {
+                "code": "00011101"
+            },
+            {
+                "code": "00011111"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomInvalidCodes",
+        "input variable": [
+            {
+                "code": "00010010"
+            },
+            {
+                "code": "00110100"
+            },
+            {
+                "code": "01010110"
+            },
+            {
+                "code": "01111000"
+            },
+            {
+                "code": "10011010"
+            },
+            {
+                "code": "10111100"
+            },
+            {
+                "code": "11011110"
+            }
+        ]
+    }
+]

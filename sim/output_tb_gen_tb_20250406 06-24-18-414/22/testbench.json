@@ -1,0 +1,317 @@
+[
+  {
+    "scenario": "StateA_Transitions0",
+    "input variable": [
+      {
+        "y": "000001",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateA_Transitions1",
+    "input variable": [
+      {
+        "y": "000001",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateB_Transitions0",
+    "input variable": [
+      {
+        "y": "000010",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateB_Transitions1",
+    "input variable": [
+      {
+        "y": "000010",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateC_Transitions0",
+    "input variable": [
+      {
+        "y": "000100",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "StateC_Transitions1",
+    "input variable": [
+      {
+        "y": "000100",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateD_Transitions0",
+    "input variable": [
+      {
+        "y": "001000",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateD_Transitions1",
+    "input variable": [
+      {
+        "y": "001000",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateE_Transitions0",
+    "input variable": [
+      {
+        "y": "010000",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "StateE_Transitions1",
+    "input variable": [
+      {
+        "y": "010000",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateF_Transitions0",
+    "input variable": [
+      {
+        "y": "100000",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StateF_Transitions1",
+    "input variable": [
+      {
+        "y": "100000",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplexPathTraversal0",
+    "input variable": [
+      {
+        "y": "000001",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplexPathTraversal1",
+    "input variable": [
+      {
+        "y": "000010",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplexPathTraversal2",
+    "input variable": [
+      {
+        "y": "000100",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplexPathTraversal3",
+    "input variable": [
+      {
+        "y": "010000",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplexPathTraversal4",
+    "input variable": [
+      {
+        "y": "001000",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "EdgeCases0",
+    "input variable": [
+      {
+        "y": "000000",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "EdgeCases1",
+    "input variable": [
+      {
+        "y": "111111",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "EdgeCases2",
+    "input variable": [
+      {
+        "y": "010101",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1",
+        "Y4": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "EdgeCases3",
+    "input variable": [
+      {
+        "y": "101010",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0",
+        "Y4": "0"
+      }
+    ]
+  }
+]

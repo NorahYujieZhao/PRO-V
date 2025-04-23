@@ -1,0 +1,21 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario Reset Verification
+Test failed for scenario Path to Output 1
+Test failed for scenario Path to Alternative Output 1
+Test failed for scenario State E Self-Loop
+Test failed for scenario Return to Initial State
+Test failed for scenario Output Stability
+Test failed for scenario Reset During Operation
+Test failed for scenario Rapid Input Toggling
+sim finished
+Unpass: 12
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 0s; walltime 0.000 s; speed 0.000 s/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 12

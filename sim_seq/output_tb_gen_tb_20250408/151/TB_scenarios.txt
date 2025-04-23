@@ -1,0 +1,30 @@
+scenario: Basic Pattern Detection
+description: Input the pattern 1101 and verify the state machine correctly detects it and transitions to shift enable state
+
+scenario: Shift Enable Duration
+description: After pattern detection verify shift enable remains active for exactly 4 clock cycles then transitions to counting state
+
+scenario: Counting State Operation
+description: Verify counting output remains asserted while waiting for done counting signal and deasserts when done counting is received
+
+scenario: Timer Completion
+description: Verify done signal asserts after done counting is received and remains asserted until ack is received
+
+scenario: Synchronous Reset
+description: Assert reset during various states and verify FSM returns to initial pattern detection state
+
+scenario: Partial Pattern Reset
+description: Send partial pattern 110 then assert reset to verify FSM properly restarts pattern detection
+
+scenario: Pattern Overlap
+description: Send overlapping patterns like 11011101 to verify FSM only triggers on complete non overlapping patterns
+
+scenario: Quick Acknowledgment
+description: Assert ack immediately after done signal to verify rapid transition back to pattern detection
+
+scenario: Delayed Acknowledgment
+description: Wait multiple cycles before asserting ack to verify FSM remains in done state
+
+scenario: Invalid Pattern Recovery
+description: Send invalid patterns like 1100 1111 and verify FSM continues searching for valid pattern
+

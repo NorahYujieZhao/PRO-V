@@ -1,0 +1,27 @@
+scenario: BasicCounting
+description: 20 clock cycles with reset deasserted to verify normal counting from 0000 to 0019 ensuring proper BCD encoding for each digit
+
+scenario: ResetBehavior
+description: 15 clock cycles where reset is asserted for 5 cycles then deasserted to verify proper initialization to 0000 and subsequent counting
+
+scenario: OnesDigitRollover
+description: 12 clock cycles starting from 0009 to verify proper rollover to 0010 and correct enable signal generation for tens digit
+
+scenario: TensDigitRollover
+description: 12 clock cycles starting from 0099 to verify proper rollover to 0100 and correct enable signal generation for hundreds digit
+
+scenario: HundredsDigitRollover
+description: 12 clock cycles starting from 0999 to verify proper rollover to 1000 and correct enable signal generation for thousands digit
+
+scenario: FullCounterRollover
+description: 15 clock cycles starting from 9995 to verify proper rollover from 9999 to 0000
+
+scenario: MultipleDigitTransition
+description: 15 clock cycles starting from 1299 to verify multiple simultaneous digit transitions to 1300
+
+scenario: ResetDuringOperation
+description: 20 clock cycles where counter reaches 0567 then reset is asserted to verify immediate return to 0000
+
+scenario: EnableSignalVerification
+description: 25 clock cycles starting from 0895 to verify all enable signals are correctly generated during multiple digit transitions
+

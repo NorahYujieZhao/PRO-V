@@ -1,0 +1,114 @@
+[
+    {
+        "scenario": "AllZeroInputs",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOneInputs",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "MixedInputsAZeroBOne",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "MixedInputsAOneBZero",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "TransitionFromZeroToOne",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "TransitionFromOneToZero",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "0",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingInputs",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "0",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "SimultaneousTransitions",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            },
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    }
+]

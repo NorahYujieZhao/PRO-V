@@ -1,0 +1,67 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+c++  -I.  -MMD -I/opt/homebrew/Cellar/verilator/5.032/share/verilator/include -I/opt/homebrew/Cellar/verilator/5.032/share/verilator/include/vltstd -DVM_COVERAGE=1 -DVM_SC=0 -DVM_TIMING=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligned-new -fbracket-depth=4096 -fcf-protection=none -Qunused-arguments -Wno-bool-operation -Wno-c++11-narrowing -Wno-constant-logical-operand -Wno-non-pod-varargs -Wno-parentheses-equality -Wno-shadow -Wno-sign-compare -Wno-tautological-bitwise-compare -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable     -std=gnu++17 -Os  -c -o rfuzz-harness.o ../rfuzz-harness.cpp
+../rfuzz-harness.cpp:20:14: error: no member named 'fr3' in 'Vtop_module'
+   20 |         top->fr3 = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:21:14: error: no member named 'fr2' in 'Vtop_module'
+   21 |         top->fr2 = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:22:14: error: no member named 'fr1' in 'Vtop_module'
+   22 |         top->fr1 = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:23:14: error: no member named 'dfr' in 'Vtop_module'
+   23 |         top->dfr = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:31:14: error: no member named 's' in 'Vtop_module'
+   31 |         top->s = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:33:18: error: no member named 'fr3' in 'Vtop_module'
+   33 |         if (top->fr3 != 0x1) {
+      |             ~~~  ^
+../rfuzz-harness.cpp:37:38: error: no member named 's' in 'Vtop_module'
+   37 | printf("top->%s = 0x%x\n", "s", top->s);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:39:99: error: no member named 'fr3' in 'Vtop_module'
+   39 |             printf("At %d clock cycle of %d, top->%s = 0x%x, expected = 0x%x\n", 0,3, "fr3", top->fr3, 0x1);
+      |                                                                                              ~~~  ^
+../rfuzz-harness.cpp:41:18: error: no member named 'fr2' in 'Vtop_module'
+   41 |         if (top->fr2 != 0x1) {
+      |             ~~~  ^
+../rfuzz-harness.cpp:45:38: error: no member named 's' in 'Vtop_module'
+   45 | printf("top->%s = 0x%x\n", "s", top->s);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:47:99: error: no member named 'fr2' in 'Vtop_module'
+   47 |             printf("At %d clock cycle of %d, top->%s = 0x%x, expected = 0x%x\n", 0,3, "fr2", top->fr2, 0x1);
+      |                                                                                              ~~~  ^
+../rfuzz-harness.cpp:49:18: error: no member named 'fr1' in 'Vtop_module'
+   49 |         if (top->fr1 != 0x1) {
+      |             ~~~  ^
+../rfuzz-harness.cpp:53:38: error: no member named 's' in 'Vtop_module'
+   53 | printf("top->%s = 0x%x\n", "s", top->s);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:55:99: error: no member named 'fr1' in 'Vtop_module'
+   55 |             printf("At %d clock cycle of %d, top->%s = 0x%x, expected = 0x%x\n", 0,3, "fr1", top->fr1, 0x1);
+      |                                                                                              ~~~  ^
+../rfuzz-harness.cpp:57:18: error: no member named 'dfr' in 'Vtop_module'
+   57 |         if (top->dfr != 0x1) {
+      |             ~~~  ^
+../rfuzz-harness.cpp:61:38: error: no member named 's' in 'Vtop_module'
+   61 | printf("top->%s = 0x%x\n", "s", top->s);
+      |                                 ~~~  ^
+../rfuzz-harness.cpp:63:99: error: no member named 'dfr' in 'Vtop_module'
+   63 |             printf("At %d clock cycle of %d, top->%s = 0x%x, expected = 0x%x\n", 0,3, "dfr", top->dfr, 0x1);
+      |                                                                                              ~~~  ^
+../rfuzz-harness.cpp:71:14: error: no member named 's' in 'Vtop_module'
+   71 |         top->s = 0x0;
+      |         ~~~  ^
+../rfuzz-harness.cpp:73:18: error: no member named 'fr3' in 'Vtop_module'
+   73 |         if (top->fr3 != 0x1) {
+      |             ~~~  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[1]: *** [rfuzz-harness.o] Error 1
+make: *** [run] Error 2

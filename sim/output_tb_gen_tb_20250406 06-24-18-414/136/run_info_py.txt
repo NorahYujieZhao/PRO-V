@@ -1,0 +1,104 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "MixedInputsAZeroBOne",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MixedInputsAOneBZero",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "TransitionFromZeroToOne",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "TransitionFromOneToZero",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SimultaneousTransitions",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

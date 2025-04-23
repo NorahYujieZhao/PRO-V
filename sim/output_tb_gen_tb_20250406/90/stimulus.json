@@ -1,0 +1,90 @@
+[
+    {
+        "scenario": "AllInputsZero",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0",
+                "sel_b1": "0",
+                "sel_b2": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AllInputsOne",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1",
+                "sel_b1": "1",
+                "sel_b2": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "SelectInputA",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0",
+                "sel_b1": "0",
+                "sel_b2": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "SelectInputB",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1",
+                "sel_b1": "1",
+                "sel_b2": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "PartialSelectB1",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1",
+                "sel_b1": "1",
+                "sel_b2": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "PartialSelectB2",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1",
+                "sel_b1": "0",
+                "sel_b2": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "OppositeInputs1",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0",
+                "sel_b1": "1",
+                "sel_b2": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "OppositeInputs2",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1",
+                "sel_b1": "0",
+                "sel_b2": "1"
+            }
+        ]
+    }
+]

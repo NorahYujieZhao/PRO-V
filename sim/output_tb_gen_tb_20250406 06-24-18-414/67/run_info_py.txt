@@ -1,0 +1,86 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "OnlyAHigh",
+    "output variable": [
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OnlyBHigh",
+    "output variable": [
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ALeadingTransition",
+    "output variable": [
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "BLeadingTransition",
+    "output variable": [
+      {
+        "q": "0"
+      },
+      {
+        "q": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ATrailingTransition",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "BTrailingTransition",
+    "output variable": [
+      {
+        "q": "1"
+      },
+      {
+        "q": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

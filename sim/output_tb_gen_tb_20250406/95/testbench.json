@@ -1,0 +1,122 @@
+[
+  {
+    "scenario": "SelectInputA",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "sel": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectInputB",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "sel": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllInputsZero",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "sel": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllInputsOne",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "sel": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectAWithEqualInputs",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "sel": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectBWithEqualInputs",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "sel": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplementaryInputsSelectA",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "sel": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplementaryInputsSelectB",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "sel": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  }
+]

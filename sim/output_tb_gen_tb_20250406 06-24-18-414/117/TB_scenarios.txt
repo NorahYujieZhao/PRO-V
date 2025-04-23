@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Set inputs a b c d to 0000 which corresponds to output 1 in the Karnaugh map testing the ground state behavior
+
+scenario: TopRowSweep
+description: Keep c d at 00 while sweeping a b through 00 01 11 10 to verify the output sequence 1 1 0 1 across the top row
+
+scenario: BottomRowSweep
+description: Keep c d at 11 while sweeping a b through 00 01 11 10 to verify the output sequence 0 1 1 1 across the bottom row
+
+scenario: LeftColumnSweep
+description: Keep a b at 00 while sweeping c d through 00 01 11 10 to verify the output sequence 1 1 0 1 down the leftmost column
+
+scenario: RightColumnSweep
+description: Keep a b at 10 while sweeping c d through 00 01 11 10 to verify the output sequence 1 1 1 0 down the rightmost column
+
+scenario: AlternatingBitPattern
+description: Test input patterns 0101 and 1010 which correspond to defined outputs in the Karnaugh map verifying response to alternating bits
+
+scenario: DiagonalTransition
+description: Test transitions across diagonal cells from 0000 to 0101 to 1111 to verify output changes across different regions of the map
+
+scenario: BoundaryTransition
+description: Test transitions between adjacent cells with different outputs focusing on the boundary between 1 and 0 regions in the map
+

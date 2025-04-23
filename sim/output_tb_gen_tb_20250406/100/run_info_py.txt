@@ -1,0 +1,74 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeros",
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitHigh",
+    "output variable": [
+      {
+        "parity": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "TwoBitsHigh",
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OddNumberOfOnes",
+    "output variable": [
+      {
+        "parity": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "EvenNumberOfOnes",
+    "output variable": [
+      {
+        "parity": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ScatteredBits",
+    "output variable": [
+      {
+        "parity": "1"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

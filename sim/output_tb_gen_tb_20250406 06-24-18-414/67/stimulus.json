@@ -1,0 +1,90 @@
+[
+    {
+        "scenario": "AllZeroInputs",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOneInputs",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "OnlyAHigh",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "OnlyBHigh",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "ALeadingTransition",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "BLeadingTransition",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "ATrailingTransition",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1"
+            },
+            {
+                "a": "0",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "BTrailingTransition",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    }
+]

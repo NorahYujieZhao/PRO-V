@@ -1,0 +1,24 @@
+scenario: Basic Load and Countdown
+description: Load a value like 5 into counter and verify it counts down to 0 correctly with load deasserted, checking tc assertion at 0
+
+scenario: Load During Countdown
+description: Load initial value then during countdown load a new value and verify counter restarts from new value immediately
+
+scenario: Load Maximum Value
+description: Load maximum 10bit value 1023 and verify complete countdown sequence to 0 with proper tc timing
+
+scenario: Load Minimum Value
+description: Load value 1 and verify single countdown step to 0 with immediate tc assertion
+
+scenario: Load Zero Value
+description: Load value 0 and verify tc asserts immediately without any countdown
+
+scenario: Continuous Loading
+description: Keep load signal asserted and change data value every cycle verifying counter follows input data
+
+scenario: Stay at Zero
+description: After reaching 0 keep counting for several cycles to verify counter stays at 0 and tc remains asserted
+
+scenario: Load after Terminal Count
+description: After counter reaches 0 load new value and verify countdown restarts properly with tc deasserted
+

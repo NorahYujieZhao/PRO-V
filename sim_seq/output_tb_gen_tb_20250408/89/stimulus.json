@@ -1,0 +1,188 @@
+[
+    {
+        "scenario": "BasicCountingOperation",
+        "input variable": [
+            {
+                "clock cycles": 16,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SynchronousResetDuringCount",
+        "input variable": [
+            {
+                "clock cycles": 10,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "CounterRollover",
+        "input variable": [
+            {
+                "clock cycles": 20,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "InitialPowerUpState",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "reset": [
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleResetCycles",
+        "input variable": [
+            {
+                "clock cycles": 12,
+                "reset": [
+                    "1",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SetupTimeVerification",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ContinuousOperation",
+        "input variable": [
+            {
+                "clock cycles": 48,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    }
+]

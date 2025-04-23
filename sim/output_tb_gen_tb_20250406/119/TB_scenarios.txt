@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Drive in = 8'b00000000 to verify proper zero extension with MSB=0 resulting in all zeros output
+
+scenario: AllOnesInput
+description: Drive in = 8'b11111111 to verify proper sign extension with MSB=1 resulting in all ones output
+
+scenario: SmallestPositiveNumber
+description: Drive in = 8'b00000001 to verify correct extension of minimal positive value with MSB=0
+
+scenario: LargestPositiveNumber
+description: Drive in = 8'b01111111 to verify proper extension of maximum positive value with MSB=0
+
+scenario: SmallestNegativeNumber
+description: Drive in = 8'b10000000 to verify correct extension of minimal negative value with MSB=1
+
+scenario: LargestNegativeNumber
+description: Drive in = 8'b11111111 to verify proper extension of maximum negative value with MSB=1
+
+scenario: AlternatingBitsPositive
+description: Drive in = 8'b01010101 to check extension of alternating pattern with MSB=0
+
+scenario: AlternatingBitsNegative
+description: Drive in = 8'b10101010 to check extension of alternating pattern with MSB=1
+

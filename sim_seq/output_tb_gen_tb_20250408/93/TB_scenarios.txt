@@ -1,0 +1,24 @@
+scenario: Normal Counting Sequence
+description: Verify counter increments correctly from 0 to 9 over multiple clock cycles with reset deasserted
+
+scenario: Counter Rollover
+description: Verify counter rolls over from 9 to 0 on the next clock cycle
+
+scenario: Synchronous Reset Operation
+description: Assert reset signal during counting and verify counter resets to 0 on the next clock edge
+
+scenario: Reset at Maximum Value
+description: Assert reset when counter is at 9 and verify it resets to 0 on next clock edge
+
+scenario: Multiple Reset Cycles
+description: Assert and deassert reset multiple times during counting to verify consistent reset behavior
+
+scenario: Initial Power Up State
+description: Verify counter starts at a known state 0 after power up before first clock edge
+
+scenario: Clock Edge Behavior
+description: Verify counter only changes state on rising edge of clock signal
+
+scenario: Extended Operation
+description: Run counter through multiple complete 0 to 9 sequences to verify sustained correct operation
+

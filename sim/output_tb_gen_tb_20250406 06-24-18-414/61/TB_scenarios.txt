@@ -1,0 +1,24 @@
+scenario: InputLowStable
+description: Drive input low 0 and hold stable to verify correct inversion to high output
+
+scenario: InputHighStable
+description: Drive input high 1 and hold stable to verify correct inversion to low output
+
+scenario: LowToHighTransition
+description: Transition input from 0 to 1 to verify output correctly responds by going from 1 to 0
+
+scenario: HighToLowTransition
+description: Transition input from 1 to 0 to verify output correctly responds by going from 0 to 1
+
+scenario: AlternatingPattern
+description: Toggle input between 0 and 1 repeatedly to verify consistent inverting behavior
+
+scenario: FastToggling
+description: Rapidly toggle input between 0 and 1 to stress test the gate response time
+
+scenario: SlowToggling
+description: Slowly toggle input between 0 and 1 to verify stable output during long periods
+
+scenario: RandomPattern
+description: Apply random sequence of 0s and 1s to verify consistent inverting behavior under varied conditions
+

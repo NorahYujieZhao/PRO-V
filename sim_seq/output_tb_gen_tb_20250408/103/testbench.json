@@ -1,0 +1,341 @@
+[
+  {
+    "scenario": "ResetStateVerification",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "reset": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "PathToOutputOne",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "PathToAlternateOutputOne",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StateASelfLoop",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "OutputToggleViaDState",
+    "input variable": [
+      {
+        "clock cycles": 7,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 7,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MaximumPathCoverage",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ResetFromOutputHigh",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "RapidInputTransitions",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StateESelfLoop",
+    "input variable": [
+      {
+        "clock cycles": 7,
+        "reset": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 7,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  }
+]

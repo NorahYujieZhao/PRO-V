@@ -1,0 +1,27 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario BasicFlagDetection
+Test passed for scenario ZeroBitDiscard
+input_vars:
+top->reset = 0x0
+top->in = 0x1
+At 7 clock cycle of 8, top->err = 0x1, expected = 0x0
+Test failed,unpass = 1 for scenario ErrorDetection
+Test passed for scenario ResetBehavior
+Test passed for scenario MultipleConsecutiveFlags
+Test passed for scenario PartialPatternRecovery
+input_vars:
+top->reset = 0x0
+top->in = 0x1
+At 7 clock cycle of 10, top->err = 0x1, expected = 0x0
+Test failed,unpass = 1 for scenario ExtendedErrorState
+Test passed for scenario ResetDuringPattern
+Test passed for scenario AlternatingBits
+Test passed for scenario BackToBackSpecialPatterns
+sim finished
+Unpass: 0

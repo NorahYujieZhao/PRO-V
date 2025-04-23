@@ -1,0 +1,596 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+===Scenario: AllZeros0=====
+input_vars:
+top->in = 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+output_vars:
+expected 0
+actual 0
+expected 10000000
+actual 0
+expected 2d203300
+actual 0
+expected 6e692d
+actual 0
+Mismatch at out_both: expected 0x0
+===Scenario: AllZeros0=====
+input_vars:
+top->in = 0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+output_vars:
+expected 0
+actual 0
+expected 10000000
+actual 0
+expected 2d203300
+actual 0
+expected 6e692d
+actual 0
+Mismatch at out_any: expected 0x0
+===Scenario: AllOnes0=====
+input_vars:
+top->in = 0x1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+output_vars:
+expected 0
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+Mismatch at out_both: expected 0x7ffffffffffffffffffffffff
+===Scenario: AllOnes0=====
+input_vars:
+top->in = 0x1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+output_vars:
+expected 0
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+Mismatch at out_any: expected 0x7ffffffffffffffffffffffff
+===Scenario: AlternatingBits0=====
+input_vars:
+top->in = 0x1010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010
+output_vars:
+expected 0
+actual ffffffff
+expected 0
+actual ffffffff
+expected 0
+actual ffffffff
+expected 0
+actual f
+Mismatch at out_both: expected 0x0
+===Scenario: AlternatingBits0=====
+input_vars:
+top->in = 0x1010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010
+output_vars:
+expected 0
+actual ffffffff
+expected 0
+actual ffffffff
+expected 0
+actual ffffffff
+expected 0
+actual f
+Mismatch at out_any: expected 0x7ffffffffffffffffffffffff
+===Scenario: BoundaryTest0=====
+input_vars:
+top->in = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+output_vars:
+expected ffffffff
+actual 1
+expected ffffffff
+actual 0
+expected ffffffff
+actual 0
+expected f
+actual 4
+Mismatch at out_both: expected 0x0
+===Scenario: BoundaryTest0=====
+input_vars:
+top->in = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+output_vars:
+expected ffffffff
+actual 1
+expected ffffffff
+actual 0
+expected ffffffff
+actual 0
+expected f
+actual 4
+Mismatch at out_any: expected 0x4000000000000000000000001
+===Scenario: BoundaryTest0=====
+input_vars:
+top->in = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+output_vars:
+expected 2
+actual 1
+expected 0
+actual 0
+expected 0
+actual 0
+expected 8
+actual 4
+Mismatch at out_different: expected 0x8000000000000000000000002
+===Scenario: WalkingOnes0=====
+input_vars:
+top->in = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+output_vars:
+expected 2
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+expected 8
+actual c
+Mismatch at out_both: expected 0x0
+===Scenario: WalkingOnes0=====
+input_vars:
+top->in = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+output_vars:
+expected 2
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+expected 8
+actual c
+Mismatch at out_any: expected 0x4000000000000000000000000
+===Scenario: WalkingOnes0=====
+input_vars:
+top->in = 0x1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+output_vars:
+expected 1
+actual 0
+expected 0
+actual 0
+expected 0
+actual 0
+expected 8
+actual c
+Mismatch at out_different: expected 0x8000000000000000000000001
+===Scenario: AdjacentPairsTest0=====
+input_vars:
+top->in = 0x1111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000
+output_vars:
+expected 1
+actual 0
+expected 0
+actual 20000
+expected 0
+actual 0
+expected 8
+actual 8
+Mismatch at out_both: expected 0x7fffffffffffc000000000000
+===Scenario: AdjacentPairsTest0=====
+input_vars:
+top->in = 0x1111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000
+output_vars:
+expected 1
+actual 0
+expected 0
+actual 20000
+expected 0
+actual 0
+expected 8
+actual 8
+Mismatch at out_any: expected 0x7fffffffffffe000000000000
+===Scenario: AdjacentPairsTest0=====
+input_vars:
+top->in = 0x1111111111111111111111111111111111111111111111111100000000000000000000000000000000000000000000000000
+output_vars:
+expected 1
+actual 0
+expected 40000
+actual 20000
+expected 0
+actual 0
+expected 0
+actual 8
+Mismatch at out_different: expected 0x4000000000001
+===Scenario: RandomTest_00=====
+input_vars:
+top->in = 0x1100100011110000110110011111100000100010100100100100001010110001101100011100011000000000010111110001
+output_vars:
+expected 1
+actual 92500709
+expected 40000
+actual 3db63e96
+expected 0
+actual c88b5043
+expected 0
+actual 2
+Mismatch at out_both: expected 0x407048f80000001090c2000f0
+===Scenario: RandomTest_00=====
+input_vars:
+top->in = 0x1100100011110000110110011111100000100010100100100100001010110001101100011100011000000000010111110001
+output_vars:
+expected 1
+actual 92500709
+expected 40000
+actual 3db63e96
+expected 0
+actual c88b5043
+expected 0
+actual 2
+Mismatch at out_any: expected 0x6cf8fdfc33db63f9f9e7007f9
+===Scenario: RandomTest_00=====
+input_vars:
+top->in = 0x1100100011110000110110011111100000100010100100100100001010110001101100011100011000000000010111110001
+output_vars:
+expected 24a00e12
+actual 92500709
+expected 7b6c7d2d
+actual 3db63e96
+expected 9116a086
+actual c88b5043
+expected 5
+actual 2
+Mismatch at out_different: expected 0x59116a0867b6c7d2d24a00e12
+===Scenario: RandomTest_10=====
+input_vars:
+top->in = 0x0100010000100110011000010010100111001011101001011010101010101111011110101101000000100101111101001001
+output_vars:
+expected 24a00e12
+actual 7b8370ed
+expected 7b6c7d2d
+actual e777ff8c
+expected 9116a086
+actual 63551bd2
+expected 5
+actual e
+Mismatch at out_both: expected 0x22000c1808007384000f00
+===Scenario: RandomTest_10=====
+input_vars:
+top->in = 0x0100010000100110011000010010100111001011101001011010101010101111011110101101000000100101111101001001
+output_vars:
+expected 24a00e12
+actual 7b8370ed
+expected 7b6c7d2d
+actual e777ff8c
+expected 9116a086
+actual 63551bd2
+expected 5
+actual e
+Mismatch at out_any: expected 0x663771bdeff7fffffff837fed
+===Scenario: RandomTest_10=====
+input_vars:
+top->in = 0x0100010000100110011000010010100111001011101001011010101010101111011110101101000000100101111101001001
+output_vars:
+expected f706e1db
+actual 7b8370ed
+expected ceefff18
+actual e777ff8c
+expected c6aa37a5
+actual 63551bd2
+expected c
+actual e
+Mismatch at out_different: expected 0xcc6aa37a5ceefff18f706e1db
+===Scenario: RandomTest_20=====
+input_vars:
+top->in = 0x0110110110010010011000011001011100011000101100001001111000001011000101101110110110111110101100011111
+output_vars:
+expected f706e1db
+actual d9b61e90
+expected ceefff18
+actual 4e8d10e9
+expected c6aa37a5
+actual b5b515c9
+expected c
+actual d
+Mismatch at out_both: expected 0x2480208308100e0102649e10f
+===Scenario: RandomTest_20=====
+input_vars:
+top->in = 0x0110110110010010011000011001011100011000101100001001111000001011000101101110110110111110101100011111
+output_vars:
+expected f706e1db
+actual d9b61e90
+expected ceefff18
+actual 4e8d10e9
+expected c6aa37a5
+actual b5b515c9
+expected c
+actual d
+Mismatch at out_any: expected 0x7fdb71df9cf8df0f9ffffff9f
+===Scenario: RandomTest_20=====
+input_vars:
+top->in = 0x0110110110010010011000011001011100011000101100001001111000001011000101101110110110111110101100011111
+output_vars:
+expected b36c3d21
+actual d9b61e90
+expected 9d1a21d3
+actual 4e8d10e9
+expected 6b6a2b92
+actual b5b515c9
+expected b
+actual d
+Mismatch at out_different: expected 0xb6b6a2b929d1a21d3b36c3d21
+===Scenario: RandomTest_30=====
+input_vars:
+top->in = 0x0010101110011011010011000100101000101111101000011000000000111101111100010100101110000011101101011001
+output_vars:
+expected b36c3d21
+actual 9ee426f5
+expected 9d1a21d3
+actual 87140230
+expected 6b6a2b92
+actual e56ea6f3
+expected b
+actual b
+Mismatch at out_both: expected 0x18904000780801cf00181908
+===Scenario: RandomTest_30=====
+input_vars:
+top->in = 0x0010101110011011010011000100101000101111101000011000000000111101111100010100101110000011101101011001
+output_vars:
+expected b36c3d21
+actual 9ee426f5
+expected 9d1a21d3
+actual 87140230
+expected 6b6a2b92
+actual e56ea6f3
+expected b
+actual b
+Mismatch at out_any: expected 0x3fdfee6f3ff1c03ff9efc3ffd
+===Scenario: RandomTest_30=====
+input_vars:
+top->in = 0x0010101110011011010011000100101000101111101000011000000000111101111100010100101110000011101101011001
+output_vars:
+expected 3dc84deb
+actual 9ee426f5
+expected e280461
+actual 87140230
+expected cadd4de7
+actual e56ea6f3
+expected 7
+actual b
+Mismatch at out_different: expected 0x7cadd4de70e2804613dc84deb
+===Scenario: RandomTest_40=====
+input_vars:
+top->in = 0x0011010110011111001001010110011011011111101100001000001111100011000110111111100110111111110010100101
+output_vars:
+expected 3dc84deb
+actual 605602f7
+expected e280461
+actual 68c2129
+expected cadd4de7
+actual f50b7d5b
+expected 7
+actual a
+Mismatch at out_both: expected 0x108f00224f9001e109f89fc00
+===Scenario: RandomTest_40=====
+input_vars:
+top->in = 0x0011010110011111001001010110011011011111101100001000001111100011000110111111100110111111110010100101
+output_vars:
+expected 3dc84deb
+actual 605602f7
+expected e280461
+actual 68c2129
+expected cadd4de7
+actual f50b7d5b
+expected 7
+actual a
+Mismatch at out_any: expected 0x3fdfb7f7fff8c3f39ffdffef7
+===Scenario: RandomTest_40=====
+input_vars:
+top->in = 0x0011010110011111001001010110011011011111101100001000001111100011000110111111100110111111110010100101
+output_vars:
+expected c0ac05ef
+actual 605602f7
+expected d184252
+actual 68c2129
+expected ea16fab6
+actual f50b7d5b
+expected 5
+actual a
+Mismatch at out_different: expected 0x5ea16fab60d184252c0ac05ef
+===Scenario: RandomTest_50=====
+input_vars:
+top->in = 0x0101101000011111001011000000001100111110100101111011101010101101011101000000111001111000110010001100
+output_vars:
+expected c0ac05ef
+actual e0944aca
+expected d184252
+actual 1dc67fbc
+expected ea16fab6
+actual 710ba02a
+expected 5
+actual 7
+Mismatch at out_both: expected 0x80f04011e039804300638404
+===Scenario: RandomTest_50=====
+input_vars:
+top->in = 0x0101101000011111001011000000001100111110100101111011101010101101011101000000111001111000110010001100
+output_vars:
+expected c0ac05ef
+actual e0944aca
+expected d184252
+actual 1dc67fbc
+expected ea16fab6
+actual 710ba02a
+expected 5
+actual 7
+Mismatch at out_any: expected 0x7f1fbe03bfdffffffe0f7cece
+===Scenario: RandomTest_50=====
+input_vars:
+top->in = 0x0101101000011111001011000000001100111110100101111011101010101101011101000000111001111000110010001100
+output_vars:
+expected c1289594
+actual e0944aca
+expected 3b8cff79
+actual 1dc67fbc
+expected e2174054
+actual 710ba02a
+expected e
+actual 7
+Mismatch at out_different: expected 0xee21740543b8cff79c1289594
+===Scenario: RandomTest_60=====
+input_vars:
+top->in = 0x0011101010100110000011100011001100101001111000101101101101101100110111111111001101010001110001111100
+output_vars:
+expected c1289594
+actual af9242
+expected 3b8cff79
+actual d13b6dab
+expected e2174054
+actual 7f5092ab
+expected e
+actual 2
+Mismatch at out_both: expected 0x1802061100e049244ff100c3c
+===Scenario: RandomTest_60=====
+input_vars:
+top->in = 0x0011101010100110000011100011001100101001111000101101101101101100110111111111001101010001110001111100
+output_vars:
+expected c1289594
+actual af9242
+expected 3b8cff79
+actual d13b6dab
+expected e2174054
+actual 7f5092ab
+expected e
+actual 2
+Mismatch at out_any: expected 0x3ff70f3bbdf3fffefffbf9e7e
+===Scenario: RandomTest_60=====
+input_vars:
+top->in = 0x0011101010100110000011100011001100101001111000101101101101101100110111111111001101010001110001111100
+output_vars:
+expected 15f2484
+actual af9242
+expected a276db56
+actual d13b6dab
+expected fea12557
+actual 7f5092ab
+expected 4
+actual 2
+Mismatch at out_different: expected 0x4fea12557a276db56015f2484
+===Scenario: RandomTest_70=====
+input_vars:
+top->in = 0x1000110100011001001111011010010011101110011000101100001100111100011010011110010010000000010111001001
+output_vars:
+expected 15f2484
+actual d16c072d
+expected a276db56
+actual 953a2a25
+expected fea12557
+actual b95a3769
+expected 4
+actual 4
+Mismatch at out_both: expected 0x4081c806620411c20e0000c0
+===Scenario: RandomTest_70=====
+input_vars:
+top->in = 0x1000110100011001001111011010010011101110011000101100001100111100011010011110010010000000010111001001
+output_vars:
+expected 15f2484
+actual d16c072d
+expected a276db56
+actual 953a2a25
+expected fea12557
+actual b95a3769
+expected 4
+actual 4
+Mismatch at out_any: expected 0x4f9dbff6ff73e3be7df6c07ed
+===Scenario: RandomTest_70=====
+input_vars:
+top->in = 0x1000110100011001001111011010010011101110011000101100001100111100011010011110010010000000010111001001
+output_vars:
+expected a2d80e5a
+actual d16c072d
+expected 2a74544b
+actual 953a2a25
+expected 72b46ed3
+actual b95a3769
+expected 9
+actual 4
+Mismatch at out_different: expected 0x972b46ed32a74544ba2d80e5a
+===Scenario: RandomTest_80=====
+input_vars:
+top->in = 0x0110010001010001001010101010111001100001001000111011110010101101011110100110101110000010000100110011
+output_vars:
+expected a2d80e5a
+actual 75e431aa
+expected 2a74544b
+actual 1b262fbc
+expected 72b46ed3
+actual 679bff95
+expected 9
+actual d
+Mismatch at out_both: expected 0x2000000620019c04382180011
+===Scenario: RandomTest_80=====
+input_vars:
+top->in = 0x0110010001010001001010101010111001100001001000111011110010101101011110100110101110000010000100110011
+output_vars:
+expected a2d80e5a
+actual 75e431aa
+expected 2a74544b
+actual 1b262fbc
+expected 72b46ed3
+actual 679bff95
+expected 9
+actual d
+Mismatch at out_any: expected 0x7679bfff71b3feffff7fc31bb
+===Scenario: RandomTest_80=====
+input_vars:
+top->in = 0x0110010001010001001010101010111001100001001000111011110010101101011110100110101110000010000100110011
+output_vars:
+expected ebc86355
+actual 75e431aa
+expected 364c5f78
+actual 1b262fbc
+expected cf37ff2a
+actual 679bff95
+expected a
+actual d
+Mismatch at out_different: expected 0xacf37ff2a364c5f78ebc86355
+===Scenario: RandomTest_90=====
+input_vars:
+top->in = 0x0101110100001010011000101001101000010100001100000101001010110110000100101111010000111001101001100100
+output_vars:
+expected ebc86355
+actual b8e25756
+expected 364c5f78
+actual e287bed1
+expected cf37ff2a
+actual 38f53d71
+expected a
+actual 7
+Mismatch at out_both: expected 0xc00200800100012007018820
+===Scenario: RandomTest_90=====
+input_vars:
+top->in = 0x0101110100001010011000101001101000010100001100000101001010110110000100101111010000111001101001100100
+output_vars:
+expected ebc86355
+actual b8e25756
+expected 364c5f78
+actual e287bed1
+expected cf37ff2a
+actual 38f53d71
+expected a
+actual 7
+Mismatch at out_any: expected 0x7f8f73df1e387bff1bfe3df76
+===Scenario: RandomTest_90=====
+input_vars:
+top->in = 0x0101110100001010011000101001101000010100001100000101001010110110000100101111010000111001101001100100
+output_vars:
+expected 71c4aeac
+actual b8e25756
+expected c50f7da3
+actual e287bed1
+expected 71ea7ae3
+actual 38f53d71
+expected e
+actual 7
+Mismatch at out_different: expected 0xe71ea7ae3c50f7da371c4aeac
+Found 45 mismatches.
+sim finished
+Unpass: 45
+make: *** [run] Error 45

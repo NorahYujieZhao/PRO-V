@@ -1,0 +1,21 @@
+scenario: Initial State Verification
+description: After power-up, verify p and q initialize to 0 with clock low and input a is 0
+
+scenario: Basic Input Following
+description: Verify that output p follows input a on rising clock edges showing the immediate state tracking behavior
+
+scenario: State Transition Detection
+description: Apply sequence of alternating 1s and 0s on input a and verify correct state transitions on clock edges
+
+scenario: Output Q Assertion
+description: Verify output q becomes 1 when the specific input pattern is detected and maintains state until reset condition
+
+scenario: Pattern Reset Condition
+description: Verify the state machine resets its pattern detection when appropriate input sequence is received
+
+scenario: Clock Edge Sensitivity
+description: Verify state changes occur only on rising clock edges and signals maintain stable values between clock edges
+
+scenario: Rapid Input Changes
+description: Apply quick changes to input a between clock edges to verify proper sampling only on clock edges
+

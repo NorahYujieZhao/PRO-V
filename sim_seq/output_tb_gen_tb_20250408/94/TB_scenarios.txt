@@ -1,0 +1,24 @@
+scenario: Basic Message Reception
+description: Send a valid 3 byte message with in[3]=1 in first byte and verify done signal asserts after third byte
+
+scenario: Multiple Sequential Messages
+description: Send multiple consecutive valid 3 byte messages and verify done signal pulses correctly after each message
+
+scenario: Invalid Start Byte Handling
+description: Send bytes with in[3]=0 and verify FSM discards them until finding a valid start byte with in[3]=1
+
+scenario: Reset During Message
+description: Assert reset while receiving a message and verify FSM returns to initial state waiting for start byte
+
+scenario: Mixed Valid Invalid Bytes
+description: Send stream with mix of valid messages and invalid bytes verifying correct message boundary detection
+
+scenario: Back to Back Messages
+description: Send two valid messages immediately after each other verify both are detected with correct done timing
+
+scenario: Done Signal Timing
+description: Verify done signal asserts for exactly one clock cycle immediately after third byte reception
+
+scenario: Start Byte with Different Data
+description: Send messages with varying data patterns in start byte while keeping in[3]=1 verify correct detection
+

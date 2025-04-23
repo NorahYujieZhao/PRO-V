@@ -1,0 +1,373 @@
+[
+  {
+    "scenario": "Initial Reset State",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Left to Right Transition",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Right to Left Transition",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "1"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Simultaneous Bumps",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "1"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "No Direction Change",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Reset During Walk",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Multiple Direction Changes",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "1"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "1"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Glitch Immunity",
+    "input variable": [
+      {
+        "areset": "1",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "1",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      },
+      {
+        "areset": "0",
+        "bump_left": "0",
+        "bump_right": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "0",
+        "walk_right": "1"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      },
+      {
+        "walk_left": "1",
+        "walk_right": "0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set x = 0000 and y = 0000 to verify basic zero addition case with no carry
+
+scenario: AllOnesInputs
+description: Set x = 1111 and y = 1111 to test maximum value addition with overflow
+
+scenario: AlternatingBitsX
+description: Set x = 1010 and y = 0101 to test addition with alternating bit patterns
+
+scenario: SingleBitCarry
+description: Set x = 0001 and y = 1111 to verify carry propagation through all bit positions
+
+scenario: MidrangeAddition
+description: Set x = 0111 and y = 0111 to test addition near but not exceeding maximum range
+
+scenario: OneHotX
+description: Set x = 1000 and y = 0001 to test addition with one hot encoded input pattern
+
+scenario: SmallNumbers
+description: Set x = 0011 and y = 0010 to verify correct addition of small numbers
+
+scenario: JustOverflow
+description: Set x = 1000 and y = 1000 to test addition causing exact overflow condition
+

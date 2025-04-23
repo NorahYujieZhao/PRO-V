@@ -1,0 +1,74 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeros",
+    "output variable": [
+      {
+        "out": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "output variable": [
+      {
+        "out": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "out": "10000000"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneAtMSB",
+    "output variable": [
+      {
+        "out": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneAtLSB",
+    "output variable": [
+      {
+        "out": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "OnesInLowerHalf",
+    "output variable": [
+      {
+        "out": "01111111"
+      }
+    ]
+  },
+  {
+    "scenario": "OnesInUpperHalf",
+    "output variable": [
+      {
+        "out": "10000000"
+      }
+    ]
+  },
+  {
+    "scenario": "SparseOnes",
+    "output variable": [
+      {
+        "out": "00100000"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

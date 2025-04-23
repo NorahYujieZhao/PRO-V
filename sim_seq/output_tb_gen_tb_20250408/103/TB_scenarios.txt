@@ -1,0 +1,27 @@
+scenario: Reset State Verification
+description: Assert reset and verify FSM enters state A with output z equal to 0
+
+scenario: Path to Output One
+description: Test transition sequence from A to E A1B1C1E to verify z becomes 1
+
+scenario: Path to Alternate Output One
+description: Test transition sequence from A to F A1B0D1F to verify z becomes 1
+
+scenario: State A Self Loop
+description: In state A apply w0 multiple cycles to verify FSM remains in A with z equals 0
+
+scenario: Output Toggle via D State
+description: From state E or F transition to D w0 then verify z toggles from 1 to 0
+
+scenario: Maximum Path Coverage
+description: Exercise longest possible path through states ABCDEF to verify all transitions
+
+scenario: Reset from Output High
+description: While in state E or F with z equals 1 assert reset and verify return to state A with z equals 0
+
+scenario: Rapid Input Transitions
+description: Apply alternating w inputs each cycle to exercise frequent state changes
+
+scenario: State E Self Loop
+description: In state E apply w1 multiple cycles to verify FSM remains in E with z equals 1
+

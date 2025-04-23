@@ -1,0 +1,21 @@
+scenario: Basic Toggle Operation with Input High
+description: Set input 'in' to 1 and verify that output toggles on each positive clock edge due to XOR feedback
+
+scenario: Basic Hold Operation with Input Low
+description: Set input 'in' to 0 and verify that output maintains its value on clock edges due to XOR feedback
+
+scenario: Input Transition during Clock Edge
+description: Change input value close to clock edge to verify proper setup time handling and expected output value
+
+scenario: Initial Power Up State
+description: Verify the initial output state and subsequent toggle behavior after power up without reset
+
+scenario: Clock Glitch Immunity
+description: Apply glitches on clock input and verify output only changes on valid rising edges
+
+scenario: Rapid Input Changes
+description: Toggle input rapidly between clock edges to verify output only updates on clock edge with proper input sampling
+
+scenario: Long Term Toggle Pattern
+description: Verify extended sequence of toggles with alternating input patterns to ensure stable operation
+

@@ -1,0 +1,74 @@
+[
+    {
+        "scenario": "AllZeros",
+        "input variable": [
+            {
+                "A": "00",
+                "B": "00"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOnes",
+        "input variable": [
+            {
+                "A": "11",
+                "B": "11"
+            }
+        ]
+    },
+    {
+        "scenario": "MismatchZeroOne",
+        "input variable": [
+            {
+                "A": "00",
+                "B": "11"
+            }
+        ]
+    },
+    {
+        "scenario": "MismatchOneZero",
+        "input variable": [
+            {
+                "A": "11",
+                "B": "00"
+            }
+        ]
+    },
+    {
+        "scenario": "AdjacentValues",
+        "input variable": [
+            {
+                "A": "01",
+                "B": "10"
+            }
+        ]
+    },
+    {
+        "scenario": "OneHotA",
+        "input variable": [
+            {
+                "A": "10",
+                "B": "01"
+            }
+        ]
+    },
+    {
+        "scenario": "MidrangeEqual",
+        "input variable": [
+            {
+                "A": "01",
+                "B": "01"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBits",
+        "input variable": [
+            {
+                "A": "10",
+                "B": "10"
+            }
+        ]
+    }
+]

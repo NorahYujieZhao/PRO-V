@@ -1,0 +1,132 @@
+[
+    {
+        "scenario": "SingleBitRisingEdge",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "in": [
+                    "00000000",
+                    "00000001",
+                    "00000000",
+                    "00000010",
+                    "00000000",
+                    "00000100",
+                    "00000000",
+                    "00001000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SingleBitFallingEdge",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "in": [
+                    "11111111",
+                    "11111110",
+                    "11111111",
+                    "11111101",
+                    "11111111",
+                    "11111011",
+                    "11111111",
+                    "11110111"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleSimultaneousEdges",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "in": [
+                    "00000000",
+                    "10011001",
+                    "01100110",
+                    "11111111"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ConsecutiveTransitions",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "in": [
+                    "00000000",
+                    "11111111",
+                    "00000000",
+                    "11111111",
+                    "00000000",
+                    "11111111"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBitPatterns",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "in": [
+                    "10101010",
+                    "01010101",
+                    "10101010",
+                    "01010101"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "StableInput",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "in": [
+                    "10101010",
+                    "10101010",
+                    "10101010",
+                    "10101010"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "WalkingOnesPattern",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "in": [
+                    "00000001",
+                    "00000010",
+                    "00000100",
+                    "00001000",
+                    "00010000",
+                    "00100000",
+                    "01000000",
+                    "10000000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "WalkingZerosPattern",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "in": [
+                    "11111110",
+                    "11111101",
+                    "11111011",
+                    "11110111",
+                    "11101111",
+                    "11011111",
+                    "10111111",
+                    "01111111"
+                ]
+            }
+        ]
+    }
+]

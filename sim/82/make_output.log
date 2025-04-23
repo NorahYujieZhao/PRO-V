@@ -1,0 +1,41 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+===Scenario: Output0_Case300=====
+input_vars:
+top->x = 0x0100
+1
+Mismatch at f: expected 0x0
+===Scenario: Output0_Case400=====
+input_vars:
+top->x = 0x1011
+1
+Mismatch at f: expected 0x0
+===Scenario: Output1_Case100=====
+input_vars:
+top->x = 0x1100
+1
+Mismatch at f: expected 0x0
+===Scenario: Output1_Case200=====
+input_vars:
+top->x = 0x1101
+0
+Mismatch at f: expected 0x1
+===Scenario: Output1_Case500=====
+input_vars:
+top->x = 0x0111
+0
+Mismatch at f: expected 0x1
+===Scenario: TransitionSequence30=====
+input_vars:
+top->x = 0x0111
+0
+Mismatch at f: expected 0x1
+Found 6 mismatches.
+sim finished
+Unpass: 6
+make: *** [run] Error 6

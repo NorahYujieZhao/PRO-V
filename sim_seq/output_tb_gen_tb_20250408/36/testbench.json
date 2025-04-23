@@ -1,0 +1,342 @@
+[
+  {
+    "scenario": "IncrementUntilSaturation",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "state": [
+          "10",
+          "11",
+          "11",
+          "11",
+          "11"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "DecrementUntilSaturation",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "state": [
+          "00",
+          "00",
+          "00",
+          "00",
+          "00"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "HoldValueWhenNotTraining",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_taken": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "state": [
+          "01",
+          "01",
+          "01",
+          "01"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "AsynchronousResetOperation",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "areset": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "state": [
+          "10",
+          "01",
+          "10",
+          "01",
+          "10"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "IncrementDecrementSequence",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "state": [
+          "10",
+          "11",
+          "10",
+          "01",
+          "10",
+          "11"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MaximumValueSaturation",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "state": [
+          "10",
+          "11",
+          "11",
+          "11",
+          "11",
+          "11"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MinimumValueSaturation",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "state": [
+          "00",
+          "00",
+          "00",
+          "00",
+          "00",
+          "00"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ResetDuringOperation",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "areset": [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "train_valid": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "train_taken": [
+          "1",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "state": [
+          "10",
+          "11",
+          "01",
+          "00",
+          "00",
+          "01"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllValidScancodes",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "1"
+      },
+      {
+        "out": "0001",
+        "valid": "1"
+      },
+      {
+        "out": "0010",
+        "valid": "1"
+      },
+      {
+        "out": "0011",
+        "valid": "1"
+      },
+      {
+        "out": "0100",
+        "valid": "1"
+      },
+      {
+        "out": "0101",
+        "valid": "1"
+      },
+      {
+        "out": "0110",
+        "valid": "1"
+      },
+      {
+        "out": "0111",
+        "valid": "1"
+      },
+      {
+        "out": "1000",
+        "valid": "1"
+      },
+      {
+        "out": "1001",
+        "valid": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllZeros",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "NearValidCodes",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "1001",
+        "valid": "1"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitSet",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ValidCodeBoundaries",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "1001",
+        "valid": "1"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomInvalidCodes",
+    "output variable": [
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      },
+      {
+        "out": "0000",
+        "valid": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

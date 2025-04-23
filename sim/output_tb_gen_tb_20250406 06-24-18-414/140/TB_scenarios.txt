@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Set c=0 and d=0 to verify mux_in generation for the top row of K-map where output should be 0 0 0 1
+
+scenario: BottomRowInput
+description: Set c=1 and d=1 to test mux_in generation for bottom row of K-map where output should be 1 0 1 1
+
+scenario: MiddleRowZeroOne
+description: Set c=0 and d=1 to check mux_in generation for second row where output should be 1 0 0 0
+
+scenario: MiddleRowOneZero
+description: Set c=1 and d=0 to verify mux_in generation for third row where output should be 1 0 0 1
+
+scenario: VerticalPatternOne
+description: Sweep c from 0 to 1 while keeping d=0 to test vertical pattern in first column where outputs are 0 1 1 1
+
+scenario: VerticalPatternTwo
+description: Sweep c from 0 to 1 while keeping d=1 to check vertical pattern in second column where outputs are 0 0 0 0
+
+scenario: DiagonalPattern
+description: Test diagonal pattern by setting cd to 00 01 11 10 to verify different mux_in bit patterns
+
+scenario: AlternatingBits
+description: Toggle between c=1 d=0 and c=0 d=1 to test alternating input patterns and corresponding mux_in values
+

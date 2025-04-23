@@ -1,0 +1,74 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZerosInput",
+    "output variable": [
+      {
+        "out": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnesInput",
+    "output variable": [
+      {
+        "out": "11111111111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "SmallestPositiveNumber",
+    "output variable": [
+      {
+        "out": "00000000000000000000000000000001"
+      }
+    ]
+  },
+  {
+    "scenario": "LargestPositiveNumber",
+    "output variable": [
+      {
+        "out": "00000000000000000000000001111111"
+      }
+    ]
+  },
+  {
+    "scenario": "SmallestNegativeNumber",
+    "output variable": [
+      {
+        "out": "11111111111111111111111110000000"
+      }
+    ]
+  },
+  {
+    "scenario": "LargestNegativeNumber",
+    "output variable": [
+      {
+        "out": "11111111111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsPositive",
+    "output variable": [
+      {
+        "out": "00000000000000000000000001010101"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsNegative",
+    "output variable": [
+      {
+        "out": "11111111111111111111111110101010"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

@@ -1,0 +1,519 @@
+[
+  {
+    "scenario": "BasicOperation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation1",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation2",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation3",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation4",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation5",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation6",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation7",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation8",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation9",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation1",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation2",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation3",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation4",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation5",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation6",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation7",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation8",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation9",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation10",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation11",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation12",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation13",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation14",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation15",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation16",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation17",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation18",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation19",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "InitialState0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation0",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation1",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation2",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation3",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation4",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation5",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation6",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation7",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation8",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation9",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation10",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation11",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation12",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation13",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation14",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  }
+]

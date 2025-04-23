@@ -1,0 +1,18 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.002 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario BasicResetOperation
+Test passed for scenario MultipleResetPulses
+Test passed for scenario ResetDuringShiftOperation
+Test passed for scenario LongTermStability
+Test passed for scenario BackToBackReset
+Test passed for scenario ResetPulseWidth
+sim finished
+Unpass: 0
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 216ps; walltime 0.000 s; speed 533.333 ns/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB

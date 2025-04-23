@@ -1,0 +1,338 @@
+[
+  {
+    "scenario": "AllZerosInput00",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "CornerCaseUpperRight00",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "BottomRowSweep00",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "BottomRowSweep10",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "BottomRowSweep20",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "BottomRowSweep30",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "MiddleRowTransition00",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "MiddleRowTransition10",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MiddleRowTransition20",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "MiddleRowTransition30",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "LeftColumnDefinedOutputs00",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "LeftColumnDefinedOutputs10",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "LeftColumnDefinedOutputs20",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RightColumnAllOnes00",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RightColumnAllOnes10",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RightColumnAllOnes20",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RightColumnAllOnes30",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsPattern00",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsPattern10",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "BoundaryTransition00",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "BoundaryTransition10",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+input_vars:
+top->load = 0x1
+top->data = 0x5
+At 0 clock cycle of 7, top->tc = 0x1, expected = 0x0
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 5 clock cycle of 7, top->tc = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario BasicLoadAndCountdown
+input_vars:
+top->load = 0x1
+top->data = 0x5
+At 0 clock cycle of 8, top->tc = 0x1, expected = 0x0
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 6 clock cycle of 8, top->tc = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario LoadDuringCountdown
+input_vars:
+top->load = 0x1
+top->data = 0x3ff
+At 0 clock cycle of 1025, top->tc = 0x1, expected = 0x0
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 1023 clock cycle of 1025, top->tc = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario LoadMaximumValue
+input_vars:
+top->load = 0x1
+top->data = 0x1
+At 0 clock cycle of 3, top->tc = 0x1, expected = 0x0
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 1 clock cycle of 3, top->tc = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario LoadMinimumValue
+Test passed for scenario LoadZeroValue
+input_vars:
+top->load = 0x1
+top->data = 0x5
+At 0 clock cycle of 5, top->tc = 0x1, expected = 0x0
+Test failed,unpass = 1 for scenario ContinuousLoading
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 1 clock cycle of 8, top->tc = 0x0, expected = 0x1
+Test failed,unpass = 1 for scenario StayAtZero
+input_vars:
+top->load = 0x1
+top->data = 0x2
+At 0 clock cycle of 8, top->tc = 0x1, expected = 0x0
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 2 clock cycle of 8, top->tc = 0x0, expected = 0x1
+input_vars:
+top->load = 0x1
+top->data = 0x3
+At 4 clock cycle of 8, top->tc = 0x1, expected = 0x0
+input_vars:
+top->load = 0x0
+top->data = 0x0
+At 7 clock cycle of 8, top->tc = 0x0, expected = 0x1
+Test failed,unpass = 4 for scenario LoadAfterTerminalCount
+sim finished
+Unpass: 4
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 2ns; walltime 0.000 s; speed 5.458 us/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 4

@@ -1,0 +1,24 @@
+scenario: AllZeros
+description: Drive in = 8'b00000000 to verify parity output for input with no 1s
+
+scenario: AllOnes
+description: Drive in = 8'b11111111 to verify parity output for input with all 1s
+
+scenario: AlternatingBits
+description: Drive in = 8'b10101010 to test parity calculation with alternating 1s and 0s
+
+scenario: SingleBitHigh
+description: Drive in = 8'b00000001 to verify parity calculation with exactly one 1 bit
+
+scenario: TwoBitsHigh
+description: Drive in = 8'b00000011 to check parity calculation with exactly two adjacent 1 bits
+
+scenario: OddNumberOfOnes
+description: Drive in = 8'b11100000 to test parity generation with three 1 bits
+
+scenario: EvenNumberOfOnes
+description: Drive in = 8'b11110000 to verify parity generation with four 1 bits
+
+scenario: ScatteredBits
+description: Drive in = 8'b10010010 to test parity calculation with scattered 1 bits
+

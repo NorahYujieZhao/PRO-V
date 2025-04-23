@@ -1,0 +1,74 @@
+[
+    {
+        "scenario": "AllZeroInputs",
+        "input variable": [
+            {
+                "a": "000",
+                "b": "000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOneInputs",
+        "input variable": [
+            {
+                "a": "111",
+                "b": "111"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBitsComplementary",
+        "input variable": [
+            {
+                "a": "101",
+                "b": "010"
+            }
+        ]
+    },
+    {
+        "scenario": "OneHotA",
+        "input variable": [
+            {
+                "a": "100",
+                "b": "000"
+            }
+        ]
+    },
+    {
+        "scenario": "OneHotB",
+        "input variable": [
+            {
+                "a": "000",
+                "b": "010"
+            }
+        ]
+    },
+    {
+        "scenario": "MixedPattern1",
+        "input variable": [
+            {
+                "a": "110",
+                "b": "001"
+            }
+        ]
+    },
+    {
+        "scenario": "MixedPattern2",
+        "input variable": [
+            {
+                "a": "011",
+                "b": "100"
+            }
+        ]
+    },
+    {
+        "scenario": "LogicalORCheck",
+        "input variable": [
+            {
+                "a": "001",
+                "b": "100"
+            }
+        ]
+    }
+]

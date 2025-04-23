@@ -1,0 +1,341 @@
+[
+    {
+        "scenario": "BasicWalkingDirectionChange",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "bump_left": [
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "1",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "FallingBehavior",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "DiggingOperation",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "1",
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "1",
+                    "1",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "AsynchronousReset",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "PrecedenceRules",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "bump_left": [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "0",
+                    "1",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "BumpWhileFalling",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "BumpWhileDigging",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "1",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SimultaneousBumps",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "1",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "DigWhileFalling",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "bump_left": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "GroundEdgeTransitions",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "bump_left": [
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "bump_right": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "ground": [
+                    "1",
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "dig": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    }
+]

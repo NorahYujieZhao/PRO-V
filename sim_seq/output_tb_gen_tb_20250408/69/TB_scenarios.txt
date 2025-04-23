@@ -1,0 +1,24 @@
+scenario: State Transition x0
+description: Verify state transitions when x=0 for all valid present states 000 001 010 011 100 ensuring next state matches specification
+
+scenario: State Transition x1
+description: Verify state transitions when x=1 for all valid present states 000 001 010 011 100 ensuring next state matches specification
+
+scenario: Output z Verification
+description: Verify output z is 1 only for states 011 and 100 and 0 for all other states regardless of input x
+
+scenario: Y0 Output
+description: Verify Y0 output bit matches LSB of next state based on current state and x input combinations
+
+scenario: Clock Edge Behavior
+description: Verify state transitions occur only on positive clock edges and outputs remain stable between clock edges
+
+scenario: Invalid States
+description: Test behavior when y inputs are set to invalid states 101 110 111 to verify system response
+
+scenario: Rapid Input Changes
+description: Verify correct operation when x input changes rapidly between clock edges ensuring glitch free operation
+
+scenario: State Sequence
+description: Verify longer sequences of state transitions through multiple clock cycles match expected patterns
+

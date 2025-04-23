@@ -1,0 +1,370 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "BasicPatternDetection",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "1",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "PatternRestart",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "1",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ShiftStateTransitions",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "1",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "1",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "CountingStateBehavior",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "1",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "1",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "1",
+        "done": "0",
+        "counting": "1",
+        "shift_ena": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "WaitStateAcknowledge",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "1",
+        "done": "1",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "1",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "1",
+        "counting": "0",
+        "shift_ena": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "EarlyPatternAbort",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "1",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "1",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MultiplePatternAttempts",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "1",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "1",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "1",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "CompleteFlowVerification",
+    "output variable": [
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "1",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "1",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "1",
+        "Wait_next": "0",
+        "done": "0",
+        "counting": "0",
+        "shift_ena": "1"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "0",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "1",
+        "done": "0",
+        "counting": "1",
+        "shift_ena": "0"
+      },
+      {
+        "B3_next": "0",
+        "S_next": "1",
+        "S1_next": "0",
+        "Count_next": "0",
+        "Wait_next": "0",
+        "done": "1",
+        "counting": "0",
+        "shift_ena": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

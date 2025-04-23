@@ -1,0 +1,172 @@
+[
+    {
+        "scenario": "ResetOperation",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "1",
+                    "1",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "StayInStateA",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "areset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "TransitionAtoB",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "1",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "StayInStateB_x0",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "areset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "StayInStateB_x1",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "areset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleInputTransitions",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "areset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "1",
+                    "0",
+                    "1",
+                    "0",
+                    "1",
+                    "0",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetDuringOperation",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "areset": [
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "1",
+                    "1",
+                    "1",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ClockEdgeBehavior",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "areset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "1",
+                    "1",
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    }
+]

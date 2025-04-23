@@ -1,0 +1,24 @@
+scenario: InitialStateA
+description: Start from state A y000001 with input w0 and w1 to verify transitions to states A and B respectively
+
+scenario: StateB
+description: From state B y000010 test transitions with w0 to state D and w1 to state C
+
+scenario: StateC
+description: From state C y000100 verify transitions to state D w0 and state E w1
+
+scenario: StateD
+description: From state D y001000 check transitions back to A w0 and to F w1
+
+scenario: StateE
+description: From state E y010000 verify self loop with w1 and transition to D with w0
+
+scenario: StateF
+description: From state F y100000 test transitions to D w0 and C w1
+
+scenario: OneHotVerification
+description: Apply each valid one hot state pattern y000001 y000010 y000100 y001000 y010000 y100000 with both w0 and w1
+
+scenario: TransitionChaining
+description: Chain multiple valid transitions A to B to C to E testing both Y1 and Y3 signal paths
+

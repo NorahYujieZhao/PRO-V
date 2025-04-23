@@ -1,0 +1,93 @@
+[
+  {
+    "scenario": "Positive Number Extension",
+    "input variable": [
+      {
+        "in": "10110100"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10110100000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "Negative Number Extension",
+    "input variable": [
+      {
+        "in": "11011010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11011010000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "Maximum Positive Value",
+    "input variable": [
+      {
+        "in": "11111110"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11111110000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "Maximum Negative Value",
+    "input variable": [
+      {
+        "in": "10000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "Zero Value Extension",
+    "input variable": [
+      {
+        "in": "00000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "All Ones Value",
+    "input variable": [
+      {
+        "in": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11111111111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "Alternating Bits",
+    "input variable": [
+      {
+        "in": "10101010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10101010000000000000000000000000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,294 @@
+[
+  {
+    "scenario": "InitializeStateRegister",
+    "input variable": [
+      {
+        "clock cycles": 2,
+        "a": [
+          "1",
+          "0"
+        ],
+        "b": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 2,
+        "q": [
+          "1",
+          "0"
+        ],
+        "state": [
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StateZeroBehavior",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "a": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "b": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "state": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StateOneBehavior",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "a": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "b": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "state": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StateTransitionZeroToOne",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "a": [
+          "0",
+          "1",
+          "0"
+        ],
+        "b": [
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "q": [
+          "0",
+          "1",
+          "1"
+        ],
+        "state": [
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StateTransitionOneToZero",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "a": [
+          "1",
+          "0",
+          "0"
+        ],
+        "b": [
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "q": [
+          "1",
+          "1",
+          "0"
+        ],
+        "state": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ClockEdgeSensitivity",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "a": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "b": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "state": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "InputChangeTiming",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "a": [
+          "0",
+          "1",
+          "0"
+        ],
+        "b": [
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "q": [
+          "0",
+          "1",
+          "0"
+        ],
+        "state": [
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "a": [
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "b": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "0",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "state": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  }
+]

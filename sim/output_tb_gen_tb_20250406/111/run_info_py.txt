@@ -1,0 +1,122 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "SelectFirstSegment",
+    "output variable": [
+      {
+        "out": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectLastSegment",
+    "output variable": [
+      {
+        "out": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectMiddleSegment",
+    "output variable": [
+      {
+        "out": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "AdjacentSegments",
+    "output variable": [
+      {
+        "out": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_0",
+    "output variable": [
+      {
+        "out": "0101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_1",
+    "output variable": [
+      {
+        "out": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_2",
+    "output variable": [
+      {
+        "out": "0111"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_3",
+    "output variable": [
+      {
+        "out": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_4",
+    "output variable": [
+      {
+        "out": "1110"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_5",
+    "output variable": [
+      {
+        "out": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_6",
+    "output variable": [
+      {
+        "out": "0001"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_7",
+    "output variable": [
+      {
+        "out": "1110"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_8",
+    "output variable": [
+      {
+        "out": "1011"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_9",
+    "output variable": [
+      {
+        "out": "1001"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

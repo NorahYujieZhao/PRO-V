@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set both inputs a and b to 0 to verify the NOR gate produces correct output for the 00 input case
+
+scenario: InputAOneInputBZero
+description: Set input a to 1 and b to 0 to verify the NOR gate produces correct output for the 10 input case
+
+scenario: InputAZeroInputBOne
+description: Set input a to 0 and b to 1 to verify the NOR gate produces correct output for the 01 input case
+
+scenario: AllOneInputs
+description: Set both inputs a and b to 1 to verify the NOR gate produces correct output for the 11 input case
+
+scenario: AlternatingPatternOne
+description: Toggle input a between 0 and 1 while keeping b constant at 0 to verify input a transitions
+
+scenario: AlternatingPatternTwo
+description: Toggle input b between 0 and 1 while keeping a constant at 0 to verify input b transitions
+
+scenario: ComplementaryInputs
+description: Drive input a with 0101 pattern and b with 1010 pattern to verify opposing transitions
+
+scenario: SimultaneousTransitions
+description: Change both inputs a and b simultaneously from 00 to 11 to verify concurrent input handling
+

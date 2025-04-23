@@ -1,0 +1,240 @@
+[
+  {
+    "scenario": "FromStateA_Transitions0",
+    "input variable": [
+      {
+        "y": "000",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateA_Transitions1",
+    "input variable": [
+      {
+        "y": "000",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateB_Transitions0",
+    "input variable": [
+      {
+        "y": "001",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateB_Transitions1",
+    "input variable": [
+      {
+        "y": "001",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateC_Transitions0",
+    "input variable": [
+      {
+        "y": "010",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateC_Transitions1",
+    "input variable": [
+      {
+        "y": "010",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateD_Transitions0",
+    "input variable": [
+      {
+        "y": "011",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateD_Transitions1",
+    "input variable": [
+      {
+        "y": "011",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateE_Transitions0",
+    "input variable": [
+      {
+        "y": "100",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateE_Transitions1",
+    "input variable": [
+      {
+        "y": "100",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateF_Transitions0",
+    "input variable": [
+      {
+        "y": "101",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FromStateF_Transitions1",
+    "input variable": [
+      {
+        "y": "101",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTransitions0",
+    "input variable": [
+      {
+        "y": "000",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTransitions1",
+    "input variable": [
+      {
+        "y": "001",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTransitions2",
+    "input variable": [
+      {
+        "y": "011",
+        "w": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTransitions3",
+    "input variable": [
+      {
+        "y": "101",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTransitions4",
+    "input variable": [
+      {
+        "y": "011",
+        "w": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "Y2": "0"
+      }
+    ]
+  }
+]

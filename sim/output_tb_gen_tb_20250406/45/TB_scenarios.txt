@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Set inputs a b c d to 0000 corresponding to decimal 0 which should produce output 0
+
+scenario: AllOnesInput
+description: Set inputs a b c d to 1111 corresponding to decimal 15 which should produce output 1
+
+scenario: ValidOneOutput2
+description: Set inputs a b c d to 0010 corresponding to decimal 2 which should produce output 1
+
+scenario: ValidOneOutput7
+description: Set inputs a b c d to 0111 corresponding to decimal 7 which should produce output 1
+
+scenario: ValidZeroOutput4
+description: Set inputs a b c d to 0100 corresponding to decimal 4 which should produce output 0
+
+scenario: ValidZeroOutput13
+description: Set inputs a b c d to 1101 corresponding to decimal 13 which should produce output 0
+
+scenario: ValidZeroOutput10
+description: Set inputs a b c d to 1010 corresponding to decimal 10 which should produce output 0
+
+scenario: ValidZeroOutput6
+description: Set inputs a b c d to 0110 corresponding to decimal 6 which should produce output 0
+

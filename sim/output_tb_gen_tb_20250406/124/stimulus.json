@@ -1,0 +1,74 @@
+[
+    {
+        "scenario": "BasicOperation",
+        "input variable": [
+            {}
+        ]
+    },
+    {
+        "scenario": "ExtendedOperation",
+        "input variable": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "scenario": "LongTermOperation",
+        "input variable": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "scenario": "InitialState",
+        "input variable": [
+            {}
+        ]
+    },
+    {
+        "scenario": "ContinuousOperation",
+        "input variable": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {}
+        ]
+    }
+]

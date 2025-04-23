@@ -1,0 +1,114 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "A": "00",
+        "B": "00"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "A": "11",
+        "B": "11"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "MismatchZeroOne",
+    "input variable": [
+      {
+        "A": "00",
+        "B": "11"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MismatchOneZero",
+    "input variable": [
+      {
+        "A": "11",
+        "B": "00"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AdjacentValues",
+    "input variable": [
+      {
+        "A": "01",
+        "B": "10"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotA",
+    "input variable": [
+      {
+        "A": "10",
+        "B": "01"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MidrangeEqual",
+    "input variable": [
+      {
+        "A": "01",
+        "B": "01"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "input variable": [
+      {
+        "A": "10",
+        "B": "10"
+      }
+    ],
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  }
+]

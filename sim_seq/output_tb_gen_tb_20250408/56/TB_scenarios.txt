@@ -1,0 +1,24 @@
+scenario: Rising Edge Data Capture
+description: Apply input changes before rising clock edge and verify data is captured correctly on the rising edge
+
+scenario: Falling Edge Data Capture
+description: Apply input changes before falling clock edge and verify data is captured correctly on the falling edge
+
+scenario: Rapid Input Changes
+description: Change input data rapidly between clock edges to verify only clock edge triggered captures occur
+
+scenario: Clock Edge Setup Time
+description: Verify data changes meet setup time requirements before both rising and falling clock edges
+
+scenario: Clock Edge Hold Time
+description: Verify data remains stable for required hold time after both rising and falling clock edges
+
+scenario: Alternating Edge Capture
+description: Verify consecutive data captures on alternating clock edges function correctly
+
+scenario: High Frequency Operation
+description: Test flip flop operation at maximum specified clock frequency with varying data patterns
+
+scenario: Initial Power Up State
+description: Verify the initial output state of the flip flop after power up
+

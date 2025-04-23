@@ -1,0 +1,274 @@
+[
+    {
+        "scenario": "InitialResetBehavior",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "0",
+                    "0",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "000",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "NoRequestsIdleState",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "000",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SingleRequestDevice1",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "100",
+                    "100",
+                    "100"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SingleRequestDevice2",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "010",
+                    "010",
+                    "010"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SingleRequestDevice3",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "001",
+                    "001",
+                    "001"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "PriorityCheckDevice1Over2",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "110",
+                    "110",
+                    "110"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "PriorityCheckDevice1Over3",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "101",
+                    "101",
+                    "101"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "PriorityCheckDevice2Over3",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "011",
+                    "011",
+                    "011"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "AllRequestsActive",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "111",
+                    "111",
+                    "111"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "GrantPersistenceDevice1",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "100",
+                    "100",
+                    "100",
+                    "100",
+                    "100"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "GrantPersistenceDevice2",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "010",
+                    "010",
+                    "010",
+                    "010",
+                    "010"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ReleaseGrantDevice1",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "100",
+                    "100",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ReleaseGrantDevice2",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "r": [
+                    "000",
+                    "010",
+                    "010",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    }
+]

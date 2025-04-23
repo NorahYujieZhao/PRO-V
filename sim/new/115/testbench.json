@@ -1,0 +1,258 @@
+[
+  {
+    "scenario": "BasicCase10",
+    "input variable": [
+      {
+        "a": "00000001",
+        "b": "11111111",
+        "c": "11111111",
+        "d": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "AllEqual0",
+    "input variable": [
+      {
+        "a": "10101010",
+        "b": "10101010",
+        "c": "10101010",
+        "d": "10101010"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "10101010"
+      }
+    ]
+  },
+  {
+    "scenario": "BoundaryZeros0",
+    "input variable": [
+      {
+        "a": "00000000",
+        "b": "00000000",
+        "c": "00000000",
+        "d": "00000000"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "BoundaryMax0",
+    "input variable": [
+      {
+        "a": "11111111",
+        "b": "11111111",
+        "c": "11111111",
+        "d": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "MultipleEqual0",
+    "input variable": [
+      {
+        "a": "00000010",
+        "b": "00000001",
+        "c": "00000010",
+        "d": "00000010"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "Sequential0",
+    "input variable": [
+      {
+        "a": "00000100",
+        "b": "00000011",
+        "c": "00000010",
+        "d": "00000001"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "Random10",
+    "input variable": [
+      {
+        "a": "10111101",
+        "b": "01000001",
+        "c": "11100011",
+        "d": "00000110"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00000110"
+      }
+    ]
+  },
+  {
+    "scenario": "Random20",
+    "input variable": [
+      {
+        "a": "11001110",
+        "b": "01111100",
+        "c": "00110110",
+        "d": "11000010"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00110110"
+      }
+    ]
+  },
+  {
+    "scenario": "Random30",
+    "input variable": [
+      {
+        "a": "10101111",
+        "b": "01111011",
+        "c": "01111010",
+        "d": "01000101"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "01000101"
+      }
+    ]
+  },
+  {
+    "scenario": "Random40",
+    "input variable": [
+      {
+        "a": "01111110",
+        "b": "11100101",
+        "c": "10011100",
+        "d": "10110101"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "01111110"
+      }
+    ]
+  },
+  {
+    "scenario": "Random50",
+    "input variable": [
+      {
+        "a": "11011101",
+        "b": "11101011",
+        "c": "00000011",
+        "d": "11100001"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00000011"
+      }
+    ]
+  },
+  {
+    "scenario": "Random60",
+    "input variable": [
+      {
+        "a": "11100111",
+        "b": "00001010",
+        "c": "10011110",
+        "d": "11001111"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00001010"
+      }
+    ]
+  },
+  {
+    "scenario": "Random70",
+    "input variable": [
+      {
+        "a": "00101101",
+        "b": "10001111",
+        "c": "10001000",
+        "d": "01101100"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00101101"
+      }
+    ]
+  },
+  {
+    "scenario": "Random80",
+    "input variable": [
+      {
+        "a": "11100011",
+        "b": "11000111",
+        "c": "00101101",
+        "d": "11010110"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00101101"
+      }
+    ]
+  },
+  {
+    "scenario": "Random90",
+    "input variable": [
+      {
+        "a": "01000100",
+        "b": "01000011",
+        "c": "01011100",
+        "d": "01111011"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "01000011"
+      }
+    ]
+  },
+  {
+    "scenario": "Random100",
+    "input variable": [
+      {
+        "a": "10010011",
+        "b": "01110000",
+        "c": "00111011",
+        "d": "11010111"
+      }
+    ],
+    "output variable": [
+      {
+        "min": "00111011"
+      }
+    ]
+  }
+]

@@ -1,0 +1,218 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "InputCombination_0000",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0001",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0010",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0011",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0100",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0101",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0110",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_0111",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1000",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1001",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1010",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1011",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1100",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1101",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1110",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputCombination_1111",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOnes",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingZeros",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomCases",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

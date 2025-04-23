@@ -1,0 +1,24 @@
+scenario: AllZeroInput
+description: Drive input a = 3'b000 to verify the output matches the expected value 16'h1232
+
+scenario: AllOneInput
+description: Drive input a = 3'b111 to verify the output matches the expected value 16'h2f19
+
+scenario: AlternatingBits
+description: Drive input a = 3'b101 to test alternating bit pattern input value
+
+scenario: SequentialIncrement
+description: Increment input a from 000 to 111 sequentially to verify all output transitions
+
+scenario: SequentialDecrement
+description: Decrement input a from 111 to 000 sequentially to verify all output transitions in reverse
+
+scenario: RandomTransitions
+description: Apply random valid input values to test arbitrary transitions between states
+
+scenario: RepeatedValues
+description: Apply same input value multiple times consecutively to verify stable output
+
+scenario: GrayCodeTransitions
+description: Apply inputs in gray code sequence to test single bit changes 000 001 011 010 110 111 101 100
+

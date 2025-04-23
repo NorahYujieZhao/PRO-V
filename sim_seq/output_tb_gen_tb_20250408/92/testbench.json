@@ -1,0 +1,423 @@
+[
+  {
+    "scenario": "InitialResetBehavior",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "000",
+          "000",
+          "000"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "000",
+          "000",
+          "000"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "NoRequestsIdleState",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "000",
+          "000",
+          "000"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "000",
+          "000",
+          "000"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SingleRequestDevice1",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SingleRequestDevice2",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "010",
+          "010",
+          "010"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "010",
+          "010",
+          "010"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SingleRequestDevice3",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "001",
+          "001",
+          "001"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "001",
+          "001",
+          "001"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "PriorityCheckDevice1Over2",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "110",
+          "110",
+          "110"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "010",
+          "010",
+          "010"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "PriorityCheckDevice1Over3",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "101",
+          "101",
+          "101"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "001",
+          "001",
+          "001"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "PriorityCheckDevice2Over3",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "011",
+          "011",
+          "011"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "001",
+          "001",
+          "001"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "AllRequestsActive",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "111",
+          "111",
+          "111"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "g": [
+          "000",
+          "001",
+          "001",
+          "001"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "GrantPersistenceDevice1",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "g": [
+          "000",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "GrantPersistenceDevice2",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "010",
+          "010",
+          "010",
+          "010",
+          "010"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "g": [
+          "000",
+          "010",
+          "010",
+          "010",
+          "010",
+          "010"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ReleaseGrantDevice1",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "100",
+          "100",
+          "000",
+          "000"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "g": [
+          "000",
+          "100",
+          "100",
+          "000",
+          "000"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ReleaseGrantDevice2",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r": [
+          "000",
+          "010",
+          "010",
+          "000",
+          "000"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "g": [
+          "000",
+          "010",
+          "010",
+          "000",
+          "000"
+        ]
+      }
+    ]
+  }
+]

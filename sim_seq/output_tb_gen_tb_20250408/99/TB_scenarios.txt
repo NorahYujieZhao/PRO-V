@@ -1,0 +1,21 @@
+scenario: Basic Data Capture
+description: Apply different input data values and verify correct capture on negative clock edge when reset is inactive
+
+scenario: Synchronous Reset Operation
+description: Assert reset signal and verify all flip flops synchronously reset to 0x34 on next negative clock edge
+
+scenario: Data Change During Reset
+description: Change input data while reset is active and verify outputs remain at 0x34 regardless of input changes
+
+scenario: Reset Deactivation
+description: Deactivate reset and verify flip flops resume normal operation by capturing input data on next negative clock edge
+
+scenario: Setup Time Verification
+description: Verify data is properly captured when changed just before the negative clock edge meeting setup time requirements
+
+scenario: Hold Time Verification
+description: Verify data is properly captured when held stable just after the negative clock edge meeting hold time requirements
+
+scenario: Input Boundary Values
+description: Test with input values 0x00 and 0xFF to verify proper handling of minimum and maximum 8bit values
+

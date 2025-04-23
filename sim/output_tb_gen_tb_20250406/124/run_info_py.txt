@@ -1,0 +1,176 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "BasicOperation",
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ExtendedOperation",
+    "output variable": [
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermOperation",
+    "output variable": [
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "InitialState",
+    "output variable": [
+      {
+        "one": 1
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousOperation",
+    "output variable": [
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      },
+      {
+        "one": 1
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

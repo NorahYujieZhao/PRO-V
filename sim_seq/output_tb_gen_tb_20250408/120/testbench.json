@@ -1,0 +1,333 @@
+[
+  {
+    "scenario": "BasicShiftOperation",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "in": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "out": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ResetOperation",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "in": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "clock cycles": 2,
+        "in": [
+          "1",
+          "1"
+        ],
+        "resetn": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "clock cycles": 4,
+        "in": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "out": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "clock cycles": 2,
+        "out": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "clock cycles": 4,
+        "out": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ContinuousInputStream",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "in": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "out": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ResetRelease",
+    "input variable": [
+      {
+        "clock cycles": 2,
+        "in": [
+          "0",
+          "0"
+        ],
+        "resetn": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "clock cycles": 6,
+        "in": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 2,
+        "out": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "clock cycles": 6,
+        "out": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SetupTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "in": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "out": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "HoldTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "in": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "out": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ClockEdgeResponse",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "in": [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "resetn": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "out": [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  }
+]

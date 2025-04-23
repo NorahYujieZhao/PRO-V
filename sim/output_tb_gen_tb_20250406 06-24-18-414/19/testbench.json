@@ -1,0 +1,114 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "in": "0000000000000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "00000000",
+        "out_lo": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "in": "1111111111111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "11111111",
+        "out_lo": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "UpperByteOnly",
+    "input variable": [
+      {
+        "in": "1111111100000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "11111111",
+        "out_lo": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "LowerByteOnly",
+    "input variable": [
+      {
+        "in": "0000000011111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "00000000",
+        "out_lo": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsUpper",
+    "input variable": [
+      {
+        "in": "1010101000000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "10101010",
+        "out_lo": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsLower",
+    "input variable": [
+      {
+        "in": "0000000001010101"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "00000000",
+        "out_lo": "01010101"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBytes",
+    "input variable": [
+      {
+        "in": "0101010101010101"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "01010101",
+        "out_lo": "01010101"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplementaryBytes",
+    "input variable": [
+      {
+        "in": "1010010101011010"
+      }
+    ],
+    "output variable": [
+      {
+        "out_hi": "10100101",
+        "out_lo": "01011010"
+      }
+    ]
+  }
+]

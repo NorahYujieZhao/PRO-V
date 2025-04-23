@@ -1,0 +1,74 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "out": "1111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "out": "1111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern",
+    "output variable": [
+      {
+        "out": "1010101010101010101010101"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneHot",
+    "output variable": [
+      {
+        "out": "1000001111011110111101111"
+      }
+    ]
+  },
+  {
+    "scenario": "InvertedOneHot",
+    "output variable": [
+      {
+        "out": "1000001111011110111101111"
+      }
+    ]
+  },
+  {
+    "scenario": "TwobitGroups",
+    "output variable": [
+      {
+        "out": "1100011000001110011100111"
+      }
+    ]
+  },
+  {
+    "scenario": "ThreeBitGroups",
+    "output variable": [
+      {
+        "out": "1110011100111000001100011"
+      }
+    ]
+  },
+  {
+    "scenario": "CheckerboardPattern",
+    "output variable": [
+      {
+        "out": "1010001011101000101101011"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

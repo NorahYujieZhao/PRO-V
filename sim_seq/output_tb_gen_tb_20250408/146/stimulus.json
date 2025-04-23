@@ -1,0 +1,184 @@
+[
+    {
+        "scenario": "ResetStateVerification",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "reset": [
+                    "1",
+                    "1",
+                    "0"
+                ],
+                "s": [
+                    "000",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "WaterLevelAboveHighestSensor",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "reset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "111",
+                    "111",
+                    "111"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "WaterLevelBetweenS3andS2",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "reset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "011",
+                    "011",
+                    "011"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "WaterLevelBetweenS2andS1",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "reset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "001",
+                    "001",
+                    "001"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "WaterLevelBelowS1",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "reset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "000",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "RisingWaterLevelTransition",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "000",
+                    "000",
+                    "001",
+                    "001"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "FallingWaterLevelTransition",
+        "input variable": [
+            {
+                "clock cycles": 4,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "111",
+                    "111",
+                    "011",
+                    "011"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleLevelChanges",
+        "input variable": [
+            {
+                "clock cycles": 8,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "000",
+                    "001",
+                    "011",
+                    "111",
+                    "011",
+                    "001",
+                    "000",
+                    "000"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetDuringOperation",
+        "input variable": [
+            {
+                "clock cycles": 6,
+                "reset": [
+                    "0",
+                    "0",
+                    "1",
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "s": [
+                    "011",
+                    "011",
+                    "011",
+                    "011",
+                    "011",
+                    "011"
+                ]
+            }
+        ]
+    }
+]

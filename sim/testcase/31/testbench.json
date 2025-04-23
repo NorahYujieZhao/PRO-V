@@ -1,0 +1,285 @@
+[
+  {
+    "scenario": "BasicLoadOperation",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "L": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "q_in": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "r_in": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "Q": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "HoldPreviousValue",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "L": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "q_in": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "r_in": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "Q": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "InputSwitching",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "L": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "q_in": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "r_in": [
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "Q": [
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ClockEdgeSensitivity",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "L": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "q_in": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ],
+        "r_in": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "Q": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SetupTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "L": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "q_in": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "r_in": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "Q": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "HoldTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "L": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "q_in": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ],
+        "r_in": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "Q": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "InputToggleRate",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "L": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "q_in": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "r_in": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "Q": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  }
+]

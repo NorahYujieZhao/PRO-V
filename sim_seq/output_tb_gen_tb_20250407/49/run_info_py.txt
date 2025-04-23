@@ -1,0 +1,107 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "All Zeros Input",
+    "output variable": [
+      {
+        "out": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "All Ones Input",
+    "output variable": [
+      {
+        "out": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "Single One",
+    "output variable": [
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "Alternating Bits",
+    "output variable": [
+      {
+        "out": "10000000"
+      }
+    ]
+  },
+  {
+    "scenario": "Random Distribution",
+    "output variable": [
+      {
+        "out": "01101111"
+      }
+    ]
+  },
+  {
+    "scenario": "Walking Ones",
+    "output variable": [
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "Sparse Pattern",
+    "output variable": [
+      {
+        "out": "00011001"
+      }
+    ]
+  },
+  {
+    "scenario": "Dense Pattern",
+    "output variable": [
+      {
+        "out": "11100110"
+      }
+    ]
+  },
+  {
+    "scenario": "Block Patterns",
+    "output variable": [
+      {
+        "out": "00110010"
+      }
+    ]
+  }
+]
+
+
+###error:

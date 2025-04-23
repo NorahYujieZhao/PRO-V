@@ -1,0 +1,86 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "BothInputsZero",
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "XOnlyHigh",
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "YOnlyHigh",
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "BothInputsOne",
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "XTransitionLowToHigh",
+    "output variable": [
+      {
+        "z": "1"
+      },
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "YTransitionLowToHigh",
+    "output variable": [
+      {
+        "z": "1"
+      },
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "XTransitionHighToLow",
+    "output variable": [
+      {
+        "z": "1"
+      },
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "YTransitionHighToLow",
+    "output variable": [
+      {
+        "z": "1"
+      },
+      {
+        "z": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

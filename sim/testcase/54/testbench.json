@@ -1,0 +1,175 @@
+[
+  {
+    "scenario": "Basic Signal Propagation",
+    "input variable": [
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Input Stability",
+    "input variable": [
+      {
+        "in": "0"
+      },
+      {
+        "in": "0"
+      },
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Fast Toggle",
+    "input variable": [
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Power On State",
+    "input variable": [
+      {
+        "in": "0"
+      },
+      {
+        "in": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Propagation Delay",
+    "input variable": [
+      {
+        "in": "0"
+      },
+      {
+        "in": "1"
+      },
+      {
+        "in": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "scenario": "Basic Heating Mode Operation",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "1",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      },
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Basic Cooling Mode Operation",
+    "input variable": [
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      },
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Manual Fan Control",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "1"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "1"
+      },
+      {
+        "mode": "1",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Mode Switching",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      },
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      },
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Invalid Temperature Combinations",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "1",
+        "fan_on": "0"
+      },
+      {
+        "mode": "0",
+        "too_cold": "1",
+        "too_hot": "1",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Fan Priority Check",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "1"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Rapid Mode Switching",
+    "input variable": [
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      },
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      },
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "1",
+        "fan": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "All Inputs Toggling",
+    "input variable": [
+      {
+        "mode": "0",
+        "too_cold": "0",
+        "too_hot": "0",
+        "fan_on": "0"
+      },
+      {
+        "mode": "1",
+        "too_cold": "1",
+        "too_hot": "1",
+        "fan_on": "1"
+      },
+      {
+        "mode": "0",
+        "too_cold": "1",
+        "too_hot": "0",
+        "fan_on": "1"
+      },
+      {
+        "mode": "1",
+        "too_cold": "0",
+        "too_hot": "1",
+        "fan_on": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      },
+      {
+        "heater": "1",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "1"
+      },
+      {
+        "heater": "0",
+        "aircon": "0",
+        "fan": "0"
+      }
+    ]
+  }
+]

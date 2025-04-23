@@ -1,0 +1,222 @@
+[
+    {
+        "scenario": "InputLowStable",
+        "input variable": [
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "InputHighStable",
+        "input variable": [
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "LowToHighTransition",
+        "input variable": [
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "HighToLowTransition",
+        "input variable": [
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingPattern",
+        "input variable": [
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "FastToggling",
+        "input variable": [
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "SlowToggling",
+        "input variable": [
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomPattern",
+        "input variable": [
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "1"
+            },
+            {
+                "in": "0"
+            },
+            {
+                "in": "0"
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+scenario: Initial State Loading
+description: Assert load signal and verify data is correctly loaded into q register on the next clock edge
+
+scenario: Single Cell Evolution
+description: Load a single live cell and verify it dies due to underpopulation rule 0-1 neighbors
+
+scenario: Stable Pattern
+description: Load a 2x2 block pattern and verify it remains unchanged due to 2 neighbor rule
+
+scenario: Cell Birth
+description: Load a pattern where dead cells have exactly 3 neighbors and verify they become alive
+
+scenario: Overpopulation
+description: Load dense patterns where cells have 4 or more neighbors and verify they die
+
+scenario: Toroidal Edge Wrapping
+description: Test patterns at grid edges and corners to verify correct neighbor counting across wrapped boundaries
+
+scenario: Oscillator Pattern
+description: Load a blinker pattern and verify it oscillates between horizontal and vertical states
+
+scenario: All Cells Dead
+description: Load all zeros and verify state remains unchanged after multiple clock cycles
+
+scenario: All Cells Alive
+description: Load all ones and verify cells die due to overpopulation except potential survivors
+
+scenario: Multiple Generation Evolution
+description: Track complex pattern evolution over multiple clock cycles verifying correct state transitions
+

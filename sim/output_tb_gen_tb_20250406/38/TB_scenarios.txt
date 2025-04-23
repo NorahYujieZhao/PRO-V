@@ -1,0 +1,24 @@
+scenario: LeftArrowScancode
+description: Drive scancode with 16'he06b to verify correct assertion of left arrow signal while other outputs remain low
+
+scenario: DownArrowScancode
+description: Drive scancode with 16'he072 to verify correct assertion of down arrow signal while other outputs remain low
+
+scenario: RightArrowScancode
+description: Drive scancode with 16'he074 to verify correct assertion of right arrow signal while other outputs remain low
+
+scenario: UpArrowScancode
+description: Drive scancode with 16'he075 to verify correct assertion of up arrow signal while other outputs remain low
+
+scenario: AllZeroInput
+description: Drive scancode with 16'h0000 to verify all outputs remain low for invalid scancode
+
+scenario: AllOneInput
+description: Drive scancode with 16'hffff to verify all outputs remain low for invalid scancode
+
+scenario: AlternatingPattern
+description: Drive scancode with 16'h5555 to verify all outputs remain low for invalid scancode
+
+scenario: NearValidCode
+description: Drive scancode with values close to valid codes like 16'he06a and 16'he06c to verify proper discrimination
+

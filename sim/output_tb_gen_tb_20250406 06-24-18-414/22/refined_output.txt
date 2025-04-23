@@ -1,0 +1,10 @@
+False
+{'out': '', 'err': 'Traceback (most recent call last):\n  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/22/refined_code.py", line 91, in <module>\n    outputs.append( check_output(stimulus_list_scenario))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/22/refined_code.py", line 53, in check_output\n    clock_cycles = stimulus_list[\'clock cycles\']\n                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\nKeyError: \'clock cycles\'\n', 'haserror': 1}
+Traceback (most recent call last):
+  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/22/refined_code.py", line 91, in <module>
+    outputs.append( check_output(stimulus_list_scenario))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/22/refined_code.py", line 53, in check_output
+    clock_cycles = stimulus_list['clock cycles']
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'clock cycles'

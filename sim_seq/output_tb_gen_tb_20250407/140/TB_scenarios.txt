@@ -1,0 +1,23 @@
+scenario: All Zero Inputs
+description: Set inputs c and d to 0 and verify mux_in matches K map output pattern 0100
+
+scenario: C Only High
+description: Set c to 1 d to 0 and verify mux_in matches K map output pattern 1001
+
+scenario: D Only High
+description: Set c to 0 d to 1 and verify mux_in matches K map output pattern 1000
+
+scenario: Both Inputs High
+description: Set both c and d to 1 and verify mux_in matches K map output pattern 1011
+
+scenario: Input Transitions
+description: Apply varying transitions on c and d inputs and verify mux_in updates correctly according to K map patterns
+
+scenario: Setup Time Verification
+description: Verify input setup time requirements are met for stable mux_in generation
+
+scenario: Hold Time Verification
+description: Verify input hold time requirements are met for stable mux_in generation
+
+scenario: Glitch Detection
+description: Monitor mux_in signals for any unwanted transitions or glitches during input changes

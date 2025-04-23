@@ -1,0 +1,180 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeros",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "0",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "output variable": [
+      {
+        "out_and": "1",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneAtStart",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneAtMiddle",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneAtEnd",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleZeroInOnes",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_0",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_1",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_2",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_3",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_4",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_5",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_6",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_7",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_8",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern_9",
+    "output variable": [
+      {
+        "out_and": "0",
+        "out_or": "1",
+        "out_xor": "1"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

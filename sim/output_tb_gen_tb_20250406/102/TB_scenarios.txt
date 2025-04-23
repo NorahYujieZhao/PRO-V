@@ -1,0 +1,24 @@
+scenario: BothInputsZero
+description: Set x=0 and y=0 to verify the output behavior when both inputs are low as shown in first 20ns
+
+scenario: XOnlyHigh
+description: Set x=1 and y=0 to test the case where only x is high as shown around 25ns
+
+scenario: YOnlyHigh
+description: Set x=0 and y=1 to test the case where only y is high as shown around 35ns
+
+scenario: BothInputsOne
+description: Set x=1 and y=1 to verify the output behavior when both inputs are high as shown around 45ns
+
+scenario: XTransitionLowToHigh
+description: Toggle x from 0 to 1 while keeping y constant to verify x transitions as shown around 25ns
+
+scenario: YTransitionLowToHigh
+description: Toggle y from 0 to 1 while keeping x constant to verify y transitions as shown around 35ns
+
+scenario: XTransitionHighToLow
+description: Toggle x from 1 to 0 while keeping y constant to verify x transitions as shown around 55ns
+
+scenario: YTransitionHighToLow
+description: Toggle y from 1 to 0 while keeping x constant to verify y transitions as shown around 90ns
+

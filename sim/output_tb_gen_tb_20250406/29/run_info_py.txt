@@ -1,0 +1,116 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "SelectInputB",
+    "output variable": [
+      {
+        "q": "1010"
+      },
+      {
+        "q": "0011"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectInputE",
+    "output variable": [
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1100"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectInputA",
+    "output variable": [
+      {
+        "q": "1010"
+      },
+      {
+        "q": "0110"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectInputD",
+    "output variable": [
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1100"
+      }
+    ]
+  },
+  {
+    "scenario": "DefaultOutput",
+    "output variable": [
+      {
+        "q": "1111"
+      },
+      {
+        "q": "1111"
+      }
+    ]
+  },
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "q": "0000"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnesInputs",
+    "output variable": [
+      {
+        "q": "1111"
+      },
+      {
+        "q": "1111"
+      },
+      {
+        "q": "1111"
+      },
+      {
+        "q": "1111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPatterns",
+    "output variable": [
+      {
+        "q": "0101"
+      },
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1010"
+      },
+      {
+        "q": "0101"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

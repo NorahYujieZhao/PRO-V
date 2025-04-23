@@ -1,0 +1,24 @@
+scenario: Single Bit Rising Edge
+description: Test individual bits transitioning from 0 to 1 while other bits remain stable to verify correct edge detection for isolated changes
+
+scenario: Single Bit Falling Edge
+description: Test individual bits transitioning from 1 to 0 while other bits remain stable to verify correct edge detection for isolated changes
+
+scenario: Multiple Simultaneous Edges
+description: Change multiple bits simultaneously in both rising and falling transitions to verify correct detection of concurrent edges
+
+scenario: Consecutive Transitions
+description: Apply back to back transitions on same bits across multiple clock cycles to verify edge detection works continuously
+
+scenario: Alternating Bit Patterns
+description: Toggle between different bit patterns every clock cycle to verify edge detection across all bits
+
+scenario: Stable Input
+description: Maintain stable input values for multiple clock cycles to verify no false edge detections occur
+
+scenario: Walking Ones Pattern
+description: Shift a single 1 across all bit positions to verify edge detection works for each bit position
+
+scenario: Walking Zeros Pattern
+description: Shift a single 0 across all bit positions to verify edge detection works for each bit position
+

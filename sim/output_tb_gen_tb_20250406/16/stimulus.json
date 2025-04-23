@@ -1,0 +1,380 @@
+[
+    {
+        "scenario": "InitialStateA_TransitionToB",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "StateB_TransitionToC",
+        "input variable": [
+            {
+                "y": "000010",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "StateB_TransitionToD",
+        "input variable": [
+            {
+                "y": "000010",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "StateC_TransitionToE",
+        "input variable": [
+            {
+                "y": "000100",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "StateC_TransitionToD",
+        "input variable": [
+            {
+                "y": "000100",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "StateD_TransitionToF",
+        "input variable": [
+            {
+                "y": "001000",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "StateD_TransitionToA",
+        "input variable": [
+            {
+                "y": "001000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "StateE_SelfLoop",
+        "input variable": [
+            {
+                "y": "010000",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "StateE_TransitionToD",
+        "input variable": [
+            {
+                "y": "010000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "StateF_TransitionToC",
+        "input variable": [
+            {
+                "y": "100000",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "StateF_TransitionToD",
+        "input variable": [
+            {
+                "y": "100000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "LongSequenceTest",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "1"
+            },
+            {
+                "y": "010000",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "1"
+            },
+            {
+                "y": "100000",
+                "w": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_0",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_1",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_2",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_3",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_4",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_5",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_6",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "1"
+            },
+            {
+                "y": "100000",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_7",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "1"
+            },
+            {
+                "y": "010000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_8",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "1"
+            },
+            {
+                "y": "100000",
+                "w": "0"
+            },
+            {
+                "y": "001000",
+                "w": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomSequence_9",
+        "input variable": [
+            {
+                "y": "000001",
+                "w": "0"
+            },
+            {
+                "y": "000001",
+                "w": "1"
+            },
+            {
+                "y": "000010",
+                "w": "1"
+            },
+            {
+                "y": "000100",
+                "w": "1"
+            },
+            {
+                "y": "010000",
+                "w": "1"
+            }
+        ]
+    }
+]

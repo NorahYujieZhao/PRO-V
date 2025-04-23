@@ -1,0 +1,96 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.002 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario BasicWalkingAndBumping
+Test passed for scenario FallingBehavior
+Test passed for scenario ResetBehavior
+Test passed for scenario BumpingWhileFalling
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 4 clock cycle of 10, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 4 clock cycle of 10, top->walk_right = 0x0, expected = 0x1
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x0
+top->bump_right = 0x0
+top->ground = 0x1
+At 5 clock cycle of 10, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x0
+top->bump_right = 0x0
+top->ground = 0x1
+At 5 clock cycle of 10, top->walk_right = 0x0, expected = 0x1
+Test failed,unpass = 4 for scenario BothSidesBumping
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 17 clock cycle of 20, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 17 clock cycle of 20, top->walk_right = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario RandomTest0
+Test passed for scenario RandomTest1
+Test passed for scenario RandomTest2
+Test passed for scenario RandomTest3
+Test passed for scenario RandomTest4
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 12 clock cycle of 20, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 12 clock cycle of 20, top->walk_right = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario RandomTest5
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 4 clock cycle of 20, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 4 clock cycle of 20, top->walk_right = 0x0, expected = 0x1
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 19 clock cycle of 20, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->areset = 0x0
+top->bump_left = 0x1
+top->bump_right = 0x1
+top->ground = 0x1
+At 19 clock cycle of 20, top->walk_right = 0x0, expected = 0x1
+Test failed,unpass = 4 for scenario RandomTest6
+Test passed for scenario RandomTest7
+Test passed for scenario RandomTest8
+Test passed for scenario RandomTest9
+sim finished
+Unpass: 0

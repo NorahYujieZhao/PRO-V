@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Drive in[3:0] = 0000 to verify ground state behavior of all three gates
+
+scenario: AllOneInputs
+description: Drive in[3:0] = 1111 to test saturation behavior of all three gates
+
+scenario: SingleOneInput
+description: Drive in[3:0] = 0001 to verify behavior when only one input bit is high
+
+scenario: AlternatingBits
+description: Drive in[3:0] = 1010 to test gates response to alternating bit patterns
+
+scenario: InvertedAlternatingBits
+description: Drive in[3:0] = 0101 to test complementary alternating pattern
+
+scenario: UpperBitsOnly
+description: Drive in[3:0] = 1100 to test behavior when only upper bits are active
+
+scenario: LowerBitsOnly
+description: Drive in[3:0] = 0011 to test behavior when only lower bits are active
+
+scenario: SingleZeroInput
+description: Drive in[3:0] = 1110 to verify behavior when only one input bit is low
+

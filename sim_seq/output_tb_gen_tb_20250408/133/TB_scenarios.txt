@@ -1,0 +1,24 @@
+scenario: Basic State Transition OFF to ON
+description: Assert j=1 while in OFF state to verify transition to ON state with output changing to 1
+
+scenario: Basic State Transition ON to OFF
+description: Assert k=1 while in ON state to verify transition to OFF state with output changing to 0
+
+scenario: State Retention OFF
+description: Keep j=0 while in OFF state to verify state remains OFF with output staying at 0
+
+scenario: State Retention ON
+description: Keep k=0 while in ON state to verify state remains ON with output staying at 1
+
+scenario: Synchronous Reset
+description: Assert reset while in ON state and verify synchronous transition to OFF state on next clock edge
+
+scenario: Input Change at Clock Edge
+description: Change j and k inputs close to clock edge to verify proper setup and hold time behavior
+
+scenario: Multiple State Transitions
+description: Perform sequence of state transitions between ON and OFF to verify sustained correct operation
+
+scenario: Reset During Transition
+description: Assert reset during state transition to verify proper reset behavior overrides state change
+

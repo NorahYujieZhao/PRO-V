@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Set inputs a b c d to 0000 to verify the output is 0 at the origin of the Karnaugh map
+
+scenario: AllOnesInput
+description: Set inputs a b c d to 1111 to verify the output is 0 at the opposite corner of the Karnaugh map
+
+scenario: AlternatingBitsPattern
+description: Set inputs a b c d to 0101 to test the alternating pattern behavior where output should be 0
+
+scenario: ComplementaryAlternatingPattern
+description: Set inputs a b c d to 1010 to test the complementary alternating pattern where output should be 0
+
+scenario: SweepABWithCD00
+description: Keep c d fixed at 00 while sweeping a b through 00 01 11 10 to verify the alternating pattern 0 1 0 1
+
+scenario: SweepCDWithAB00
+description: Keep a b fixed at 00 while sweeping c d through 00 01 11 10 to verify the alternating pattern 0 1 0 1
+
+scenario: DiagonalTransition
+description: Test diagonal transitions in the Karnaugh map by setting inputs to 0000 then 1111 to verify opposite corner behavior
+
+scenario: AdjacentCellTransition
+description: Test adjacent cell transitions by setting inputs to 0000 then 0001 to verify output changes from 0 to 1
+

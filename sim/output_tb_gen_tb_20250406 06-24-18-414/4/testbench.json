@@ -1,0 +1,392 @@
+[
+  {
+    "scenario": "AllZeroInputs0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputAOnlyHigh0",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputBOnlyHigh0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs0",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleAKeepBLow0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleAKeepBLow1",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleAKeepBLow2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleAKeepBLow3",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleBKeepALow0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleBKeepALow1",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleBKeepALow2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleBKeepALow3",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs1",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs3",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns0",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns1",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns3",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns4",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns5",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns6",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns7",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns8",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns9",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  }
+]

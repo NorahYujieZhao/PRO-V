@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set a=0, b=0, c=0 to verify the only input combination that produces output 0
+
+scenario: AllOneInputs
+description: Set a=1, b=1, c=1 to verify output is 1 for maximum input value
+
+scenario: OnlyAHigh
+description: Set a=1, b=0, c=0 to verify output is 1 when only input a is high
+
+scenario: OnlyBHigh
+description: Set a=0, b=1, c=0 to verify output is 1 when only input b is high
+
+scenario: OnlyCHigh
+description: Set a=0, b=0, c=1 to verify output is 1 when only input c is high
+
+scenario: TwoInputsHigh
+description: Set a=1, b=1, c=0 to verify output is 1 when any two inputs are high
+
+scenario: AlternatingPattern
+description: Set a=1, b=0, c=1 to verify output is 1 with alternating input pattern
+
+scenario: ComplementPattern
+description: Set a=0, b=1, c=1 to verify output is 1 with another input combination
+

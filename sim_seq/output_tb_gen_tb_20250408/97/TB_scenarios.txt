@@ -1,0 +1,24 @@
+scenario: Synchronous Reset Verification
+description: Assert reset signal for one clock cycle and verify FSM enters state 000
+
+scenario: State Transition with Input X Zero
+description: Starting from each valid state verify next state transitions when x is 0 according to state table
+
+scenario: State Transition with Input X One
+description: Starting from each valid state verify next state transitions when x is 1 according to state table
+
+scenario: Output Z Generation
+description: Verify output z is 1 only in states 011 and 100 and 0 in all other states
+
+scenario: Multiple State Transitions
+description: Create sequence of x inputs to traverse through multiple states and verify correct state sequence
+
+scenario: Reset During Operation
+description: Assert reset while FSM is in various states and verify return to state 000
+
+scenario: Rapid Input Changes
+description: Toggle input x rapidly and verify FSM follows correct state transitions at clock edges only
+
+scenario: Setup and Hold Time
+description: Verify FSM captures input x correctly with respect to clock edge timing requirements
+

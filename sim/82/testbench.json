@@ -1,0 +1,171 @@
+[
+  {
+    "scenario": "Output0_Case100",
+    "input variable": [
+      {
+        "x": "0001"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output0_Case200",
+    "input variable": [
+      {
+        "x": "0110"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Output0_Case300",
+    "input variable": [
+      {
+        "x": "0100"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output0_Case400",
+    "input variable": [
+      {
+        "x": "1011"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output1_Case100",
+    "input variable": [
+      {
+        "x": "1100"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output1_Case200",
+    "input variable": [
+      {
+        "x": "1101"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Output1_Case300",
+    "input variable": [
+      {
+        "x": "1000"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output1_Case400",
+    "input variable": [
+      {
+        "x": "1001"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Output1_Case500",
+    "input variable": [
+      {
+        "x": "0111"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "TransitionSequence00",
+    "input variable": [
+      {
+        "x": "0001"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "TransitionSequence10",
+    "input variable": [
+      {
+        "x": "1000"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "TransitionSequence20",
+    "input variable": [
+      {
+        "x": "0110"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "TransitionSequence30",
+    "input variable": [
+      {
+        "x": "0111"
+      }
+    ],
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  }
+]

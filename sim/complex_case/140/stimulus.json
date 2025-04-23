@@ -1,0 +1,118 @@
+[
+    {
+        "scenario": "All Zero Inputs",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "C Only High",
+        "input variable": [
+            {
+                "c": "1",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "D Only High",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "Both Inputs High",
+        "input variable": [
+            {
+                "c": "1",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "Input Transitions",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            },
+            {
+                "c": "0",
+                "d": "1"
+            },
+            {
+                "c": "1",
+                "d": "1"
+            },
+            {
+                "c": "1",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "Setup Time Verification",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            },
+            {
+                "c": "1",
+                "d": "0"
+            },
+            {
+                "c": "1",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "Hold Time Verification",
+        "input variable": [
+            {
+                "c": "1",
+                "d": "1"
+            },
+            {
+                "c": "0",
+                "d": "1"
+            },
+            {
+                "c": "0",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "Glitch Detection",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            },
+            {
+                "c": "1",
+                "d": "0"
+            },
+            {
+                "c": "1",
+                "d": "1"
+            },
+            {
+                "c": "0",
+                "d": "1"
+            },
+            {
+                "c": "0",
+                "d": "0"
+            }
+        ]
+    }
+]

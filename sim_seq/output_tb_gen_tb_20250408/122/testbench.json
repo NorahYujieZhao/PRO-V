@@ -1,0 +1,286 @@
+[
+  {
+    "scenario": "InitialResetBehavior",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "areset": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ],
+        "j": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "k": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "out": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "OFFtoONTransition",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "areset": [
+          "0",
+          "0",
+          "0"
+        ],
+        "j": [
+          "0",
+          "1",
+          "1"
+        ],
+        "k": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "out": [
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ONtoOFFTransition",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "areset": [
+          "0",
+          "0",
+          "0"
+        ],
+        "j": [
+          "1",
+          "0",
+          "0"
+        ],
+        "k": [
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "out": [
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MaintainOFFState",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "areset": [
+          "0",
+          "0",
+          "0"
+        ],
+        "j": [
+          "0",
+          "0",
+          "0"
+        ],
+        "k": [
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "out": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MaintainONState",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "areset": [
+          "0",
+          "0",
+          "0"
+        ],
+        "j": [
+          "1",
+          "0",
+          "0"
+        ],
+        "k": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "out": [
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ResetDuringOperation",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "areset": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "j": [
+          "1",
+          "1",
+          "1",
+          "0"
+        ],
+        "k": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "out": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "InputChangesBetweenClocks",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "j": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "k": [
+          "0",
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "out": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SetupHoldTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "areset": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "j": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "k": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "out": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+scenario: LogicZero
+description: Drive input to logic 0 to verify basic low signal propagation
+
+scenario: LogicOne
+description: Drive input to logic 1 to verify basic high signal propagation
+
+scenario: ZeroToOne
+description: Transition input from 0 to 1 to verify rising edge propagation
+
+scenario: OneToZero
+description: Transition input from 1 to 0 to verify falling edge propagation
+
+scenario: FastToggling
+description: Toggle input rapidly between 0 and 1 to verify quick transitions
+
+scenario: StableZero
+description: Hold input at 0 for extended period to verify stable low output
+
+scenario: StableOne
+description: Hold input at 1 for extended period to verify stable high output
+
+scenario: AlternatingPattern
+description: Apply alternating 0 1 pattern to verify consistent signal propagation
+

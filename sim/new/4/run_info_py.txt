@@ -1,0 +1,154 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputAOnlyHigh",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputBOnlyHigh",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleAKeepBLow",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ToggleBKeepALow",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPatterns",
+    "output variable": [
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "1",
+        "out_alwaysblock": "1"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      },
+      {
+        "out_assign": "0",
+        "out_alwaysblock": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

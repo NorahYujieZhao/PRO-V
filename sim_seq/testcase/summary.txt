@@ -1,0 +1,227 @@
+Task: Prob001_zero, Classification: unambiguous
+Task: Prob002_m2014_q4i, Classification: unambiguous
+Task: Prob003_step_one, Classification: unambiguous
+Task: Prob004_vector2, Classification: unambiguous
+Task: Prob005_notgate, Classification: unambiguous
+Task: Prob006_vectorr, Classification: unambiguous
+Task: Prob007_wire, Classification: unambiguous
+Task: Prob008_m2014_q4h, Classification: unambiguous
+Task: Prob009_popcount3, Classification: unambiguous
+Task: Prob010_mt2015_q4a, Classification: unambiguous
+Task: Prob011_norgate, Classification: unambiguous
+Task: Prob012_xnorgate, Classification: unambiguous
+Task: Prob013_m2014_q4e, Classification: unambiguous
+Task: Prob014_andgate, Classification: unambiguous
+Task: Prob015_vector1, Classification: unambiguous
+Task: Prob016_m2014_q4j, Classification: unambiguous
+Task: Prob017_mux2to1v, Classification: unambiguous
+Task: Prob018_mux256to1, Classification: unambiguous
+Task: Prob019_m2014_q4f, Classification: unambiguous
+Task: Prob020_mt2015_eq2, Classification: unambiguous
+Task: Prob021_mux256to1v, Classification: unambiguous
+Task: Prob022_mux2to1, Classification: unambiguous
+Task: Prob023_vector100r, Classification: unambiguous
+Task: Prob024_hadd, Classification: unambiguous
+Task: Prob025_reduction, Classification: unambiguous
+Task: Prob026_alwaysblock1, Classification: unambiguous
+Task: Prob027_fadd, Classification: unambiguous
+Task: Prob028_m2014_q4a, Classification: ambiguous
+Task: Prob028_m2014_q4a, fix trial 1, Classification: ambiguous
+Task: Prob028_m2014_q4a, fix trial 2, Classification: unambiguous
+Task: Prob029_m2014_q4g, Classification: unambiguous
+Task: Prob030_popcount255, Classification: unambiguous
+Task: Prob031_dff, Classification: unambiguous
+Task: Prob032_vector0, Classification: unambiguous
+Task: Prob033_ece241_2014_q1c, Classification: unambiguous
+Task: Prob034_dff8, Classification: unambiguous
+Task: Prob035_count1to10, Classification: ambiguous
+Task: Prob035_count1to10, fix trial 1, Classification: unambiguous
+Task: Prob036_ringer, Classification: ambiguous
+Task: Prob036_ringer, fix trial 1, Classification: unambiguous
+Task: Prob037_review2015_count1k, Classification: unambiguous
+Task: Prob038_count15, Classification: unambiguous
+Task: Prob039_always_if, Classification: unambiguous
+Task: Prob040_count10, Classification: unambiguous
+Task: Prob041_dff8r, Classification: unambiguous
+Task: Prob042_vector4, Classification: unambiguous
+Task: Prob043_vector5, Classification: unambiguous
+Task: Prob044_vectorgates, Classification: unambiguous
+Task: Prob045_edgedetect2, Classification: unambiguous
+Task: Prob046_dff8p, Classification: unambiguous
+Task: Prob047_dff8ar, Classification: unambiguous
+Task: Prob048_m2014_q4c, Classification: unambiguous
+Task: Prob049_m2014_q4b, Classification: unambiguous
+Task: Prob050_kmap1, Classification: unambiguous
+Task: Prob051_gates4, Classification: unambiguous
+Task: Prob052_gates100, Classification: unambiguous
+Task: Prob053_m2014_q4d, Classification: unambiguous
+Task: Prob054_edgedetect, Classification: unambiguous
+Task: Prob055_conditional, Classification: unambiguous
+Task: Prob056_ece241_2013_q7, Classification: ambiguous
+Task: Prob056_ece241_2013_q7, fix trial 1, Classification: unambiguous
+Task: Prob057_kmap2, Classification: unambiguous
+Task: Prob058_alwaysblock2, Classification: unambiguous
+Task: Prob059_wire4, Classification: unambiguous
+Task: Prob060_m2014_q4k, Classification: unambiguous
+Task: Prob061_2014_q4a, Classification: ambiguous
+Task: Prob061_2014_q4a, fix trial 1, Classification: unambiguous
+Task: Prob062_bugs_mux2, Classification: ambiguous
+Task: Prob062_bugs_mux2, fix trial 1, Classification: unambiguous
+Task: Prob063_review2015_shiftcount, Classification: ambiguous
+Task: Prob063_review2015_shiftcount, fix trial 1, Classification: ambiguous
+Task: Prob063_review2015_shiftcount, fix trial 2, Classification: ambiguous
+Task: Prob063_review2015_shiftcount, fix trial 3, Classification: ambiguous
+Task: Prob063_review2015_shiftcount, fix trial 4, Classification: unambiguous
+Task: Prob064_vector3, Classification: unambiguous
+Task: Prob065_7420, Classification: unambiguous
+Task: Prob066_edgecapture, Classification: unambiguous
+Task: Prob067_countslow, Classification: ambiguous
+Task: Prob067_countslow, fix trial 1, Classification: unambiguous
+Task: Prob068_countbcd, Classification: ambiguous
+Task: Prob068_countbcd, fix trial 1, Classification: unambiguous
+Task: Prob069_truthtable1, Classification: unambiguous
+Task: Prob070_ece241_2013_q2, Classification: unambiguous
+Task: Prob071_always_casez, Classification: unambiguous
+Task: Prob072_thermostat, Classification: ambiguous
+Task: Prob072_thermostat, fix trial 1, Classification: ambiguous
+Task: Prob072_thermostat, fix trial 2, Classification: unambiguous
+Task: Prob073_dff16e, Classification: unambiguous
+Task: Prob074_ece241_2014_q4, Classification: unambiguous
+Task: Prob075_counter_2bc, Classification: unambiguous
+Task: Prob076_always_case, Classification: unambiguous
+Task: Prob077_wire_decl, Classification: unambiguous
+Task: Prob078_dualedge, Classification: ambiguous
+Task: Prob078_dualedge, fix trial 1, Classification: ambiguous
+Task: Prob078_dualedge, fix trial 2, Classification: ambiguous
+Task: Prob078_dualedge, fix trial 3, Classification: ambiguous
+Task: Prob078_dualedge, fix trial 4, Classification: unambiguous
+Task: Prob079_fsm3onehot, Classification: unambiguous
+Task: Prob080_timer, Classification: ambiguous
+Task: Prob080_timer, fix trial 1, Classification: unambiguous
+Task: Prob081_7458, Classification: unambiguous
+Task: Prob082_lfsr32, Classification: unambiguous
+Task: Prob083_mt2015_q4b, Classification: ambiguous
+Task: Prob083_mt2015_q4b, fix trial 1, Classification: unambiguous
+Task: Prob084_ece241_2013_q12, Classification: unambiguous
+Task: Prob085_shift4, Classification: unambiguous
+Task: Prob086_lfsr5, Classification: unambiguous
+Task: Prob087_gates, Classification: unambiguous
+Task: Prob088_ece241_2014_q5b, Classification: unambiguous
+Task: Prob089_ece241_2014_q5a, Classification: ambiguous
+Task: Prob089_ece241_2014_q5a, fix trial 1, Classification: ambiguous
+Task: Prob089_ece241_2014_q5a, fix trial 2, Classification: unambiguous
+Task: Prob090_circuit1, Classification: unambiguous
+Task: Prob091_2012_q2b, Classification: unambiguous
+Task: Prob092_gatesv100, Classification: unambiguous
+Task: Prob093_ece241_2014_q3, Classification: unambiguous
+Task: Prob094_gatesv, Classification: ambiguous
+Task: Prob094_gatesv, fix trial 1, Classification: unambiguous
+Task: Prob095_review2015_fsmshift, Classification: ambiguous
+Task: Prob095_review2015_fsmshift, fix trial 1, Classification: unambiguous
+Task: Prob096_review2015_fsmseq, Classification: ambiguous
+Task: Prob096_review2015_fsmseq, fix trial 1, Classification: unambiguous
+Task: Prob097_mux9to1v, Classification: unambiguous
+Task: Prob098_circuit7, Classification: unambiguous
+Task: Prob099_m2014_q6c, Classification: ambiguous
+Task: Prob099_m2014_q6c, fix trial 1, Classification: unambiguous
+Task: Prob100_fsm3comb, Classification: unambiguous
+Task: Prob101_circuit4, Classification: unambiguous
+Task: Prob102_circuit3, Classification: unambiguous
+Task: Prob103_circuit2, Classification: unambiguous
+Task: Prob104_mt2015_muxdff, Classification: unambiguous
+Task: Prob105_rotate100, Classification: unambiguous
+Task: Prob106_always_nolatches, Classification: unambiguous
+Task: Prob107_fsm1s, Classification: unambiguous
+Task: Prob108_rule90, Classification: unambiguous
+Task: Prob109_fsm1, Classification: unambiguous
+Task: Prob110_fsm2, Classification: unambiguous
+Task: Prob111_fsm2s, Classification: unambiguous
+Task: Prob112_always_case2, Classification: unambiguous
+Task: Prob113_2012_q1g, Classification: unambiguous
+Task: Prob114_bugs_case, Classification: unambiguous
+Task: Prob115_shift18, Classification: ambiguous
+Task: Prob115_shift18, fix trial 1, Classification: unambiguous
+Task: Prob116_m2014_q3, Classification: unambiguous
+Task: Prob117_circuit9, Classification: unambiguous
+Task: Prob118_history_shift, Classification: ambiguous
+Task: Prob118_history_shift, fix trial 1, Classification: ambiguous
+Task: Prob118_history_shift, fix trial 2, Classification: unambiguous
+Task: Prob119_fsm3, Classification: unambiguous
+Task: Prob120_fsm3s, Classification: unambiguous
+Task: Prob121_2014_q3bfsm, Classification: unambiguous
+Task: Prob122_kmap4, Classification: unambiguous
+Task: Prob123_bugs_addsubz, Classification: ambiguous
+Task: Prob123_bugs_addsubz, fix trial 1, Classification: unambiguous
+Task: Prob124_rule110, Classification: unambiguous
+Task: Prob125_kmap3, Classification: unambiguous
+Task: Prob126_circuit6, Classification: unambiguous
+Task: Prob127_lemmings1, Classification: unambiguous
+Task: Prob128_fsm_ps2, Classification: ambiguous
+Task: Prob128_fsm_ps2, fix trial 1, Classification: unambiguous
+Task: Prob129_ece241_2013_q8, Classification: ambiguous
+Task: Prob129_ece241_2013_q8, fix trial 1, Classification: unambiguous
+Task: Prob130_circuit5, Classification: unambiguous
+Task: Prob131_mt2015_q4, Classification: unambiguous
+Task: Prob132_always_if2, Classification: ambiguous
+Task: Prob132_always_if2, fix trial 1, Classification: unambiguous
+Task: Prob133_2014_q3fsm, Classification: ambiguous
+Task: Prob133_2014_q3fsm, fix trial 1, Classification: ambiguous
+Task: Prob133_2014_q3fsm, fix trial 2, Classification: unambiguous
+Task: Prob134_2014_q3c, Classification: ambiguous
+Task: Prob134_2014_q3c, fix trial 1, Classification: unambiguous
+Task: Prob135_m2014_q6b, Classification: unambiguous
+Task: Prob136_m2014_q6, Classification: unambiguous
+Task: Prob137_fsm_serial, Classification: ambiguous
+Task: Prob137_fsm_serial, fix trial 1, Classification: ambiguous
+Task: Prob137_fsm_serial, fix trial 2, Classification: ambiguous
+Task: Prob137_fsm_serial, fix trial 3, Classification: ambiguous
+Task: Prob137_fsm_serial, fix trial 4, Classification: ambiguous
+Task: Prob137_fsm_serial, fix trial 5, Classification: ambiguous
+Task: Prob138_2012_q2fsm, Classification: unambiguous
+Task: Prob139_2013_q2bfsm, Classification: ambiguous
+Task: Prob139_2013_q2bfsm, fix trial 1, Classification: ambiguous
+Task: Prob139_2013_q2bfsm, fix trial 2, Classification: ambiguous
+Task: Prob139_2013_q2bfsm, fix trial 3, Classification: ambiguous
+Task: Prob139_2013_q2bfsm, fix trial 4, Classification: ambiguous
+Task: Prob139_2013_q2bfsm, fix trial 5, Classification: ambiguous
+Task: Prob140_fsm_hdlc, Classification: unambiguous
+Task: Prob141_count_clock, Classification: ambiguous
+Task: Prob141_count_clock, fix trial 1, Classification: unambiguous
+Task: Prob142_lemmings2, Classification: ambiguous
+Task: Prob142_lemmings2, fix trial 1, Classification: ambiguous
+Task: Prob142_lemmings2, fix trial 2, Classification: unambiguous
+Task: Prob143_fsm_onehot, Classification: ambiguous
+Task: Prob143_fsm_onehot, fix trial 1, Classification: unambiguous
+Task: Prob144_conwaylife, Classification: unambiguous
+Task: Prob145_circuit8, Classification: unambiguous
+Task: Prob146_fsm_serialdata, Classification: ambiguous
+Task: Prob146_fsm_serialdata, fix trial 1, Classification: ambiguous
+Task: Prob146_fsm_serialdata, fix trial 2, Classification: unambiguous
+Task: Prob147_circuit10, Classification: unambiguous
+Task: Prob148_2013_q2afsm, Classification: ambiguous
+Task: Prob148_2013_q2afsm, fix trial 1, Classification: ambiguous
+Task: Prob148_2013_q2afsm, fix trial 2, Classification: unambiguous
+Task: Prob149_ece241_2013_q4, Classification: ambiguous
+Task: Prob149_ece241_2013_q4, fix trial 1, Classification: ambiguous
+Task: Prob149_ece241_2013_q4, fix trial 2, Classification: ambiguous
+Task: Prob149_ece241_2013_q4, fix trial 3, Classification: ambiguous
+Task: Prob149_ece241_2013_q4, fix trial 4, Classification: ambiguous
+Task: Prob149_ece241_2013_q4, fix trial 5, Classification: ambiguous
+Task: Prob150_review2015_fsmonehot, Classification: unambiguous
+Task: Prob151_review2015_fsm, Classification: unambiguous
+Task: Prob152_lemmings3, Classification: ambiguous
+Task: Prob152_lemmings3, fix trial 1, Classification: unambiguous
+Task: Prob153_gshare, Classification: ambiguous
+Task: Prob153_gshare, fix trial 1, Classification: ambiguous
+Task: Prob153_gshare, fix trial 2, Classification: unambiguous
+Task: Prob154_fsm_ps2data, Classification: unambiguous
+Task: Prob155_lemmings4, Classification: ambiguous
+Task: Prob155_lemmings4, fix trial 1, Classification: ambiguous
+Task: Prob155_lemmings4, fix trial 2, Classification: unambiguous
+Task: Prob156_review2015_fancytimer, Classification: ambiguous
+Task: Prob156_review2015_fancytimer, fix trial 1, Classification: ambiguous
+Task: Prob156_review2015_fancytimer, fix trial 2, Classification: ambiguous
+Task: Prob156_review2015_fancytimer, fix trial 3, Classification: ambiguous
+Task: Prob156_review2015_fancytimer, fix trial 4, Classification: ambiguous
+Task: Prob156_review2015_fancytimer, fix trial 5, Classification: ambiguous
+Total Spec: 156, Ambiguous Spec: 38

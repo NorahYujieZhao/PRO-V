@@ -1,0 +1,30 @@
+scenario: Basic Time Increment
+description: Assert ena for multiple clock cycles to verify normal increment of seconds from 00 to 59
+
+scenario: Minutes Rollover
+description: Verify seconds rolling over from 59 to 00 causes minutes to increment correctly
+
+scenario: Hours Rollover
+description: Verify minutes rolling over from 59 to 00 causes hours to increment correctly
+
+scenario: AMPM Transition
+description: Verify PM flag toggles when time transitions from 11:59:59 AM to 12:00:00 PM and vice versa
+
+scenario: Hour Format Check
+description: Verify hours always stay within 01 to 12 range and use proper BCD format
+
+scenario: Reset During Operation
+description: Assert reset during normal counting and verify immediate return to 12:00:00 AM
+
+scenario: Reset Priority
+description: Assert both reset and enable to verify reset takes priority over enable signal
+
+scenario: Enable Control
+description: Toggle enable signal to verify counting only occurs when enable is high
+
+scenario: BCD Format Validation
+description: Verify all digits maintain valid BCD format 0-9 during transitions
+
+scenario: Full Day Cycle
+description: Run through complete 24 hour cycle to verify all transitions and AM PM indicators
+

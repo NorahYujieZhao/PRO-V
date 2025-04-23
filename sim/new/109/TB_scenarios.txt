@@ -1,0 +1,24 @@
+scenario: AllZeros
+description: Set in[99:0] to all zeros to verify baseline behavior where no adjacent bits are 1 and no bits are different from their neighbors
+
+scenario: AllOnes
+description: Set in[99:0] to all ones to check cases where all adjacent bits are 1 and no bits are different from their neighbors
+
+scenario: AlternatingBits
+description: Set in[99:0] to alternating 1s and 0s pattern to test maximum number of different adjacent bits and verify no both1 cases are detected
+
+scenario: LeftBoundaryCheck
+description: Set in[99] and in[0] to 1 with others 0 to verify proper wrapping behavior for out_different and proper edge handling for out_both
+
+scenario: RightBoundaryCheck
+description: Set in[1] and in[0] to 1 with others 0 to verify proper boundary handling for out_any at the rightmost edge
+
+scenario: IsolatedOnes
+description: Set every 10th bit to 1 starting from in[0] with others 0 to verify no false adjacent detections occur for separated 1s
+
+scenario: AdjacentPairOnes
+description: Set pairs of adjacent bits to 1 separated by zeros to test both1 detection across multiple positions
+
+scenario: RandomPattern
+description: Apply a pseudo random pattern with approximately equal numbers of 0s and 1s to test general case behavior across all comparison types
+

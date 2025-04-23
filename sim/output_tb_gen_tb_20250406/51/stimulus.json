@@ -1,0 +1,147 @@
+[
+    {
+        "scenario": "AllZeroInput",
+        "input variable": [
+            {
+                "a": "000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOneInput",
+        "input variable": [
+            {
+                "a": "111"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBits",
+        "input variable": [
+            {
+                "a": "101"
+            }
+        ]
+    },
+    {
+        "scenario": "SequentialIncrement",
+        "input variable": [
+            {
+                "a": "000"
+            },
+            {
+                "a": "001"
+            },
+            {
+                "a": "010"
+            },
+            {
+                "a": "011"
+            },
+            {
+                "a": "100"
+            },
+            {
+                "a": "101"
+            },
+            {
+                "a": "110"
+            },
+            {
+                "a": "111"
+            }
+        ]
+    },
+    {
+        "scenario": "SequentialDecrement",
+        "input variable": [
+            {
+                "a": "111"
+            },
+            {
+                "a": "110"
+            },
+            {
+                "a": "101"
+            },
+            {
+                "a": "100"
+            },
+            {
+                "a": "011"
+            },
+            {
+                "a": "010"
+            },
+            {
+                "a": "001"
+            },
+            {
+                "a": "000"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomTransitions",
+        "input variable": [
+            {
+                "a": "010"
+            },
+            {
+                "a": "101"
+            },
+            {
+                "a": "001"
+            },
+            {
+                "a": "110"
+            },
+            {
+                "a": "011"
+            }
+        ]
+    },
+    {
+        "scenario": "RepeatedValues",
+        "input variable": [
+            {
+                "a": "100"
+            },
+            {
+                "a": "100"
+            },
+            {
+                "a": "100"
+            }
+        ]
+    },
+    {
+        "scenario": "GrayCodeTransitions",
+        "input variable": [
+            {
+                "a": "000"
+            },
+            {
+                "a": "001"
+            },
+            {
+                "a": "011"
+            },
+            {
+                "a": "010"
+            },
+            {
+                "a": "110"
+            },
+            {
+                "a": "111"
+            },
+            {
+                "a": "101"
+            },
+            {
+                "a": "100"
+            }
+        ]
+    }
+]

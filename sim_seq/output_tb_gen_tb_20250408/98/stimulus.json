@@ -1,0 +1,449 @@
+[
+    {
+        "scenario": "InitialResetState",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "resetn": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "SingleFPulseAfterResetRelease",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "XInputPatternDetection",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "YInputQuickResponse",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "1",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "YInputTimeout",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetDuringOperation",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "IncompleteXPattern",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleXPatterns",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "YInputEdgeTiming",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "0",
+                    "0"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "resetn": [
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "1",
+                    "0",
+                    "1"
+                ],
+                "y": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "resetn": [
+                    "1",
+                    "1"
+                ],
+                "x": [
+                    "0",
+                    "0"
+                ],
+                "y": [
+                    "0",
+                    "1"
+                ]
+            }
+        ]
+    }
+]

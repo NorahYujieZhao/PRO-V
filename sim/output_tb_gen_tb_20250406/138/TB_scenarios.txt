@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set a = 0, b = 0, cin = 0 to verify basic zero-input behavior
+
+scenario: AllOneInputs
+description: Set a = 1, b = 1, cin = 1 to verify maximum carry propagation case
+
+scenario: SingleInputA
+description: Set a = 1, b = 0, cin = 0 to verify single input through a
+
+scenario: SingleInputB
+description: Set a = 0, b = 1, cin = 0 to verify single input through b
+
+scenario: SingleInputCin
+description: Set a = 0, b = 0, cin = 1 to verify carry input behavior
+
+scenario: TwoInputsAB
+description: Set a = 1, b = 1, cin = 0 to verify carry generation from a and b
+
+scenario: TwoInputsACin
+description: Set a = 1, b = 0, cin = 1 to verify carry generation from a and cin
+
+scenario: TwoInputsBCin
+description: Set a = 0, b = 1, cin = 1 to verify carry generation from b and cin
+

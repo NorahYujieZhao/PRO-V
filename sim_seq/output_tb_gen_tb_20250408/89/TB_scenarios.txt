@@ -1,0 +1,21 @@
+scenario: Basic Counting Operation
+description: Verify counter increments by 1 on each clock cycle starting from 0 through multiple values
+
+scenario: Synchronous Reset During Count
+description: Assert reset signal while counter is at various non zero values and verify it synchronously resets to 0 on next clock edge
+
+scenario: Counter Rollover
+description: Let counter reach maximum value 15 and verify it correctly rolls over to 0 on next clock cycle
+
+scenario: Initial Power Up State
+description: Verify counter starts at a known state of 0 upon initial power up before any clock transitions
+
+scenario: Multiple Reset Cycles
+description: Assert and deassert reset multiple times during counting operation to verify consistent reset behavior
+
+scenario: Setup Time Verification
+description: Verify reset signal meets setup time requirements relative to clock edge for proper synchronous operation
+
+scenario: Continuous Operation
+description: Run counter through multiple complete 0 to 15 cycles to verify sustained correct operation
+

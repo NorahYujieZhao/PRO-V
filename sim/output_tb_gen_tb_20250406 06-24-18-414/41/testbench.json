@@ -1,0 +1,138 @@
+[
+  {
+    "scenario": "AllZeroInputs",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0",
+        "out_n": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FirstAndGateActive",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SecondAndGateActive",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "BothAndGatesActive",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1",
+        "d": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "0",
+        "out_n": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "FirstInputsOnly",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "0",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SecondInputsOnly",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "1",
+        "d": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  }
+]

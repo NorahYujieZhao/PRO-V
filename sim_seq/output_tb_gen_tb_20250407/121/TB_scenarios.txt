@@ -1,0 +1,23 @@
+scenario: Single Bit Detection
+description: Test each bit position individually by setting only one bit high at a time in0 to in3 and verify correct position output
+
+scenario: Multiple Bits Active
+description: Set multiple input bits high simultaneously and verify encoder correctly identifies the highest priority rightmost position
+
+scenario: All Zeros Input
+description: Apply 4b0000 input and verify the encoder outputs 2b00 as specified for zero input case
+
+scenario: All Ones Input
+description: Apply 4b1111 input and verify the encoder identifies the rightmost position 2b11
+
+scenario: Adjacent Bits
+description: Test pairs of adjacent bits being high to verify correct priority resolution between neighboring positions
+
+scenario: Alternating Patterns
+description: Apply alternating bit patterns like 4b0101 and 4b1010 to verify correct priority encoding across separated positions
+
+scenario: Walking Ones
+description: Shift a single 1 through all bit positions sequentially to verify position encoding for each bit
+
+scenario: Walking Zeros
+description: Shift a single 0 through all bit positions with other bits high to verify priority remains correct

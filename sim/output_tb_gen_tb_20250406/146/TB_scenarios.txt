@@ -1,0 +1,26 @@
+scenario: Initial Power Up State
+description: Verify system initializes with no sensors asserted and all flow rates active fr1 fr2 fr3 and dfr enabled
+
+scenario: Synchronous Reset Operation
+description: Assert reset signal while system is in various states to verify it returns to lowest water level state with all outputs active
+
+scenario: Rising Water Level Transitions
+description: Sequentially assert sensors from s1 to s3 verifying correct flow rates and supplemental flow dfr activation due to rising trend
+
+scenario: Falling Water Level Transitions
+description: Sequentially deassert sensors from s3 to s1 verifying correct flow rates and supplemental flow dfr deactivation
+
+scenario: Maximum Water Level
+description: Assert all sensors s1 s2 s3 and verify all flow rates and supplemental flow are disabled
+
+scenario: Minimum Water Level
+description: Deassert all sensors and verify maximum flow with fr1 fr2 fr3 and dfr all enabled
+
+scenario: Invalid Sensor Combinations
+description: Test nonsequential sensor patterns like only s3 active or s1 and s3 active without s2 to verify robust error handling
+
+scenario: Rapid Sensor Changes
+description: Toggle sensor values rapidly across multiple clock cycles to verify stable flow rate control and proper state transitions
+
+scenario: Direction Change Detection
+description: Alternate between rising and falling water levels to verify correct supplemental flow dfr activation based on trend

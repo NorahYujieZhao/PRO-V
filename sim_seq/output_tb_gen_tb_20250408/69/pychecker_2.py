@@ -1,0 +1,101 @@
+
+import json
+from typing import Dict, List, Union
+
+
+class GoldenDUT:
+    def __init__(self):
+        '''
+        Initialize state registers
+        '''
+        self.state = 0  # Current state initialized to 000
+
+    def load(self, clk: int, stimulus_dict: Dict[str, str]) -> Dict[str, str]:
+        '''
+        Update state and calculate outputs based on inputs
+        '''
+        # Convert input binary strings to integers
+        x = int(stimulus_dict['x'], 2)
+        y = int(stimulus_dict['y'], 2)
+        
+        # Only update on clock edge
+        if clk == 1:
+            # State transition logic
+            if y == 0b000:
+                next_state = 0b001 if x else 0b000
+            elif y == 0b001:
+                next_state = 0b100 if x else 0b001
+            elif y == 0b010:
+                next_state = 0b001 if x else 0b010
+            elif y == 0b011:
+                next_state = 0b010 if x else 0b001
+            elif y == 0b100:
+                next_state = 0b100 if x else 0b011
+            else:
+                next_state = 0b000  # Default case
+            
+            # Output z logic
+            z_out = 1 if y in [0b011, 0b100] else 0
+            
+            # Y0 is the LSB of next state
+            Y0_out = next_state & 1
+            
+            # Update state
+            self.state = next_state
+        else:
+            # Hold values when clock is low
+            z_out = 1 if y in [0b011, 0b100] else 0
+            Y0_out = y & 1
+
+        # Convert outputs to binary strings
+        return {
+            'Y0': format(Y0_out, 'b'),
+            'z': format(z_out, 'b')
+        }
+def check_output(stimulus_list_scenario):
+
+    dut = GoldenDUT()
+    tb_outputs = []
+
+
+    for stimulus_list in stimulus_list_scenario["input variable"]:
+
+
+        clock_cycles = stimulus_list['clock cycles']
+        clk = 1
+        input_vars_list = {k: v for k, v in stimulus_list.items() if k != "clock cycles"}
+        output_vars_list = {'clock cycles':clock_cycles}
+
+        for i in range(clock_cycles):
+            input_vars = {k:v[i] for k,v in input_vars_list.items()}
+
+            output_vars = dut.load(clk,input_vars)
+            for k,v in output_vars.items():
+                if k not in output_vars_list:
+                    output_vars_list[k] = []
+                output_vars_list[k].append(v)
+            
+
+
+        tb_outputs.append(output_vars_list)
+
+    return tb_outputs
+
+if __name__ == "__main__":
+
+    with open("stimulus.json", "r") as f:
+        stimulus_data = json.load(f)
+
+
+    if isinstance(stimulus_data, dict):
+        stimulus_list_scenarios = stimulus_data.get("input variable", [])
+    else:
+        stimulus_list_scenarios = stimulus_data
+
+    outputs=[]
+    for stimulus_list_scenario in stimulus_list_scenarios:
+        outputs.append( check_output(stimulus_list_scenario))
+
+    print(json.dumps(outputs, indent=2))
+
+

@@ -1,0 +1,24 @@
+scenario: AllEqualValues
+description: Set all inputs a b c d to same value 128 to verify correct handling when all numbers are equal
+
+scenario: AscendingSequence
+description: Drive inputs in ascending order a=1 b=2 c=3 d=4 to check minimum detection at first position
+
+scenario: DescendingSequence
+description: Drive inputs in descending order a=255 b=200 c=150 d=100 to check minimum detection at last position
+
+scenario: MinimumInMiddle
+description: Set a=100 b=50 c=25 d=75 to verify minimum detection when smallest value is at an interior position
+
+scenario: AllZeros
+description: Drive all inputs to 0 to test boundary condition at minimum possible value
+
+scenario: AllOnes
+description: Set all inputs to 255 to test boundary condition at maximum possible value
+
+scenario: RepeatedMinimum
+description: Set multiple inputs to same minimum value a=50 b=50 c=100 d=75 to verify correct handling of duplicate minimums
+
+scenario: WideValueSpread
+description: Use widely spaced values a=255 b=128 c=64 d=32 to test comparison across full range
+

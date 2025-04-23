@@ -1,0 +1,114 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "NoRingNoVibrate",
+    "output variable": [
+      {
+        "ringer": "0",
+        "motor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RingInNormalMode",
+    "output variable": [
+      {
+        "ringer": "1",
+        "motor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RingInVibrateMode",
+    "output variable": [
+      {
+        "ringer": "0",
+        "motor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "NoRingInVibrateMode",
+    "output variable": [
+      {
+        "ringer": "0",
+        "motor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ModeTransitionToVibrate",
+    "output variable": [
+      {
+        "ringer": "1",
+        "motor": "0"
+      },
+      {
+        "ringer": "0",
+        "motor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ModeTransitionToNormal",
+    "output variable": [
+      {
+        "ringer": "0",
+        "motor": "1"
+      },
+      {
+        "ringer": "1",
+        "motor": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "RapidModeToggle",
+    "output variable": [
+      {
+        "ringer": "1",
+        "motor": "0"
+      },
+      {
+        "ringer": "0",
+        "motor": "1"
+      },
+      {
+        "ringer": "1",
+        "motor": "0"
+      },
+      {
+        "ringer": "0",
+        "motor": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "RapidRingToggle",
+    "output variable": [
+      {
+        "ringer": "0",
+        "motor": "0"
+      },
+      {
+        "ringer": "1",
+        "motor": "0"
+      },
+      {
+        "ringer": "0",
+        "motor": "0"
+      },
+      {
+        "ringer": "1",
+        "motor": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

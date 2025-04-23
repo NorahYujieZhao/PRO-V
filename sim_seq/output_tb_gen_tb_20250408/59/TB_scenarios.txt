@@ -1,0 +1,33 @@
+scenario: Basic Load Operation
+description: Load random 100 bit data pattern with load1 ena00 and verify q matches input data on next clock edge
+
+scenario: Right Rotation Operation
+description: Assert ena01 after loading known pattern and verify LSB rotates to MSB position while other bits shift right by one position
+
+scenario: Left Rotation Operation
+description: Assert ena10 after loading known pattern and verify MSB rotates to LSB position while other bits shift left by one position
+
+scenario: Multiple Right Rotations
+description: Perform consecutive right rotations over multiple cycles and verify pattern returns to original state after 100 rotations
+
+scenario: Multiple Left Rotations
+description: Perform consecutive left rotations over multiple cycles and verify pattern returns to original state after 100 rotations
+
+scenario: Hold Current Value
+description: Assert ena00 and ena11 and verify register maintains current value without rotation
+
+scenario: Load During Rotation
+description: Assert load while rotation is in progress and verify new data loads correctly overriding rotation operation
+
+scenario: Alternating Direction
+description: Alternate between left and right rotations and verify correct bit movement in both directions
+
+scenario: All Ones Pattern
+description: Load all ones pattern and verify rotation operations preserve all bits without corruption
+
+scenario: All Zeros Pattern
+description: Load all zeros pattern and verify rotation operations preserve all bits without corruption
+
+scenario: Walking One Pattern
+description: Load and rotate a single bit through all positions verifying precise bit movement and preservation
+

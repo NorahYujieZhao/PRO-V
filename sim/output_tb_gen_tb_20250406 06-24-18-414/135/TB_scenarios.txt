@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set a b c d to 0000 to verify the output is 1 as shown in the first waveform entry
+
+scenario: AllOneInputs
+description: Set a b c d to 1111 to verify the output is 1 as shown in the last waveform entry
+
+scenario: SingleBitHigh
+description: Test each input high individually while others low a=1000 b=0100 c=0010 d=0001 to verify single bit behavior
+
+scenario: ThreeBitsHigh
+description: Set three inputs high and one low in all possible combinations to test majority cases
+
+scenario: AlternatingPattern
+description: Set inputs to alternating patterns 0101 and 1010 to test adjacent bit interactions
+
+scenario: TwoBitsHigh
+description: Set two inputs high and two low in all possible combinations to test balanced cases
+
+scenario: SequentialTransitions
+description: Walk through input combinations sequentially as shown in the waveform from 0000 to 1111
+
+scenario: RandomCombinations
+description: Test various random but valid input combinations not covered in the waveform to ensure complete functional coverage
+

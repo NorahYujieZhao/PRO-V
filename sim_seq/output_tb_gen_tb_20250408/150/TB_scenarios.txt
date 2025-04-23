@@ -1,0 +1,30 @@
+scenario: Basic Walking Direction Changes
+description: Verify Lemming alternates between walking left and right when bumped on corresponding sides while on ground
+
+scenario: Basic Falling Behavior
+description: Test Lemming enters falling state when ground disappears and resumes previous walking direction when ground reappears within safe fall time
+
+scenario: Basic Digging Operation
+description: Verify Lemming starts digging when dig signal asserted while walking on ground and continues until ground disappears
+
+scenario: Splatter Condition
+description: Test Lemming splatters when falling for 21 clock cycles before hitting ground and remains in splattered state permanently
+
+scenario: Fall Priority Over Dig
+description: Verify falling takes precedence when both falling and dig conditions are present simultaneously
+
+scenario: Dig Priority Over Direction Change
+description: Confirm digging takes precedence over direction changes when bump signals occur during dig operation
+
+scenario: Asynchronous Reset Operation
+description: Test asynchronous reset forces Lemming to walk left state regardless of current state or inputs
+
+scenario: Bump While Falling Immunity
+description: Verify bump signals during falling state do not affect walking direction when ground is reached
+
+scenario: Maximum Fall Duration
+description: Test Lemming can fall for extended periods beyond 20 cycles without splattering until ground is reached
+
+scenario: Simultaneous Bumps
+description: Verify correct direction change when both bump left and bump right occur simultaneously
+

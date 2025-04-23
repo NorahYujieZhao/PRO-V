@@ -1,0 +1,166 @@
+[
+  {
+    "scenario": "All Zeros Pattern",
+    "input variable": [
+      {
+        "in": "00000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "All Ones Pattern",
+    "input variable": [
+      {
+        "in": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "Alternating Bits",
+    "input variable": [
+      {
+        "in": "10101010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01010101"
+      }
+    ]
+  },
+  {
+    "scenario": "Single Bit Set",
+    "input variable": [
+      {
+        "in": "10000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "Random Pattern",
+    "input variable": [
+      {
+        "in": "10110101"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10101101"
+      }
+    ]
+  },
+  {
+    "scenario": "Walking Ones",
+    "input variable": [
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      },
+      {
+        "in": "10000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      },
+      {
+        "out": "00000001"
+      }
+    ]
+  },
+  {
+    "scenario": "Palindrome Pattern",
+    "input variable": [
+      {
+        "in": "11000011"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11000011"
+      }
+    ]
+  },
+  {
+    "scenario": "Rapid Input Changes",
+    "input variable": [
+      {
+        "in": "10101010"
+      },
+      {
+        "in": "01010101"
+      },
+      {
+        "in": "11110000"
+      },
+      {
+        "in": "00001111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01010101"
+      },
+      {
+        "out": "10101010"
+      },
+      {
+        "out": "00001111"
+      },
+      {
+        "out": "11110000"
+      }
+    ]
+  }
+]

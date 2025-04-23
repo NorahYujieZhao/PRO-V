@@ -1,0 +1,192 @@
+[
+  {
+    "scenario": "InitialValueCheck",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "a": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "100",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "FixedValueOperation",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "a": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StartCountingSequence",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "a": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "100",
+          "100",
+          "101",
+          "110",
+          "000",
+          "001"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "CounterRollover",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "a": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "001",
+          "010",
+          "011",
+          "100",
+          "101",
+          "110",
+          "000",
+          "001"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StopCountingOperation",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "a": [
+          "0",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "001",
+          "010",
+          "011",
+          "100",
+          "100",
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MultipleCountingCycles",
+    "input variable": [
+      {
+        "clock cycles": 12,
+        "a": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 12,
+        "q": [
+          "100",
+          "100",
+          "101",
+          "110",
+          "000",
+          "001",
+          "100",
+          "100",
+          "101",
+          "110",
+          "000",
+          "001"
+        ]
+      }
+    ]
+  }
+]

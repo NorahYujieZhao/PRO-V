@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Drive both inputs a = 0, b = 0 to verify behavior when no signals are active
+
+scenario: AllOneInputs
+description: Set both inputs a = 1, b = 1 to test maximum signal activation case
+
+scenario: OnlyAActive
+description: Set a = 1, b = 0 to verify gates behavior with only first input active, particularly important for out_anotb
+
+scenario: OnlyBActive
+description: Set a = 0, b = 1 to test gates behavior with only second input active
+
+scenario: ComplementaryInputsAB
+description: Toggle between a = 1, b = 0 and a = 0, b = 1 to verify XOR and XNOR operations
+
+scenario: SameInputsTransition
+description: Toggle both inputs simultaneously between 0 and 1 to verify consistent behavior across all gates
+
+scenario: AlternatingPatternA
+description: Toggle input a while keeping b constant at 0 to verify gate response to changing first input
+
+scenario: AlternatingPatternB
+description: Toggle input b while keeping a constant at 1 to verify gate response to changing second input
+

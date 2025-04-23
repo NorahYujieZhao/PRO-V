@@ -1,0 +1,273 @@
+[
+  {
+    "scenario": "BasicOperation",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "d": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "0",
+          "1",
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MultipleDataTransitions",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "d": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "clock cycles": 4,
+        "d": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "q": [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "clock cycles": 4,
+        "q": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "SetupTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "d": [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "0",
+          "1",
+          "1",
+          "0",
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "HoldTimeVerification",
+    "input variable": [
+      {
+        "clock cycles": 6,
+        "d": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 6,
+        "q": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ClockGlitchImmunity",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "d": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "q": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "DataRetention",
+    "input variable": [
+      {
+        "clock cycles": 10,
+        "d": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "clock cycles": 10,
+        "d": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 10,
+        "q": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "clock cycles": 10,
+        "q": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "HighFrequencyOperation",
+    "input variable": [
+      {
+        "clock cycles": 10,
+        "d": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 10,
+        "q": [
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ]
+  }
+]

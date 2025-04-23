@@ -1,0 +1,24 @@
+scenario: Basic Shift Operation
+description: Shift in a sequence of bits through data input with shift_ena high and count_ena low verifying MSB first operation over multiple clock cycles
+
+scenario: Basic Down Count Operation
+description: Load a value via shift operation then enable count_ena and verify the value decrements correctly on each clock cycle
+
+scenario: Counter Rollover
+description: Set register to 0000 via shift operations then enable counting to verify rollover from 0000 to 1111
+
+scenario: Shift Register Boundary
+description: Shift in alternating 1s and 0s to verify all bits can hold both values and shift correctly
+
+scenario: Counter Maximum Value
+description: Load 1111 via shift operations then verify proper decrement sequence from maximum value
+
+scenario: Mode Switching
+description: Alternate between shift_ena and count_ena modes verifying proper operation when switching between modes
+
+scenario: Clock Edge Behavior
+description: Verify all operations shift and count occur only on the rising edge of the clock
+
+scenario: Initial State
+description: Verify the register powers up or initializes to a known state before any operations
+

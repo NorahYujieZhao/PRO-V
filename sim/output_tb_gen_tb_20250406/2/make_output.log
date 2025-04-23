@@ -1,0 +1,67 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+c++  -I.  -MMD -I/opt/homebrew/Cellar/verilator/5.032/share/verilator/include -I/opt/homebrew/Cellar/verilator/5.032/share/verilator/include/vltstd -DVM_COVERAGE=1 -DVM_SC=0 -DVM_TIMING=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligned-new -fbracket-depth=4096 -fcf-protection=none -Qunused-arguments -Wno-bool-operation -Wno-c++11-narrowing -Wno-constant-logical-operand -Wno-non-pod-varargs -Wno-parentheses-equality -Wno-shadow -Wno-sign-compare -Wno-tautological-bitwise-compare -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable     -std=gnu++17 -Os  -c -o rfuzz-harness.o ../rfuzz-harness.cpp
+../rfuzz-harness.cpp:20:10: error: no member named 'c' in 'Vtop_module'
+   20 |     top->c = 0x0;
+      |     ~~~  ^
+../rfuzz-harness.cpp:21:10: error: no member named 'd' in 'Vtop_module'
+   21 |     top->d = 0x0;
+      |     ~~~  ^
+../rfuzz-harness.cpp:23:14: error: no member named 'mux_in' in 'Vtop_module'
+   23 |     if (top->mux_in != 0x8) {
+      |         ~~~  ^
+../rfuzz-harness.cpp:32:20: error: no member named 'mux_in' in 'Vtop_module'
+   32 | printf("%x\n",top->mux_in);
+      |               ~~~  ^
+../rfuzz-harness.cpp:40:10: error: no member named 'c' in 'Vtop_module'
+   40 |     top->c = 0x0;
+      |     ~~~  ^
+../rfuzz-harness.cpp:41:10: error: no member named 'd' in 'Vtop_module'
+   41 |     top->d = 0x1;
+      |     ~~~  ^
+../rfuzz-harness.cpp:43:14: error: no member named 'mux_in' in 'Vtop_module'
+   43 |     if (top->mux_in != 0x1) {
+      |         ~~~  ^
+../rfuzz-harness.cpp:52:20: error: no member named 'mux_in' in 'Vtop_module'
+   52 | printf("%x\n",top->mux_in);
+      |               ~~~  ^
+../rfuzz-harness.cpp:60:10: error: no member named 'c' in 'Vtop_module'
+   60 |     top->c = 0x1;
+      |     ~~~  ^
+../rfuzz-harness.cpp:61:10: error: no member named 'd' in 'Vtop_module'
+   61 |     top->d = 0x1;
+      |     ~~~  ^
+../rfuzz-harness.cpp:63:14: error: no member named 'mux_in' in 'Vtop_module'
+   63 |     if (top->mux_in != 0xd) {
+      |         ~~~  ^
+../rfuzz-harness.cpp:72:20: error: no member named 'mux_in' in 'Vtop_module'
+   72 | printf("%x\n",top->mux_in);
+      |               ~~~  ^
+../rfuzz-harness.cpp:80:10: error: no member named 'c' in 'Vtop_module'
+   80 |     top->c = 0x1;
+      |     ~~~  ^
+../rfuzz-harness.cpp:81:10: error: no member named 'd' in 'Vtop_module'
+   81 |     top->d = 0x0;
+      |     ~~~  ^
+../rfuzz-harness.cpp:83:14: error: no member named 'mux_in' in 'Vtop_module'
+   83 |     if (top->mux_in != 0x9) {
+      |         ~~~  ^
+../rfuzz-harness.cpp:92:20: error: no member named 'mux_in' in 'Vtop_module'
+   92 | printf("%x\n",top->mux_in);
+      |               ~~~  ^
+../rfuzz-harness.cpp:100:10: error: no member named 'c' in 'Vtop_module'
+  100 |     top->c = 0x0;
+      |     ~~~  ^
+../rfuzz-harness.cpp:101:10: error: no member named 'd' in 'Vtop_module'
+  101 |     top->d = 0x0;
+      |     ~~~  ^
+../rfuzz-harness.cpp:103:14: error: no member named 'mux_in' in 'Vtop_module'
+  103 |     if (top->mux_in != 0x8) {
+      |         ~~~  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[1]: *** [rfuzz-harness.o] Error 1
+make: *** [run] Error 2

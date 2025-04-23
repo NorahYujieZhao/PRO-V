@@ -1,0 +1,314 @@
+[
+  {
+    "scenario": "Basic Increment Operation",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "10"
+      },
+      {
+        "state": "11"
+      },
+      {
+        "state": "11"
+      },
+      {
+        "state": "11"
+      },
+      {
+        "state": "11"
+      }
+    ]
+  },
+  {
+    "scenario": "Basic Decrement Operation",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "10"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "00"
+      },
+      {
+        "state": "00"
+      },
+      {
+        "state": "00"
+      }
+    ]
+  },
+  {
+    "scenario": "Saturation at Maximum",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "10"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "11"
+      }
+    ]
+  },
+  {
+    "scenario": "Saturation at Minimum",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "10"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "00"
+      }
+    ]
+  },
+  {
+    "scenario": "Training Disabled",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "0",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "0",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "0",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "0",
+        "train_taken": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "00"
+      },
+      {
+        "state": "00"
+      },
+      {
+        "state": "00"
+      },
+      {
+        "state": "00"
+      }
+    ]
+  },
+  {
+    "scenario": "Asynchronous Reset",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "1",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "10"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "10"
+      }
+    ]
+  },
+  {
+    "scenario": "Alternating Training Patterns",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "11"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "11"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "11"
+      },
+      {
+        "state": "10"
+      }
+    ]
+  },
+  {
+    "scenario": "Reset During Training",
+    "input variable": [
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "1",
+        "train_valid": "1",
+        "train_taken": "1"
+      },
+      {
+        "areset": "0",
+        "train_valid": "1",
+        "train_taken": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "state": "11"
+      },
+      {
+        "state": "10"
+      },
+      {
+        "state": "10"
+      }
+    ]
+  }
+]

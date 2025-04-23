@@ -1,0 +1,351 @@
+[
+  {
+    "scenario": "ResetStateVerification",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "reset": [
+          "1",
+          "1",
+          "1"
+        ],
+        "s": [
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "z": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "StayInStateA",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "reset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "BasicStateAToBTransition",
+    "input variable": [
+      {
+        "clock cycles": 3,
+        "reset": [
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "0",
+          "1",
+          "0"
+        ],
+        "w": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 3,
+        "z": [
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ExactlyTwoHighWInputs",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "reset": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "1",
+          "1",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "LessThanTwoHighWInputs",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "reset": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MoreThanTwoHighWInputs",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "reset": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ZeroHighWInputs",
+    "input variable": [
+      {
+        "clock cycles": 4,
+        "reset": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 4,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "MultipleThreeCycleWindows",
+    "input variable": [
+      {
+        "clock cycles": 8,
+        "reset": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "s": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 8,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "scenario": "ResetDuringOperation",
+    "input variable": [
+      {
+        "clock cycles": 5,
+        "reset": [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "s": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "w": [
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "output variable": [
+      {
+        "clock cycles": 5,
+        "z": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  }
+]

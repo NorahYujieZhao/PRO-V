@@ -1,0 +1,24 @@
+scenario: Normal Data Capture
+description: Apply different 8 bit data patterns and verify correct capture on positive clock edges
+
+scenario: Asynchronous Reset Assertion
+description: Assert reset signal between clock edges and verify all outputs immediately go to 0
+
+scenario: Reset Release Operation
+description: Release reset and verify DFFs start capturing new input data on subsequent clock edges
+
+scenario: Setup Time Verification
+description: Change input data close to clock edge to verify proper setup time requirements are met
+
+scenario: Hold Time Verification
+description: Change input data just after clock edge to verify proper hold time requirements are met
+
+scenario: Alternating Bit Patterns
+description: Apply alternating 1s and 0s pattern to verify no crosstalk between adjacent DFF bits
+
+scenario: Walking Ones Pattern
+description: Apply single 1 bit shifting through all positions to verify individual bit functionality
+
+scenario: Reset During Data Change
+description: Assert reset while data is changing to verify reset dominance over data inputs
+

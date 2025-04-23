@@ -1,0 +1,106 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "in": "00000000000000000000000000000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "in": "11111111111111111111111111111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11111111111111111111111111111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBytes",
+    "input variable": [
+      {
+        "in": "11111111000000001111111100000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000000111111110000000011111111"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBytePattern",
+    "input variable": [
+      {
+        "in": "00000000000000000000000011111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11111111000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "scenario": "ReverseBytePattern",
+    "input variable": [
+      {
+        "in": "11111111000000000000000000000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000000000000000000000011111111"
+      }
+    ]
+  },
+  {
+    "scenario": "UniqueBytes",
+    "input variable": [
+      {
+        "in": "00010010001101000101011001111000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01111000010101100011010000010010"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "input variable": [
+      {
+        "in": "01010101101010100101010110101010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10101010010101011010101001010101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomPattern",
+    "input variable": [
+      {
+        "in": "10100101110000110111111100011001"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00011001011111111100001110100101"
+      }
+    ]
+  }
+]

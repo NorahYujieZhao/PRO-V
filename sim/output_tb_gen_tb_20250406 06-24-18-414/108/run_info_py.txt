@@ -1,0 +1,74 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeros",
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "MismatchZeroOne",
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MismatchOneZero",
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AdjacentValues",
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotA",
+    "output variable": [
+      {
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "MidrangeEqual",
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "z": "1"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

@@ -1,0 +1,27 @@
+scenario: Initial Reset State
+description: Assert resetn low and verify FSM stays in state A with outputs f and g both low
+
+scenario: Single F Pulse After Reset Release
+description: Deassert resetn and verify output f becomes high for exactly one clock cycle then returns low
+
+scenario: X Input Pattern Detection
+description: Apply x input sequence 1 0 1 across three clock cycles and verify g becomes high on the following cycle
+
+scenario: Y Input Quick Response
+description: After g becomes high apply y1 within two clock cycles and verify g remains high permanently
+
+scenario: Y Input Timeout
+description: After g becomes high wait two clock cycles without y1 and verify g goes low permanently
+
+scenario: Reset During Operation
+description: Assert resetn during various FSM states and verify immediate return to initial state with outputs low
+
+scenario: Incomplete X Pattern
+description: Send partial x input patterns like 1 0 0 or 1 1 1 and verify g remains low
+
+scenario: Multiple X Patterns
+description: Send multiple valid x patterns consecutively and verify FSM responds only to first complete pattern
+
+scenario: Y Input Edge Timing
+description: Test y input at exactly one and two cycles after g activation to verify timing window
+

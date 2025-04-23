@@ -1,0 +1,29 @@
+scenario: All Zeros Input
+description: Set all input bits to 0 and verify out_both is all 0, out_any is all 0, and out_different is all 0
+
+scenario: All Ones Input
+description: Set all input bits to 1 and verify out_both is all 1, out_any is all 1, and out_different is all 0
+
+scenario: Alternating Bits
+description: Set input to alternating 1s and 0s to verify out_both is all 0, out_any shows correct patterns, and out_different is all 1
+
+scenario: Single Bit High
+description: Set only one bit high in the input vector and verify correct neighbor relationships in all three output vectors
+
+scenario: Edge Bit Verification
+description: Test specifically bits 0 and 99 to verify correct handling of edge cases where neighbor relationships wrap around
+
+scenario: Random Pattern
+description: Apply random bit patterns to verify correct neighbor relationship detection across all output vectors
+
+scenario: Walking Ones
+description: Shift a single 1 through the input vector to verify all bit positions are correctly processed for all outputs
+
+scenario: Walking Zeros
+description: Shift a single 0 through an all-ones input vector to verify correct neighbor detection in all cases
+
+scenario: Adjacent Pairs
+description: Test pairs of adjacent 1s shifting through the vector to verify out_both and out_any functionality
+
+scenario: Wraparound Check
+description: Specific test for the wraparound case where bit 99 and bit 0 interaction is verified for out_different

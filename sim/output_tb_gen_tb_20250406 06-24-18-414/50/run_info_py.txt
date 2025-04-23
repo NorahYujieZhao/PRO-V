@@ -1,0 +1,90 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeros",
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "000",
+        "out_different": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "output variable": [
+      {
+        "out_both": "111",
+        "out_any": "111",
+        "out_different": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBits",
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "111",
+        "out_different": "1111"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleOneHot",
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "110",
+        "out_different": "0110"
+      }
+    ]
+  },
+  {
+    "scenario": "AdjacentPairOnes",
+    "output variable": [
+      {
+        "out_both": "001",
+        "out_any": "011",
+        "out_different": "1010"
+      }
+    ]
+  },
+  {
+    "scenario": "WrapAroundDifferent",
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "100",
+        "out_different": "1100"
+      }
+    ]
+  },
+  {
+    "scenario": "UpperBoundaryCheck",
+    "output variable": [
+      {
+        "out_both": "100",
+        "out_any": "110",
+        "out_different": "1010"
+      }
+    ]
+  },
+  {
+    "scenario": "LowerBoundaryCheck",
+    "output variable": [
+      {
+        "out_both": "000",
+        "out_any": "001",
+        "out_different": "1001"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

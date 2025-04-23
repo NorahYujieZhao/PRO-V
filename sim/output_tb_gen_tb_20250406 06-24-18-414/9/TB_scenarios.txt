@@ -1,0 +1,24 @@
+scenario: AllZeros
+description: Drive in = 32'h00000000 to verify neutral behavior when all bytes are zero
+
+scenario: AllOnes
+description: Drive in = 32'hFFFFFFFF to test maximum value with all bytes containing ones
+
+scenario: AlternatingBytes
+description: Drive in = 32'hFF00FF00 to check reversal with alternating byte patterns
+
+scenario: SingleBytePattern
+description: Drive in = 32'h000000FF to verify single byte in LSB position gets moved to MSB
+
+scenario: ReverseBytePattern
+description: Drive in = 32'hFF000000 to verify single byte in MSB position gets moved to LSB
+
+scenario: UniqueBytes
+description: Drive in = 32'h12345678 to test distinct value in each byte position
+
+scenario: AlternatingBits
+description: Drive in = 32'h55AA55AA to verify correct handling of alternating bit patterns within bytes
+
+scenario: RandomPattern
+description: Drive in = 32'hA5C37F19 to test arbitrary byte values in each position
+

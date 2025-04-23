@@ -1,0 +1,24 @@
+scenario: BothInputsZero
+description: Set both inputs a and b to 0 to verify the base case where no addition or carry occurs
+
+scenario: FirstInputOnly
+description: Set a to 1 and b to 0 to test addition with only first input active
+
+scenario: SecondInputOnly
+description: Set a to 0 and b to 1 to test addition with only second input active
+
+scenario: BothInputsOne
+description: Set both inputs a and b to 1 to verify carry generation and sum rollover
+
+scenario: AlternatingInputs
+description: Toggle inputs between a=1 b=0 and a=0 b=1 to stress test input path switching
+
+scenario: RapidToggle
+description: Rapidly toggle both inputs between all possible combinations to verify glitch free operation
+
+scenario: StaggeredTransitions
+description: Change input a slightly before input b to test timing sensitivity of sum and carry generation
+
+scenario: SimultaneousTransitions
+description: Change both inputs simultaneously to verify proper handling of concurrent input changes
+

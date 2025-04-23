@@ -1,0 +1,130 @@
+[
+  {
+    "scenario": "AllZeroInputs",
+    "input variable": [
+      {
+        "a": "000",
+        "b": "000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "000",
+        "out_or_logical": "0",
+        "out_not": "111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "input variable": [
+      {
+        "a": "111",
+        "b": "111"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingBitsComplementary",
+    "input variable": [
+      {
+        "a": "101",
+        "b": "010"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "101010"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotA",
+    "input variable": [
+      {
+        "a": "100",
+        "b": "000"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "100",
+        "out_or_logical": "1",
+        "out_not": "111011"
+      }
+    ]
+  },
+  {
+    "scenario": "OneHotB",
+    "input variable": [
+      {
+        "a": "000",
+        "b": "010"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "010",
+        "out_or_logical": "1",
+        "out_not": "101111"
+      }
+    ]
+  },
+  {
+    "scenario": "MixedPattern1",
+    "input variable": [
+      {
+        "a": "110",
+        "b": "001"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "110001"
+      }
+    ]
+  },
+  {
+    "scenario": "MixedPattern2",
+    "input variable": [
+      {
+        "a": "011",
+        "b": "100"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "111",
+        "out_or_logical": "1",
+        "out_not": "011100"
+      }
+    ]
+  },
+  {
+    "scenario": "LogicalORCheck",
+    "input variable": [
+      {
+        "a": "001",
+        "b": "100"
+      }
+    ],
+    "output variable": [
+      {
+        "out_or_bitwise": "101",
+        "out_or_logical": "1",
+        "out_not": "011110"
+      }
+    ]
+  }
+]

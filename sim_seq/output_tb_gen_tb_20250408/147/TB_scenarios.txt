@@ -1,0 +1,24 @@
+scenario: Valid Single Byte Reception
+description: Send a complete valid byte with start bit 0 followed by 8 data bits and stop bit 1 verify done signal asserts after stop bit
+
+scenario: Multiple Consecutive Bytes
+description: Send multiple valid bytes back to back with proper start and stop bits verify done pulses correctly after each byte
+
+scenario: Missing Stop Bit
+description: Send byte with correct start bit and data but 0 instead of 1 for stop bit verify FSM waits for next valid 1 before attempting new byte
+
+scenario: Idle Line Recovery
+description: After invalid byte reception verify FSM recovers when line returns to idle 1 state and can receive next valid byte
+
+scenario: Reset During Reception
+description: Assert reset while receiving byte verify FSM returns to idle state and abandons current reception
+
+scenario: Extended Idle Period
+description: Keep input at logic 1 idle for multiple cycles verify FSM remains in idle state until valid start bit
+
+scenario: Bit Order Verification
+description: Send bytes with known bit patterns verify LSB is received first and byte is assembled in correct order
+
+scenario: Back to Back Bytes Minimum Gap
+description: Send valid bytes with minimum possible gap between stop and next start bit verify proper detection
+

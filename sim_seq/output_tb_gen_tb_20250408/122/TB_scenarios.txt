@@ -1,0 +1,24 @@
+scenario: Initial Reset Behavior
+description: Assert asynchronous reset and verify immediate transition to OFF state with output 0 regardless of other inputs
+
+scenario: OFF to ON Transition
+description: From OFF state set j1 to verify transition to ON state with output 1 on next clock edge
+
+scenario: ON to OFF Transition
+description: From ON state set k1 to verify transition to OFF state with output 0 on next clock edge
+
+scenario: Maintain OFF State
+description: In OFF state set j0 and verify state remains OFF with output 0 on next clock edge
+
+scenario: Maintain ON State
+description: In ON state set k0 and verify state remains ON with output 1 on next clock edge
+
+scenario: Reset During Operation
+description: Assert reset while in ON state and verify immediate return to OFF state regardless of j k inputs
+
+scenario: Input Changes Between Clocks
+description: Change j k inputs between clock edges and verify state only updates on clock edge
+
+scenario: Setup Hold Time Verification
+description: Verify j k inputs meet setup and hold time requirements around clock edge for proper state transition
+

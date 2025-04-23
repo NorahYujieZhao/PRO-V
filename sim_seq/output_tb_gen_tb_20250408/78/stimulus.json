@@ -1,0 +1,166 @@
+[
+    {
+        "scenario": "NormalCountingSequence",
+        "input variable": [
+            {
+                "clock cycles": 12,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetToOne",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "UpperBoundaryTransition",
+        "input variable": [
+            {
+                "clock cycles": 15,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleCountingCycles",
+        "input variable": [
+            {
+                "clock cycles": 30,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetDuringCount",
+        "input variable": [
+            {
+                "clock cycles": 15,
+                "reset": [
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "InitialPowerUpState",
+        "input variable": [
+            {
+                "clock cycles": 5,
+                "reset": [
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetPulseWidth",
+        "input variable": [
+            {
+                "clock cycles": 12,
+                "reset": [
+                    "0",
+                    "0",
+                    "1",
+                    "1",
+                    "1",
+                    "0",
+                    "0",
+                    "0",
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    }
+]

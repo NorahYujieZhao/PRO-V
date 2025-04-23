@@ -1,0 +1,98 @@
+[
+    {
+        "scenario": "CD_00",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "CD_01",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "CD_11",
+        "input variable": [
+            {
+                "c": "1",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "CD_10",
+        "input variable": [
+            {
+                "c": "1",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "ToggleC_KeepD0",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            },
+            {
+                "c": "1",
+                "d": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "ToggleD_KeepC0",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            },
+            {
+                "c": "0",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "ToggleC_KeepD1",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "1"
+            },
+            {
+                "c": "1",
+                "d": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "ComplexSequence",
+        "input variable": [
+            {
+                "c": "0",
+                "d": "0"
+            },
+            {
+                "c": "0",
+                "d": "1"
+            },
+            {
+                "c": "1",
+                "d": "1"
+            },
+            {
+                "c": "1",
+                "d": "0"
+            }
+        ]
+    }
+]

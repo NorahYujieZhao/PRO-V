@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set all inputs a b c d e to 0 to verify self comparisons and zero equality conditions
+
+scenario: AllOneInputs
+description: Set all inputs a b c d e to 1 to check self comparisons and one equality conditions
+
+scenario: AlternatingPattern
+description: Set inputs a c e to 1 and b d to 0 creating alternating pattern to test adjacent bit comparisons
+
+scenario: SingleOneHot
+description: Set only input a to 1 while others 0 to verify unique comparison results against different values
+
+scenario: InvertedOneHot
+description: Set only input a to 0 while others 1 to test opposite case of one hot pattern
+
+scenario: TwobitGroups
+description: Set a b to 1 and c d e to 0 checking grouped bit comparison behavior
+
+scenario: ThreeBitGroups
+description: Set a b c to 1 and d e to 0 testing larger grouped comparison patterns
+
+scenario: CheckerboardPattern
+description: Set a c to 1 and b d e to 0 creating scattered comparison patterns
+

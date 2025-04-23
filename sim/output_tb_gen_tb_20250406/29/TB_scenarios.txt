@@ -1,0 +1,24 @@
+scenario: SelectInputB
+description: Set c=0 with various values on inputs a,b,d,e to verify q correctly selects input b
+
+scenario: SelectInputE
+description: Set c=1 with different combinations of a,b,d,e to confirm q properly selects input e
+
+scenario: SelectInputA
+description: Set c=2 while varying a,b,d,e to validate q correctly selects input a
+
+scenario: SelectInputD
+description: Set c=3 with multiple combinations of a,b,d,e to ensure q properly selects input d
+
+scenario: DefaultOutput
+description: Set c=4 through c=15 to verify q outputs 1111 for all selector values 4 and above
+
+scenario: AllZeroInputs
+description: Drive all inputs a,b,d,e to 0000 while sweeping c through all values to verify selection behavior with zero inputs
+
+scenario: AllOnesInputs
+description: Set all inputs a,b,d,e to 1111 while varying c to test selection behavior with maximum input values
+
+scenario: AlternatingPatterns
+description: Apply alternating patterns like 1010 and 0101 to inputs a,b,d,e while sweeping c to verify correct bit selection
+

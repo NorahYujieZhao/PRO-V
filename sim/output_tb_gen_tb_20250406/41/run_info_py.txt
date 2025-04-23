@@ -1,0 +1,82 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "out": "0",
+        "out_n": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "FirstAndGateActive",
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SecondAndGateActive",
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "BothAndGatesActive",
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingInputs",
+    "output variable": [
+      {
+        "out": "0",
+        "out_n": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "FirstInputsOnly",
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SecondInputsOnly",
+    "output variable": [
+      {
+        "out": "1",
+        "out_n": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

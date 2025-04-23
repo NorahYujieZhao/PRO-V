@@ -1,0 +1,24 @@
+scenario: AllZeros
+description: Drive in = 0000 to verify baseline case where no neighbors are 1 and all bits are identical
+
+scenario: AllOnes
+description: Drive in = 1111 to check case where all neighbor pairs are 1 and all bits match
+
+scenario: AlternatingBits
+description: Drive in = 1010 to test alternating pattern where each bit differs from its neighbors
+
+scenario: SingleOneHot
+description: Drive in = 0100 to verify single 1 detection and its effect on both neighbor comparisons
+
+scenario: AdjacentPairOnes
+description: Drive in = 0011 to check detection of adjacent 1s at the lower boundary
+
+scenario: WrapAroundDifferent
+description: Drive in = 1000 to test wrap around case where MSB and LSB are different
+
+scenario: UpperBoundaryCheck
+description: Drive in = 1100 to verify both1 detection at upper bits and any1 propagation
+
+scenario: LowerBoundaryCheck
+description: Drive in = 0001 to test boundary conditions at LSB for any1 and different detection
+

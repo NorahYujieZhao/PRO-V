@@ -1,0 +1,123 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+input_vars:
+top->in = 0x1
+At 1 clock cycle of 8, top->anyedge = 0x0, expected = 0x1
+input_vars:
+top->in = 0x2
+At 3 clock cycle of 8, top->anyedge = 0x1, expected = 0x2
+input_vars:
+top->in = 0x4
+At 5 clock cycle of 8, top->anyedge = 0x2, expected = 0x4
+input_vars:
+top->in = 0x8
+At 7 clock cycle of 8, top->anyedge = 0x4, expected = 0x8
+Test failed,unpass = 4 for scenario SingleBitRisingEdge
+input_vars:
+top->in = 0xff
+At 0 clock cycle of 8, top->anyedge = 0x8, expected = 0xff
+input_vars:
+top->in = 0xfe
+At 1 clock cycle of 8, top->anyedge = 0xf7, expected = 0x1
+input_vars:
+top->in = 0xfd
+At 3 clock cycle of 8, top->anyedge = 0x1, expected = 0x2
+input_vars:
+top->in = 0xfb
+At 5 clock cycle of 8, top->anyedge = 0x2, expected = 0x4
+input_vars:
+top->in = 0xf7
+At 7 clock cycle of 8, top->anyedge = 0x4, expected = 0x8
+Test failed,unpass = 5 for scenario SingleBitFallingEdge
+input_vars:
+top->in = 0x0
+At 0 clock cycle of 4, top->anyedge = 0x8, expected = 0x0
+input_vars:
+top->in = 0x99
+At 1 clock cycle of 4, top->anyedge = 0xf7, expected = 0x99
+input_vars:
+top->in = 0x66
+At 2 clock cycle of 4, top->anyedge = 0x99, expected = 0xff
+input_vars:
+top->in = 0xff
+At 3 clock cycle of 4, top->anyedge = 0xff, expected = 0x99
+Test failed,unpass = 4 for scenario MultipleSimultaneousEdges
+input_vars:
+top->in = 0x0
+At 0 clock cycle of 6, top->anyedge = 0x99, expected = 0x0
+Test failed,unpass = 1 for scenario ConsecutiveTransitions
+input_vars:
+top->in = 0xaa
+At 0 clock cycle of 4, top->anyedge = 0xff, expected = 0xaa
+input_vars:
+top->in = 0x55
+At 1 clock cycle of 4, top->anyedge = 0x55, expected = 0xff
+Test failed,unpass = 2 for scenario AlternatingBitPatterns
+input_vars:
+top->in = 0xaa
+At 0 clock cycle of 4, top->anyedge = 0xff, expected = 0xaa
+input_vars:
+top->in = 0xaa
+At 1 clock cycle of 4, top->anyedge = 0xff, expected = 0x0
+Test failed,unpass = 2 for scenario StableInput
+input_vars:
+top->in = 0x1
+At 0 clock cycle of 8, top->anyedge = 0x0, expected = 0x1
+input_vars:
+top->in = 0x2
+At 1 clock cycle of 8, top->anyedge = 0xab, expected = 0x3
+input_vars:
+top->in = 0x4
+At 2 clock cycle of 8, top->anyedge = 0x3, expected = 0x6
+input_vars:
+top->in = 0x8
+At 3 clock cycle of 8, top->anyedge = 0x6, expected = 0xc
+input_vars:
+top->in = 0x10
+At 4 clock cycle of 8, top->anyedge = 0xc, expected = 0x18
+input_vars:
+top->in = 0x20
+At 5 clock cycle of 8, top->anyedge = 0x18, expected = 0x30
+input_vars:
+top->in = 0x40
+At 6 clock cycle of 8, top->anyedge = 0x30, expected = 0x60
+input_vars:
+top->in = 0x80
+At 7 clock cycle of 8, top->anyedge = 0x60, expected = 0xc0
+Test failed,unpass = 8 for scenario WalkingOnesPattern
+input_vars:
+top->in = 0xfe
+At 0 clock cycle of 8, top->anyedge = 0xc0, expected = 0xfe
+input_vars:
+top->in = 0xfd
+At 1 clock cycle of 8, top->anyedge = 0x7e, expected = 0x3
+input_vars:
+top->in = 0xfb
+At 2 clock cycle of 8, top->anyedge = 0x3, expected = 0x6
+input_vars:
+top->in = 0xf7
+At 3 clock cycle of 8, top->anyedge = 0x6, expected = 0xc
+input_vars:
+top->in = 0xef
+At 4 clock cycle of 8, top->anyedge = 0xc, expected = 0x18
+input_vars:
+top->in = 0xdf
+At 5 clock cycle of 8, top->anyedge = 0x18, expected = 0x30
+input_vars:
+top->in = 0xbf
+At 6 clock cycle of 8, top->anyedge = 0x30, expected = 0x60
+input_vars:
+top->in = 0x7f
+At 7 clock cycle of 8, top->anyedge = 0x60, expected = 0xc0
+Test failed,unpass = 8 for scenario WalkingZerosPattern
+sim finished
+Unpass: 8
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 100ps; walltime 0.000 s; speed 294.985 ns/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 8

@@ -1,0 +1,23 @@
+scenario: All Zeros Input
+description: Set all input vectors to zero and verify outputs have correct positioning with LSB bits set to 1
+
+scenario: All Ones Input
+description: Set all input vectors to maximum value 5'b11111 and verify correct concatenation and output splitting
+
+scenario: Alternating Pattern
+description: Set alternating inputs to all ones and zeros to verify bit boundaries are preserved during concatenation
+
+scenario: Walking Ones
+description: Apply walking ones pattern across all inputs to verify each bit position is correctly mapped to outputs
+
+scenario: Random Values
+description: Apply random valid 5bit values to all inputs to verify general functionality and concatenation
+
+scenario: Verify LSB Bits
+description: Test multiple input combinations to ensure the two LSB bits are always set to 1 regardless of inputs
+
+scenario: Boundary Check
+description: Test transition between segments by setting adjacent inputs to complementary values
+
+scenario: Output Segment Verification
+description: Verify each 8bit output segment contains the correct portion of concatenated input bits

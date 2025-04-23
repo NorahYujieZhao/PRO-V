@@ -1,0 +1,43 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+input_vars:
+top->bump_left = 0x0
+top->bump_right = 0x0
+top->ground = 0x1
+top->dig = 0x0
+At 0 clock cycle of 3, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->bump_left = 0x0
+top->bump_right = 0x0
+top->ground = 0x1
+top->dig = 0x0
+At 0 clock cycle of 3, top->walk_right = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario BasicWalkingDirectionChange
+Test passed for scenario FallingBehavior
+input_vars:
+top->bump_left = 0x0
+top->bump_right = 0x0
+top->ground = 0x1
+top->dig = 0x0
+At 4 clock cycle of 5, top->walk_left = 0x1, expected = 0x0
+input_vars:
+top->bump_left = 0x0
+top->bump_right = 0x0
+top->ground = 0x1
+top->dig = 0x0
+At 4 clock cycle of 5, top->walk_right = 0x0, expected = 0x1
+Test failed,unpass = 2 for scenario DiggingOperation
+Test passed for scenario AsynchronousReset
+Test passed for scenario PrecedenceRules
+Test passed for scenario BumpWhileFalling
+Test passed for scenario BumpWhileDigging
+Test passed for scenario SimultaneousBumps
+Test passed for scenario DigWhileFalling
+Test passed for scenario GroundEdgeTransitions
+sim finished
+Unpass: 0

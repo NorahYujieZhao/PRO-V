@@ -1,0 +1,142 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "All Zero Input",
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "All One Input",
+    "output variable": [
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "K Map True Cases",
+    "output variable": [
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "K Map False Cases",
+    "output variable": [
+      {
+        "f": "0"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Input Transitions",
+    "output variable": [
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "Random Combinations",
+    "output variable": [
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "Fast Input Changes",
+    "output variable": [
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "1"
+      },
+      {
+        "f": "0"
+      }
+    ]
+  }
+]
+
+
+###error:

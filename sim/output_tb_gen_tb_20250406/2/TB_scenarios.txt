@@ -1,0 +1,24 @@
+scenario: StateATransitions
+description: From state A y321=000 test both transitions with w=0 to B and w=1 staying in A
+
+scenario: StateBTransitions
+description: From state B y321=001 verify transitions with w=0 to C and w=1 to D
+
+scenario: StateCTransitions
+description: From state C y321=010 check transitions with w=0 to E and w=1 to D
+
+scenario: StateDTransitions
+description: From state D y321=011 verify transitions with w=0 to F and w=1 back to A
+
+scenario: StateETransitions
+description: From state E y321=100 test self loop with w=0 and transition to D with w=1
+
+scenario: StateFTransitions
+description: From state F y321=101 verify transitions with w=0 to C and w=1 to D
+
+scenario: Y2BitTransitions
+description: Focus on transitions where y2 bit changes like A to E D to F and F to A to verify Y2 output logic
+
+scenario: MultipleStateTraversal
+description: Test longer sequence A to B to C to E to D to verify multiple consecutive transitions affecting y2
+

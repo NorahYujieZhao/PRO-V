@@ -1,0 +1,148 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "in": "00000000"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "in": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "000"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitLSB",
+    "input variable": [
+      {
+        "in": "00000001"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "000"
+      }
+    ]
+  },
+  {
+    "scenario": "SingleBitMSB",
+    "input variable": [
+      {
+        "in": "10000000"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern",
+    "input variable": [
+      {
+        "in": "10101010"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "001"
+      }
+    ]
+  },
+  {
+    "scenario": "WalkingOneFromRight",
+    "input variable": [
+      {
+        "in": "00000001"
+      },
+      {
+        "in": "00000010"
+      },
+      {
+        "in": "00000100"
+      },
+      {
+        "in": "00001000"
+      },
+      {
+        "in": "00010000"
+      },
+      {
+        "in": "00100000"
+      },
+      {
+        "in": "01000000"
+      },
+      {
+        "in": "10000000"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "000"
+      },
+      {
+        "pos": "001"
+      },
+      {
+        "pos": "010"
+      },
+      {
+        "pos": "011"
+      },
+      {
+        "pos": "100"
+      },
+      {
+        "pos": "101"
+      },
+      {
+        "pos": "110"
+      },
+      {
+        "pos": "111"
+      }
+    ]
+  },
+  {
+    "scenario": "RightmostOfMany",
+    "input variable": [
+      {
+        "in": "11110100"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "010"
+      }
+    ]
+  },
+  {
+    "scenario": "IsolatedMiddleBit",
+    "input variable": [
+      {
+        "in": "00010000"
+      }
+    ],
+    "output variable": [
+      {
+        "pos": "100"
+      }
+    ]
+  }
+]

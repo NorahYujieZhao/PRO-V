@@ -1,0 +1,24 @@
+scenario: Increment Until Saturation
+description: Set train_valid=1 and train_taken=1 continuously to verify counter increments from 1 to maximum value 3 and saturates
+
+scenario: Decrement Until Saturation
+description: Set train_valid=1 and train_taken=0 continuously to verify counter decrements from initial value to minimum value 0 and saturates
+
+scenario: Hold Value When Not Training
+description: Set train_valid=0 and toggle train_taken to verify counter maintains its current value
+
+scenario: Asynchronous Reset Operation
+description: Assert areset at various times between clock edges to verify counter immediately resets to 01 weakly not taken state
+
+scenario: Increment Decrement Sequence
+description: Alternate between increment and decrement operations to verify counter transitions correctly between values
+
+scenario: Maximum Value Saturation
+description: Attempt to increment counter when already at maximum value 3 to verify saturation behavior
+
+scenario: Minimum Value Saturation
+description: Attempt to decrement counter when already at minimum value 0 to verify saturation behavior
+
+scenario: Reset During Operation
+description: Assert reset while counter is performing increment or decrement operations to verify proper reset behavior
+

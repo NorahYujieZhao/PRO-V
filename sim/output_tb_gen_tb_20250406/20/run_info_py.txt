@@ -1,0 +1,104 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "AllZeroInputs",
+    "output variable": [
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InputAOneInputBZero",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "InputAZeroInputBOne",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOneInputs",
+    "output variable": [
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPatternOne",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPatternTwo",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ComplementaryInputs",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "SimultaneousTransitions",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

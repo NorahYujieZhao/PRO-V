@@ -1,0 +1,24 @@
+scenario: StateATransitions
+description: From state 00 apply in=0 then in=1 to verify both self-loop to A and transition to B
+
+scenario: StateBTransitions
+description: From state 01 apply in=0 then in=1 to verify transition to C and self-loop to B
+
+scenario: StateCTransitions
+description: From state 10 apply in=0 then in=1 to verify transition to A and to D
+
+scenario: StateDTransitions
+description: From state 11 apply in=0 then in=1 to verify transition to C and to B
+
+scenario: OutputZeroStateA
+description: Drive state=00 with both input values to verify output remains 0
+
+scenario: OutputZeroStateB
+description: Drive state=01 with both input values to verify output remains 0
+
+scenario: OutputZeroStateC
+description: Drive state=10 with both input values to verify output remains 0
+
+scenario: OutputOneStateD
+description: Drive state=11 with both input values to verify output remains 1
+

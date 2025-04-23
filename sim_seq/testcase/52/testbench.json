@@ -1,0 +1,471 @@
+[
+  {
+    "scenario": "Basic Counting Operation",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1110"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1001"
+      },
+      {
+        "q": "0000"
+      }
+    ]
+  },
+  {
+    "scenario": "Synchronous Reset",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "1"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "Counter Pause",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "0",
+        "reset": "0"
+      },
+      {
+        "slowena": "0",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1100"
+      }
+    ]
+  },
+  {
+    "scenario": "Rollover Verification",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1110"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1001"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1110"
+      }
+    ]
+  },
+  {
+    "scenario": "Reset Priority",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "1"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1001"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "Boundary Value Testing",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1010"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1110"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1001"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1100"
+      },
+      {
+        "q": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "Initial Power-up State",
+    "input variable": [
+      {
+        "slowena": "0",
+        "reset": "0"
+      },
+      {
+        "slowena": "0",
+        "reset": "0"
+      },
+      {
+        "slowena": "0",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      }
+    ]
+  },
+  {
+    "scenario": "Multiple Reset Cycles",
+    "input variable": [
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "1"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      },
+      {
+        "slowena": "1",
+        "reset": "1"
+      },
+      {
+        "slowena": "1",
+        "reset": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "q": "1010"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "1000"
+      },
+      {
+        "q": "0000"
+      },
+      {
+        "q": "1000"
+      }
+    ]
+  }
+]

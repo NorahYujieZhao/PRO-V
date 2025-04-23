@@ -1,0 +1,24 @@
+scenario: InitialStateTransitions
+description: From S0 test both transitions with input 0 staying in S0 and input 1 moving to S1 verifying basic state movement
+
+scenario: PathToOutput01State
+description: Drive input sequence 1111110 to reach S7 where out2 becomes 1 and verify self loop at S7 with input 1
+
+scenario: PathToOutput10State
+description: Drive input sequence 11111000 to reach S8 where out1 becomes 1 and verify transition back to S0
+
+scenario: PathToOutput11State
+description: Drive input sequence 1111100 to reach S9 where both outputs become 1 and verify transition back to S0
+
+scenario: AllStatesReturnToS0
+description: From each state S1 through S4 apply input 0 to verify proper return to S0 testing reset behavior
+
+scenario: BranchingAtS5
+description: Reach S5 with sequence 11111 then test both paths with input 0 to S8 and input 1 to S6
+
+scenario: BranchingAtS6
+description: Reach S6 with sequence 111111 then test both paths with input 0 to S9 and input 1 to S7
+
+scenario: OneHotVerification
+description: For each state ensure exactly one bit is high in the state vector while transitioning through various paths
+

@@ -1,0 +1,106 @@
+[
+    {
+        "scenario": "NoRingNoVibrate",
+        "input variable": [
+            {
+                "ring": "0",
+                "vibrate_mode": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RingInNormalMode",
+        "input variable": [
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RingInVibrateMode",
+        "input variable": [
+            {
+                "ring": "1",
+                "vibrate_mode": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "NoRingInVibrateMode",
+        "input variable": [
+            {
+                "ring": "0",
+                "vibrate_mode": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "ModeTransitionToVibrate",
+        "input variable": [
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "ModeTransitionToNormal",
+        "input variable": [
+            {
+                "ring": "1",
+                "vibrate_mode": "1"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "RapidModeToggle",
+        "input variable": [
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "1"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "RapidRingToggle",
+        "input variable": [
+            {
+                "ring": "0",
+                "vibrate_mode": "0"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            },
+            {
+                "ring": "0",
+                "vibrate_mode": "0"
+            },
+            {
+                "ring": "1",
+                "vibrate_mode": "0"
+            }
+        ]
+    }
+]

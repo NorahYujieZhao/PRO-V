@@ -1,0 +1,113 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+input_vars:
+top->in = 0x1
+At 0 clock cycle of 10, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 1 clock cycle of 10, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x1
+At 2 clock cycle of 10, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 3 clock cycle of 10, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x1
+At 4 clock cycle of 10, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 5 clock cycle of 10, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x1
+At 6 clock cycle of 10, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 7 clock cycle of 10, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x1
+At 8 clock cycle of 10, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 9 clock cycle of 10, top->out = 0x1, expected = 0x0
+Test failed,unpass = 10 for scenario BasicToggleOperationWithInputHigh
+Test passed for scenario BasicHoldOperationWithInputLow
+input_vars:
+top->in = 0x1
+At 1 clock cycle of 8, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 3 clock cycle of 8, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x1
+At 5 clock cycle of 8, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 7 clock cycle of 8, top->out = 0x1, expected = 0x0
+Test failed,unpass = 4 for scenario InputTransitionDuringClockEdge
+input_vars:
+top->in = 0x1
+At 2 clock cycle of 5, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 3 clock cycle of 5, top->out = 0x1, expected = 0x0
+Test failed,unpass = 2 for scenario InitialPowerUpState
+input_vars:
+top->in = 0x1
+At 0 clock cycle of 6, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x1
+At 1 clock cycle of 6, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x1
+At 2 clock cycle of 6, top->out = 0x0, expected = 0x1
+Test failed,unpass = 3 for scenario ClockGlitchImmunity
+input_vars:
+top->in = 0x0
+At 1 clock cycle of 8, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x0
+At 3 clock cycle of 8, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 5 clock cycle of 8, top->out = 0x0, expected = 0x1
+input_vars:
+top->in = 0x0
+At 7 clock cycle of 8, top->out = 0x1, expected = 0x0
+Test failed,unpass = 4 for scenario RapidInputChanges
+input_vars:
+top->in = 0x0
+At 4 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 5 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 6 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 7 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 12 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 13 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 14 clock cycle of 16, top->out = 0x1, expected = 0x0
+input_vars:
+top->in = 0x0
+At 15 clock cycle of 16, top->out = 0x1, expected = 0x0
+Test failed,unpass = 8 for scenario LongTermTogglePattern
+sim finished
+Unpass: 8
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 126ps; walltime 0.000 s; speed 410.423 ns/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 8

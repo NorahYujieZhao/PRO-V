@@ -1,0 +1,18 @@
+scenario: Initial Value Check
+description: Set a=1 and verify q initializes to and remains at 4 after first clock edge
+
+scenario: Fixed Value Operation
+description: Keep a=1 for multiple clock cycles and verify q remains fixed at 4
+
+scenario: Start Counting Sequence
+description: Transition a from 1 to 0 and verify q starts counting up from 4
+
+scenario: Counter Rollover
+description: With a=0 verify q counts sequence 4 5 6 0 1 correctly rolling over after reaching 6
+
+scenario: Stop Counting Operation
+description: During counting sequence set a=1 and verify q immediately returns to 4 on next clock edge
+
+scenario: Multiple Counting Cycles
+description: Toggle a between 1 and 0 multiple times to verify correct transition between fixed value and counting modes
+

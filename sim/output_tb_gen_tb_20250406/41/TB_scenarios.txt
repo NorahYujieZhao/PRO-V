@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Set a=0, b=0, c=0, d=0 to verify zero propagation through AND gates and OR gate
+
+scenario: AllOneInputs
+description: Set a=1, b=1, c=1, d=1 to verify logic high propagation through all gates
+
+scenario: FirstAndGateActive
+description: Set a=1, b=1, c=0, d=0 to activate only the first AND gate
+
+scenario: SecondAndGateActive
+description: Set a=0, b=0, c=1, d=1 to activate only the second AND gate
+
+scenario: BothAndGatesActive
+description: Set a=1, b=1, c=1, d=1 to activate both AND gates simultaneously
+
+scenario: AlternatingInputs
+description: Set a=1, b=0, c=1, d=0 to test AND gates with mixed inputs
+
+scenario: FirstInputsOnly
+description: Set a=1, b=1, c=0, d=1 to test first AND gate active with mixed second AND inputs
+
+scenario: SecondInputsOnly
+description: Set a=0, b=1, c=1, d=1 to test second AND gate active with mixed first AND inputs
+

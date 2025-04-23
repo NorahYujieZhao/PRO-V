@@ -1,0 +1,24 @@
+scenario: AllZerosInput
+description: Drive input in = 000 to verify the circuit correctly identifies when no bits are set
+
+scenario: AllOnesInput
+description: Drive input in = 111 to verify the circuit correctly counts maximum number of set bits
+
+scenario: SingleBitLSB
+description: Drive input in = 001 to verify correct counting when only least significant bit is set
+
+scenario: SingleBitMSB
+description: Drive input in = 100 to verify correct counting when only most significant bit is set
+
+scenario: TwoBitsAdjacent
+description: Drive input in = 011 to verify correct counting when two adjacent bits are set
+
+scenario: TwoBitsSeparated
+description: Drive input in = 101 to verify correct counting when two nonadjacent bits are set
+
+scenario: AlternatingPattern
+description: Drive input in = 010 to verify correct counting with alternating bit pattern
+
+scenario: MiddleBitOnly
+description: Drive input in = 010 to verify correct counting when only middle bit is set
+

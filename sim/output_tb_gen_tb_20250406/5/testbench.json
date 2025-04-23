@@ -1,0 +1,90 @@
+[
+  {
+    "scenario": "BasicOperation",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "PowerOnBehavior",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "LongTermStability",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "SimulationBoundary",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "InitialState",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "SystemReset",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "NoiseImmunity",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  },
+  {
+    "scenario": "StabilityCheck",
+    "input variable": [
+      {}
+    ],
+    "output variable": [
+      {
+        "zero": 0
+      }
+    ]
+  }
+]

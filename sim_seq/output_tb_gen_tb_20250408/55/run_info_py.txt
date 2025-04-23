@@ -1,0 +1,139 @@
+python compilation passed!
+
+###output:
+[
+  [
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "clock cycles": 2,
+      "out": [
+        "0",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "clock cycles": 3,
+      "out": [
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 1,
+      "out": [
+        "1"
+      ]
+    },
+    {
+      "clock cycles": 3,
+      "out": [
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 3,
+      "out": [
+        "0",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "clock cycles": 3,
+      "out": [
+        "1",
+        "1",
+        "0"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "clock cycles": 6,
+      "out": [
+        "1",
+        "1",
+        "0",
+        "0",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  [
+    {
+      "clock cycles": 3,
+      "out": [
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "clock cycles": 2,
+      "out": [
+        "1",
+        "0"
+      ]
+    }
+  ]
+]
+
+
+###error:
+
+

@@ -1,0 +1,130 @@
+[
+  {
+    "scenario": "AllInputsLow",
+    "input variable": [
+      {
+        "cpu_overheated": "0",
+        "arrived": "0",
+        "gas_tank_empty": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "0",
+        "keep_driving": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AllInputsHigh",
+    "input variable": [
+      {
+        "cpu_overheated": "1",
+        "arrived": "1",
+        "gas_tank_empty": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "1",
+        "keep_driving": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "CpuOverheatedOnly",
+    "input variable": [
+      {
+        "cpu_overheated": "1",
+        "arrived": "0",
+        "gas_tank_empty": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "1",
+        "keep_driving": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "ArrivedWithEmptyTank",
+    "input variable": [
+      {
+        "cpu_overheated": "0",
+        "arrived": "1",
+        "gas_tank_empty": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "0",
+        "keep_driving": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "ArrivedWithFullTank",
+    "input variable": [
+      {
+        "cpu_overheated": "0",
+        "arrived": "1",
+        "gas_tank_empty": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "0",
+        "keep_driving": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "DrivingWithEmptyTank",
+    "input variable": [
+      {
+        "cpu_overheated": "0",
+        "arrived": "0",
+        "gas_tank_empty": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "0",
+        "keep_driving": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "CpuOverheatWhileDriving",
+    "input variable": [
+      {
+        "cpu_overheated": "1",
+        "arrived": "0",
+        "gas_tank_empty": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "1",
+        "keep_driving": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "EmptyTankWithOverheat",
+    "input variable": [
+      {
+        "cpu_overheated": "1",
+        "arrived": "0",
+        "gas_tank_empty": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "shut_off_computer": "1",
+        "keep_driving": "0"
+      }
+    ]
+  }
+]

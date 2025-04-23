@@ -1,0 +1,125 @@
+python compilation passed!
+
+###output:
+[
+  {
+    "scenario": "StaticLowInput",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "StaticHighInput",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "LowToHighTransition",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "HighToLowTransition",
+    "output variable": [
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "FastToggling",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "InitialPowerup",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "GlitchTest",
+    "output variable": [
+      {
+        "out": "0"
+      },
+      {
+        "out": "1"
+      },
+      {
+        "out": "0"
+      }
+    ]
+  }
+]
+
+
+###error:
+
+

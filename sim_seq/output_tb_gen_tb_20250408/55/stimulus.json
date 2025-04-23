@@ -1,0 +1,223 @@
+[
+    {
+        "scenario": "BasicStateAtoBTransition",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "1",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "0",
+                    "0"
+                ],
+                "in": [
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "BasicStateBtoATransition",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "1",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "0",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "StateASelfLoop",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "1",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "1",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "StateBSelfLoop",
+        "input variable": [
+            {
+                "clock cycles": 1,
+                "areset": [
+                    "1"
+                ],
+                "in": [
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "in": [
+                    "1",
+                    "1",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "AsynchronousResetActivation",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "in": [
+                    "0",
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetReleaseOperation",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "1",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "1",
+                    "0"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "MultipleStateTransitions",
+        "input variable": [
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "1",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 6,
+                "areset": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "1",
+                    "0",
+                    "1",
+                    "0",
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "scenario": "ResetDuringStateTransition",
+        "input variable": [
+            {
+                "clock cycles": 3,
+                "areset": [
+                    "0",
+                    "0",
+                    "1"
+                ],
+                "in": [
+                    "0",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "clock cycles": 2,
+                "areset": [
+                    "1",
+                    "0"
+                ],
+                "in": [
+                    "0",
+                    "0"
+                ]
+            }
+        ]
+    }
+]

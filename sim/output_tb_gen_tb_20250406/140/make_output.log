@@ -1,0 +1,81 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.002 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+===Scenario: CD_000=====
+input_vars:
+top->c = 0x0
+input_vars:
+top->d = 0x0
+4
+Mismatch at mux_in: expected 0x8
+===Scenario: CD_110=====
+input_vars:
+top->c = 0x1
+input_vars:
+top->d = 0x1
+9
+Mismatch at mux_in: expected 0xd
+===Scenario: CD_100=====
+input_vars:
+top->c = 0x1
+input_vars:
+top->d = 0x0
+5
+Mismatch at mux_in: expected 0x9
+===Scenario: ToggleC_KeepD00=====
+input_vars:
+top->c = 0x0
+input_vars:
+top->d = 0x0
+4
+Mismatch at mux_in: expected 0x8
+===Scenario: ToggleC_KeepD01=====
+input_vars:
+top->c = 0x1
+input_vars:
+top->d = 0x0
+5
+Mismatch at mux_in: expected 0x9
+===Scenario: ToggleD_KeepC00=====
+input_vars:
+top->c = 0x0
+input_vars:
+top->d = 0x0
+4
+Mismatch at mux_in: expected 0x8
+===Scenario: ToggleC_KeepD11=====
+input_vars:
+top->c = 0x1
+input_vars:
+top->d = 0x1
+9
+Mismatch at mux_in: expected 0xd
+===Scenario: ComplexSequence0=====
+input_vars:
+top->c = 0x0
+input_vars:
+top->d = 0x0
+4
+Mismatch at mux_in: expected 0x8
+===Scenario: ComplexSequence2=====
+input_vars:
+top->c = 0x1
+input_vars:
+top->d = 0x1
+9
+Mismatch at mux_in: expected 0xd
+===Scenario: ComplexSequence3=====
+input_vars:
+top->c = 0x1
+input_vars:
+top->d = 0x0
+5
+Mismatch at mux_in: expected 0x9
+Found 10 mismatches.
+sim finished
+Unpass: 10
+make: *** [run] Error 10

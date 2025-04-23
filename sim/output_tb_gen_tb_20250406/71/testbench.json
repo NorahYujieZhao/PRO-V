@@ -1,0 +1,168 @@
+[
+  {
+    "scenario": "AllZeros",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "0",
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "1",
+        "c": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "1",
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "OnlyAHigh",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "1",
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OnlyBHigh",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "0",
+        "x": "1",
+        "y": "1",
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "OnlyCHigh",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "0",
+        "x": "0",
+        "y": "0",
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern1",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "1",
+        "x": "0",
+        "y": "0",
+        "z": "1"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPattern2",
+    "input variable": [
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "0",
+        "x": "1",
+        "y": "1",
+        "z": "0"
+      }
+    ]
+  },
+  {
+    "scenario": "CrosstalkCheck",
+    "input variable": [
+      {
+        "a": "1",
+        "b": "0",
+        "c": "0"
+      },
+      {
+        "a": "0",
+        "b": "1",
+        "c": "0"
+      },
+      {
+        "a": "0",
+        "b": "0",
+        "c": "1"
+      }
+    ],
+    "output variable": [
+      {
+        "w": "1",
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      {
+        "w": "0",
+        "x": "1",
+        "y": "1",
+        "z": "0"
+      },
+      {
+        "w": "0",
+        "x": "0",
+        "y": "0",
+        "z": "1"
+      }
+    ]
+  }
+]

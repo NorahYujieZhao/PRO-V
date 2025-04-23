@@ -1,0 +1,10 @@
+False
+{'out': '', 'err': 'Traceback (most recent call last):\n  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/82/refined_code.py", line 70, in <module>\n    outputs = check_output(cycle)\n              ^^^^^^^^^^^^^^^^^^^\n  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/82/refined_code.py", line 54, in check_output\n    return dut.load(stimulus)\n           ^^^^^^^^^^^^^^^^^^\nTypeError: GoldenDUT.load() missing 1 required positional argument: \'stimulus_dict\'\n', 'haserror': 1}
+Traceback (most recent call last):
+  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/82/refined_code.py", line 70, in <module>
+    outputs = check_output(cycle)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozhaozhaozhao/Unambigious_prompt/exp/output_tb_gen_tb_20250406/82/refined_code.py", line 54, in check_output
+    return dut.load(stimulus)
+           ^^^^^^^^^^^^^^^^^^
+TypeError: GoldenDUT.load() missing 1 required positional argument: 'stimulus_dict'

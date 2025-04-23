@@ -1,0 +1,122 @@
+[
+    {
+        "scenario": "AllZeros",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOnes",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "AOneBZero",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AZeroBOne",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingAInput",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBInput",
+        "input variable": [
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBothInputs",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            },
+            {
+                "a": "0",
+                "b": "0"
+            },
+            {
+                "a": "1",
+                "b": "1"
+            }
+        ]
+    },
+    {
+        "scenario": "OppositeTransitions",
+        "input variable": [
+            {
+                "a": "0",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            },
+            {
+                "a": "0",
+                "b": "1"
+            },
+            {
+                "a": "1",
+                "b": "0"
+            }
+        ]
+    }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "scenario": "SelectInputA0",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "10101010",
+        "b": "11110000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10101010"
+      }
+    ]
+  },
+  {
+    "scenario": "SelectInputB0",
+    "input variable": [
+      {
+        "sel": "1",
+        "a": "10101010",
+        "b": "11110000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11110000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllZeros0",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "00000000",
+        "b": "00000000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000000"
+      }
+    ]
+  },
+  {
+    "scenario": "AllOnes0",
+    "input variable": [
+      {
+        "sel": "1",
+        "a": "11111111",
+        "b": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11111111"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPatterns0",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "10101010",
+        "b": "01010101"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10101010"
+      }
+    ]
+  },
+  {
+    "scenario": "AlternatingPatterns1",
+    "input variable": [
+      {
+        "sel": "1",
+        "a": "10101010",
+        "b": "01010101"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01010101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_00",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "10000010",
+        "b": "01001111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10000010"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_10",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "10111101",
+        "b": "10000001"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "10111101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_20",
+    "input variable": [
+      {
+        "sel": "1",
+        "a": "01101110",
+        "b": "00001000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00001000"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_30",
+    "input variable": [
+      {
+        "sel": "1",
+        "a": "01100011",
+        "b": "01111100"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01111100"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_40",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "01000111",
+        "b": "11000010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01000111"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_50",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "11011010",
+        "b": "01000100"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11011010"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_60",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "00000101",
+        "b": "11111111"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00000101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_70",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "00011101",
+        "b": "01010100"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00011101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_80",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "11010101",
+        "b": "11000100"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11010101"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_90",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "11110111",
+        "b": "10101000"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11110111"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_100",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "01010001",
+        "b": "01110101"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01010001"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_110",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "01000000",
+        "b": "10101001"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "01000000"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_120",
+    "input variable": [
+      {
+        "sel": "1",
+        "a": "00111100",
+        "b": "11010110"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "11010110"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_130",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "00011110",
+        "b": "10001010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00011110"
+      }
+    ]
+  },
+  {
+    "scenario": "RandomTest_140",
+    "input variable": [
+      {
+        "sel": "0",
+        "a": "00100100",
+        "b": "10100010"
+      }
+    ],
+    "output variable": [
+      {
+        "out": "00100100"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+scenario: AllZeroInputs
+description: Drive a = 0, b = 0, sel = 0 to verify neutral behavior when all inputs are zero
+
+scenario: AllOneInputs
+description: Set a = all 1s, b = all 1s, sweep sel through 0 and 1 to verify maximum data path saturation
+
+scenario: ComplementaryInputs
+description: Set a = all 1s, b = all 0s, toggle sel to verify clean switching between opposite values
+
+scenario: AlternatingBitPatterns
+description: Set a = alternating 1s and 0s, b = inverse pattern of a, sweep sel to verify bit integrity
+
+scenario: SingleBitHot
+description: Set a with single bit hot pattern walking across all 100 bits, b = 0, toggle sel
+
+scenario: OppositeEdgeBits
+description: Set a with 1s at bit positions 0 and 99, b with 1s at positions 1 and 98, toggle sel
+
+scenario: CheckerboardPattern
+description: Set a with checkerboard pattern 10101, b with inverse checkerboard 01010, sweep sel
+
+scenario: BoundaryBitsToggle
+description: Toggle only the MSB and LSB bits of both a and b while sweeping sel to verify edge bit selection
+

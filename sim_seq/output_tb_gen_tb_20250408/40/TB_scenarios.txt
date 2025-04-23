@@ -1,0 +1,24 @@
+scenario: Normal Branch Prediction
+description: Assert predict_valid and alternate predict_taken values over multiple cycles to verify correct shift register operation and history updates from LSB
+
+scenario: Branch Misprediction Recovery
+description: Assert train_mispredicted and verify the history register loads correctly with concatenated train_history and train_taken values
+
+scenario: Prediction During Misprediction
+description: Assert both predict_valid and train_mispredicted simultaneously to verify misprediction takes precedence over prediction
+
+scenario: Asynchronous Reset Operation
+description: Assert areset at various times between clock edges to verify immediate reset of history register to zero
+
+scenario: Consecutive Predictions
+description: Make multiple consecutive branch predictions to verify correct shifting and maintenance of 32bit history pattern
+
+scenario: Consecutive Mispredictions
+description: Signal multiple consecutive mispredictions with different train_history and train_taken values to verify correct history recovery
+
+scenario: Reset Recovery
+description: After reset verify normal prediction and misprediction operations resume correctly with zero history
+
+scenario: Long Run Pattern
+description: Create a long sequence of predictions followed by a misprediction to verify both history building and recovery with full register utilization
+

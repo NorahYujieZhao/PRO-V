@@ -1,0 +1,23 @@
+verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.001 s (elab=0.000, cvt=0.000, bld=0.000); cpu 0.001 s on 1 threads
+cd obj_dir && make -f Vtop_module.mk
+make[1]: Nothing to be done for `default'.
+obj_dir/Vtop_module
+Test passed for scenario Reset Verification
+Test passed for scenario No Requests
+Test failed for scenario Single Request Priority
+Test failed for scenario Multiple Request Priority
+Test failed for scenario Grant Persistence
+Test failed for scenario State A to B Transition
+Test failed for scenario State A to C Transition
+Test failed for scenario Return to State A
+Test failed for scenario Reset During Operation
+Test failed for scenario Request Change During Grant
+sim finished
+Unpass: 17
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: end at 0s; walltime 0.000 s; speed 0.000 s/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 0 MB
+make: *** [run] Error 17

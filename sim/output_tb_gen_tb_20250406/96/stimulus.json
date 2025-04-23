@@ -1,0 +1,115 @@
+[
+    {
+        "scenario": "AllZeros",
+        "input variable": [
+            {
+                "in": "0000"
+            }
+        ]
+    },
+    {
+        "scenario": "AllOnes",
+        "input variable": [
+            {
+                "in": "1111"
+            }
+        ]
+    },
+    {
+        "scenario": "SingleBitHigh",
+        "input variable": [
+            {
+                "in": "0001"
+            },
+            {
+                "in": "0010"
+            },
+            {
+                "in": "0100"
+            },
+            {
+                "in": "1000"
+            }
+        ]
+    },
+    {
+        "scenario": "AlternatingBits",
+        "input variable": [
+            {
+                "in": "0101"
+            },
+            {
+                "in": "1010"
+            }
+        ]
+    },
+    {
+        "scenario": "WalkingOnes",
+        "input variable": [
+            {
+                "in": "0001"
+            },
+            {
+                "in": "0011"
+            },
+            {
+                "in": "0111"
+            },
+            {
+                "in": "1111"
+            }
+        ]
+    },
+    {
+        "scenario": "WalkingZeros",
+        "input variable": [
+            {
+                "in": "1110"
+            },
+            {
+                "in": "1100"
+            },
+            {
+                "in": "1000"
+            },
+            {
+                "in": "0000"
+            }
+        ]
+    },
+    {
+        "scenario": "RandomCombinations",
+        "input variable": [
+            {
+                "in": "1011"
+            },
+            {
+                "in": "1011"
+            },
+            {
+                "in": "1000"
+            },
+            {
+                "in": "0001"
+            },
+            {
+                "in": "0111"
+            },
+            {
+                "in": "1001"
+            },
+            {
+                "in": "0110"
+            },
+            {
+                "in": "1011"
+            },
+            {
+                "in": "1010"
+            },
+            {
+                "in": "0100"
+            }
+        ]
+    }
+]
