@@ -1,9 +1,0 @@
-verilator -cc --exe -x-assign fast -Wall --assert --coverage-line -Wno-WIDTHEXPAND -Wno-BLKSEQ -Wno-VARHIDDEN -Wno-WIDTHTRUNC -Wno-UNUSEDSIGNAL -f input.vc top_module.v sim-main.cpp rfuzz-harness.cpp
-%Warning-LATCH: top_module.v:11:2: Latch inferred for signal 'p' (not all control paths of combinational always assign a value)
-                                 : ... Suggest use of always_latch for intentional latches
-   11 |  always @(*)
-      |  ^~~~~~
-                ... For warning description see https://verilator.org/warn/LATCH?v=5.032
-                ... Use "/* verilator lint_off LATCH */" and lint_on around source to disable this message.
-%Error: Exiting due to 1 warning(s)
-make: *** [run] Error 1
